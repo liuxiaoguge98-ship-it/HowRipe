@@ -1,5 +1,13 @@
 # Project State
 
+## BRAND-HOME-01 — HowRipe brand and homepage unification (2026-10-07)
+
+Work is on `feature/brand-home-unification`, based on clean production `main` at `c2a4713`. Public header/footer and home/root metadata use HowRipe; Avocado retains its search title with the new brand suffix. Homepage now introduces the brand with an existing-asset fruit still life and a numbered, fruit-accented editorial index. The user confirmed the current rounded Sans display family as the source of truth. No dependency, new image, route, canonical, robots or sitemap change.
+
+The user additionally required English only. Removed the authored Chinese hero lines on Kiwi/Persimmon and their unused schema/rendering path; all English knowledge and quiz data remain unchanged. An English-language regression test and metadata-branding regression test were demonstrated red then green.
+
+Two visual passes completed; the second moved names ahead of imagery, tightened index offsets and grouped hero fruit more closely. Automated gates: 86 tests / 24 files, lint, explicit TypeScript, production build and diff-check passed. Full responsive/browser and Git-triggered Vercel Preview evidence is recorded in [BRAND-HOME-01 QA](docs/qa/brand-home-01/README.md). Production merge requires user visual approval; no merge or production deploy is authorized by this node.
+
 ## Latest update — Kiwi quiz scenario imagery
 
 2026-10-01: Added six transparent scene illustrations for the two options in each of Q03–Q05: fridge vs paper bag, six on counter vs two out/four cold, all now vs one now/three later. All five Kiwi questions now have two images. Explicit firmness descriptions, answer key A/B/B/B/B and manual Got it remain. New illustrated stages measure 696px desktop and 760px phone, including feedback, without hover white backgrounds or horizontal overflow. All 15 measured Got it transitions retain scroll position. 81 tests, lint, TypeScript and production build pass. [Images, prompts and QA](docs/qa/kiwi-quiz-illustrations/README.md). Preview: http://localhost:3107/kiwi?v=quiz-scenes#quiz.

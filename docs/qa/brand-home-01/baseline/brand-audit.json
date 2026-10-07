@@ -1,0 +1,356 @@
+[
+  {
+    "file": "PROJECT_STATE.md",
+    "line": 61,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "PROJECT_STATE.md",
+    "line": 61,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/PRODUCT_SPEC.md",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "maintained product identity \u2014 migrate"
+  },
+  {
+    "file": "docs/PRODUCT_SPEC.md",
+    "line": 5,
+    "match": "Fruit Picking Guide",
+    "classification": "maintained product identity \u2014 migrate"
+  },
+  {
+    "file": "docs/RELEASE_QA.md",
+    "line": 92,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/RELEASE_QA.md",
+    "line": 94,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/RELEASE_QA.md",
+    "line": 95,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/README.md",
+    "line": 15,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/README.md",
+    "line": 15,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/avocado.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/home.html",
+    "line": 1,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/kiwi.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/kiwi.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/persimmon.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/persimmon.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/pomegranate.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/pomegranate.html",
+    "line": 1,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 6,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 11,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 17,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 27,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 32,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/local-source/results.json",
+    "line": 39,
+    "match": "Fruit Picking Guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/origin-audit.json",
+    "line": 90,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/origin-audit.json",
+    "line": 96,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/origin-audit.json",
+    "line": 114,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/origin-audit.json",
+    "line": 120,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/workflow.json",
+    "line": 2,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/workflow.json",
+    "line": 10,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/production-01/workflow.json",
+    "line": 34,
+    "match": "fruit-picking-guide",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 9,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 36,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 63,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 90,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 117,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 144,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 171,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/qa/ui-01b/baseline-scroll.json",
+    "line": 198,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "historical evidence \u2014 preserve"
+  },
+  {
+    "file": "docs/superpowers/plans/2026-09-06-dev-01-foundation.md",
+    "line": 5,
+    "match": "Fruit Picking Guide",
+    "classification": "historical plan/spec \u2014 preserve"
+  },
+  {
+    "file": "docs/superpowers/plans/2026-09-06-dev-01-foundation.md",
+    "line": 35,
+    "match": "Fruit Picking Guide",
+    "classification": "historical plan/spec \u2014 preserve"
+  },
+  {
+    "file": "package.json",
+    "line": 2,
+    "match": "fruit-picking-guide",
+    "classification": "private package identifier \u2014 preserve"
+  },
+  {
+    "file": "src/app/layout.tsx",
+    "line": 9,
+    "match": "Fruit Picking Guide",
+    "classification": "public brand/SEO \u2014 migrate"
+  },
+  {
+    "file": "src/app/page.tsx",
+    "line": 7,
+    "match": "Fruit Picking Guide",
+    "classification": "public brand/SEO \u2014 migrate"
+  },
+  {
+    "file": "src/components/layout/Header.tsx",
+    "line": 4,
+    "match": "FRUIT PICKING GUIDE",
+    "classification": "public brand/SEO \u2014 migrate"
+  },
+  {
+    "file": "src/content/fruits/avocado.ts",
+    "line": 14,
+    "match": "Fruit Picking Guide",
+    "classification": "public brand/SEO \u2014 migrate"
+  }
+]
