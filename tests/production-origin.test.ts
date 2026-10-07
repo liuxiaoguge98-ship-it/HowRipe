@@ -39,3 +39,16 @@ it("preserves an explicit development origin and normalizes the configured base"
   expect(configured.absoluteSiteUrl("/kiwi")).toBe("http://localhost:3107/kiwi");
   expect(absoluteSiteUrl("/avocado")).toBe("https://www.howripe.com/avocado");
 });
+
+it("uses HowRipe as the public metadata brand without losing fruit search intent", () => {
+  expect(rootMetadata.title).toBe("HowRipe — How to Pick Ripe Fruit");
+  expect(homeMetadata.title).toBe("HowRipe — How to Pick Ripe Fruit");
+  expect(homeMetadata.openGraph).toMatchObject({ siteName: "HowRipe", title: homeMetadata.title });
+  expect(homeMetadata.twitter).toMatchObject({ title: homeMetadata.title });
+  for (const guide of fruitGuides) {
+    const metadata = fruitMetadata(getFruitContent(guide.slug));
+    expect(String(metadata.title)).toMatch(/How to Tell If/);
+    expect(JSON.stringify(metadata)).not.toMatch(/Fruit Picking Guide|fruit-picking-guide/i);
+    expect(metadata.openGraph).toMatchObject({ siteName: "HowRipe" });
+  }
+});

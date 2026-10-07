@@ -36,9 +36,11 @@ describe("four-fruit production audit", () => {
 
   it("keeps the homepage editorial, fully linked, and registry-driven sitemap-ready", () => {
     const homepage = renderToStaticMarkup(<Home />);
-    expect(homepage).toContain("Pick better fruit.");
-    expect(homepage).toContain("Learn it once. Use it forever.");
-    expect(homepage).toContain("GENERAL PICKING PRINCIPLES");
+    const text = homepage.replace(/<br\s*\/?>/g, " ").replace(/<[^>]+>/g, "");
+    expect(text).toContain("Pick better fruit.");
+    expect(text).toContain("Choose a fruit.");
+    expect(text).toContain("No universal trick.");
+    expect((homepage.match(/<h1\b/g) ?? [])).toHaveLength(1);
     fruitGuides.forEach((guide) => expect(homepage).toContain(`href=\"/${guide.slug}\"`));
     expect(sitemapForSiteUrl("https://fruit.example").map((entry) => entry.url)).toEqual(["https://fruit.example/", "https://fruit.example/avocado", "https://fruit.example/kiwi", "https://fruit.example/pomegranate", "https://fruit.example/persimmon"]);
   });

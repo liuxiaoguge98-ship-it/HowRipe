@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
-  title: "Fruit Picking Guide",
+  title: "HowRipe — How to Pick Ripe Fruit",
   description: "Practical guidance for choosing ripe, good-quality fruit.",
 };
 
