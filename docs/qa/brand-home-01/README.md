@@ -63,4 +63,23 @@ SEO: all five canonical URLs and OG URLs retain https://www.howripe.com; root me
 
 ## Git and Preview
 
-Feature branch push and actual Vercel Preview QA follow the local gates above. The existing project is `fruit-picking-guide`, linked to `liuxiaoguge98-ship-it/HowRipe`, with production branch `main`. Do not create another project, run vercel --prod or merge. Preview keeps Vercel Authentication; automated validation uses the official authenticated testing mechanism. Final deployment status and URL are recorded after Git-triggered deployment validation.
+Feature branch was pushed after the local gates above. Git integration automatically created a READY Preview from `9bc00792ee038ca3b9f09ebda82253a904fe2dc5`. The existing project is `fruit-picking-guide`, linked to `liuxiaoguge98-ship-it/HowRipe`, with production branch `main`. Do not create another project, run vercel --prod or merge. Preview keeps Vercel Authentication; automated validation uses the official authenticated testing mechanism. Final deployment status and URL are recorded after Git-triggered deployment validation.
+
+
+## Actual Vercel Preview verification — PASS
+
+[Immutable tested Preview](https://fruit-picking-guide-d5ka6gkwy-good-dc6d.vercel.app) · [branch Preview](https://fruit-picking-guide-git-feature-brand-home-uni-e2303c-good-dc6d.vercel.app) · [deployment evidence](preview/deployment.json) · [browser results](preview/browser.json).
+
+The original Git-triggered Preview is READY, target preview (`null` in Vercel's target field), source `git`, in the same existing project. Both desktop 1440×1000 and phone 390×844 were tested on the actual remote URL across all five routes: 10 route/width combinations, 8 complete Quiz flows, zero overflow, loaded visible images, English-only body/feedback, HowRipe header/footer, correct canonical/OG branding and matching font stacks. Keyboard navigation, visible focus, FAQ, firmness checks, Got it, completion, Restart, reduced motion, robots and sitemap pass. No console/page errors. Desktop hero, index and footer PNG files are byte-identical to local production captures; phone composition was also visually reviewed.
+
+[Remote desktop](preview/home-1440.png) · [remote phone](preview/home-390.png) · [remote Avocado](preview/avocado-1440.png) · [remote Kiwi](preview/kiwi-1440.png) · [remote Persimmon phone](preview/persimmon-390.png).
+
+Remote Chrome required the machine's existing HTTPS proxy. The test waits for real navigation completion rather than a fixed 200ms delay; neither adjustment changes product code. Authenticated testing follows [Vercel's documented automation access](https://vercel.com/docs/cli/curl), with credentials kept out of reports and screenshots.
+
+[Content freeze verification](content-freeze.json) confirms that all four English content files exactly match production after allowing only the Avocado title suffix and removal of the two Chinese lines. Quiz implementation, all assets, crawl origin and dependencies are unchanged.
+
+Implementation commits: `58421e6` (brand/home), `b6db501` (English only), `9bc0079` (direction and local QA). The final follow-up commit contains evidence and documentation only; its live Preview must be READY before handoff. PR creation is optional and was not performed. Main remains `c2a471388abd63fc701a9165c3c1c0f621d137c8`.
+
+Continuation check: “Is meaningful BRAND-HOME-01 visual refinement still executable?” No material unresolved defect remains within the approved scope after these iterations and actual Preview review. Five self-scores are all at least 4. **BRAND-HOME-01: PASS — awaiting user visual approval.** Do not merge main or deploy production.
+
+The temporary automation credential used for Preview QA was revoked after verification. The project has zero remaining automation bypass credentials and its original Vercel Authentication configuration is unchanged.

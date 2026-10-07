@@ -7,7 +7,10 @@ const origin = process.env.QA_ORIGIN || 'http://localhost:3101';
 const out = process.env.QA_OUTPUT || 'docs/qa/brand-home-01/local';
 const preview = process.env.QA_PREVIEW === '1';
 fs.mkdirSync(out, { recursive: true });
-const browser = await chromium.launch({ channel: 'chrome', headless: true });
+// Remote Chrome uses the same existing network proxy as the shell, if configured.
+const proxyUrl = preview && process.env.HTTPS_PROXY ? new URL(process.env.HTTPS_PROXY) : null;
+const proxy = proxyUrl ? { server: proxyUrl.origin, username: decodeURIComponent(proxyUrl.username), password: decodeURIComponent(proxyUrl.password) } : undefined;
+const browser = await chromium.launch({ channel: 'chrome', headless: true, proxy });
 const context = await browser.newContext({ reducedMotion: 'no-preference' });
 const bypass = process.env.VERCEL_AUTOMATION_BYPASS_SECRET;
 if (bypass) await context.route(url => url.origin === new URL(origin).origin, route => route.continue({headers:{...route.request().headers(),'x-vercel-protection-bypass':bypass}}));
@@ -68,7 +71,7 @@ for (const width of widths) {
       await page.goto(origin); await page.keyboard.press('Tab');
       const focus=await page.evaluate(()=>({text:document.activeElement.textContent,outline:getComputedStyle(document.activeElement).outlineStyle}));
       assert.equal(focus.text,'HowRipe'); assert.equal(focus.outline,'solid');
-      await page.keyboard.press('Tab'); await page.keyboard.press('Enter'); await page.waitForTimeout(200);
+      await page.keyboard.press('Tab'); await page.keyboard.press('Enter'); await page.waitForURL('**/#fruit-guides');
       assert.equal(new URL(page.url()).hash,'#fruit-guides');
       await page.locator('#fruit-guides article a').first().click(); await page.waitForURL('**/avocado');
       await page.locator('header a').first().click(); await page.waitForURL(origin+'/');

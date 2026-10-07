@@ -6,7 +6,7 @@ Work is on `feature/brand-home-unification`, based on clean production `main` at
 
 The user additionally required English only. Removed the authored Chinese hero lines on Kiwi/Persimmon and their unused schema/rendering path; all English knowledge and quiz data remain unchanged. An English-language regression test and metadata-branding regression test were demonstrated red then green.
 
-Two visual passes completed; the second moved names ahead of imagery, tightened index offsets and grouped hero fruit more closely. Automated gates: 86 tests / 24 files, lint, explicit TypeScript, production build and diff-check passed. Full responsive/browser and Git-triggered Vercel Preview evidence is recorded in [BRAND-HOME-01 QA](docs/qa/brand-home-01/README.md). Production merge requires user visual approval; no merge or production deploy is authorized by this node.
+Two visual passes and the targeted mobile-overflow refinement completed; the second moved names ahead of imagery, tightened index offsets and grouped hero fruit more closely. Automated gates: 86 tests / 24 files, lint, explicit TypeScript, production build and diff-check passed. Local browser QA passed all 25 route/width combinations. The actual READY Git-triggered Vercel Preview passed 10 route/width combinations and 8 complete Quiz flows, with English-only output, unified typography and no errors/overflow. [Branch Preview](https://fruit-picking-guide-git-feature-brand-home-uni-e2303c-good-dc6d.vercel.app). Full evidence is recorded in [BRAND-HOME-01 QA](docs/qa/brand-home-01/README.md). Production merge requires user visual approval; no merge or production deploy is authorized by this node.
 
 ## Latest update — Kiwi quiz scenario imagery
 
