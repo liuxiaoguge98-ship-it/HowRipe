@@ -1,3 +1,5 @@
+Live site: https://www.howripe.com
+
 Production origin: **https://www.howripe.com**. `NEXT_PUBLIC_SITE_URL` is the single environment setting; `src/lib/site-url.ts` supplies its canonical production default to metadata, canonical URLs, robots and sitemap. See `.env.example` and `docs/qa/production-01/README.md` for the production audit. Localhost references below are development instructions.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
