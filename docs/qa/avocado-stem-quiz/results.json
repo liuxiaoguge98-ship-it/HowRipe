@@ -1,0 +1,170 @@
+[
+  {
+    "width": 1440,
+    "overflow": 0,
+    "errors": [],
+    "stages": [
+      {
+        "question": 1,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "overflow": 0,
+    "errors": [],
+    "stages": [
+      {
+        "question": 1,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 740,
+        "after": 740,
+        "next": 740,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "overflow": 0,
+    "errors": [],
+    "stages": [
+      {
+        "question": 1,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "overflow": 0,
+    "errors": [],
+    "stages": [
+      {
+        "question": 1,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 764,
+        "after": 764,
+        "next": 764,
+        "scrollDelta": 0
+      }
+    ]
+  }
+]

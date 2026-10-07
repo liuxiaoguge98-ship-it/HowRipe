@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kiwi-scuff",
+    "source": "<local-source-archive>/generated-images/exec-8a5bd820-ed6d-408c-9921-5912119abb88.png",
+    "output": "public/fruits/kiwi/quiz/kiwi-scuff.webp",
+    "transparent": true
+  },
+  {
+    "id": "kiwi-bruise",
+    "source": "<local-source-archive>/generated-images/exec-70addccc-c0dc-4ef5-b140-dabb8b864db4.png",
+    "output": "public/fruits/kiwi/quiz/kiwi-bruise.webp",
+    "transparent": true
+  },
+  {
+    "id": "pomegranate-pale",
+    "source": "<local-source-archive>/generated-images/exec-c6ba86bd-25a4-473c-9b3b-214ddb715e06.png",
+    "output": "public/fruits/pomegranate/quiz/pomegranate-pale.webp",
+    "transparent": true
+  },
+  {
+    "id": "hachiya-firm",
+    "source": "<local-source-archive>/generated-images/exec-54ca4ca6-99a8-48c3-afe6-6f00313a04ff.png",
+    "output": "public/fruits/persimmon/quiz/hachiya-firm.webp",
+    "transparent": false
+  }
+]

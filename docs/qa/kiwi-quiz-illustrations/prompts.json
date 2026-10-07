@@ -1,0 +1,29 @@
+{
+  "mode": "builtin image_gen text-to-image; transparent_background=true",
+  "prompts": [
+    {
+      "name": "fridge",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: A compact open household refrigerator shown front three-quarter view, exactly one whole brown fuzzy green-variety kiwifruit resting visibly on its middle shelf. Empty surrounding shelves, no other produce."
+    },
+    {
+      "name": "bag",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: An open plain brown paper grocery bag folded low enough to reveal exactly one whole brown fuzzy green-variety kiwifruit and one red apple together inside. No fridge."
+    },
+    {
+      "name": "counter-six",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: Exactly six whole brown fuzzy green-variety kiwifruits arranged neatly in two rows of three on one small simple pale wooden countertop slab. No other fruit, no fridge, no labels."
+    },
+    {
+      "name": "split-six",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: A compact open household refrigerator on the right, exactly FOUR whole brown fuzzy green-variety kiwifruits visibly arranged on its middle shelf. On the left beside it a small countertop slab holding exactly TWO whole fuzzy kiwifruits. Six kiwi TOTAL. Clear single composition showing two outside and four inside the fridge. No other produce."
+    },
+    {
+      "name": "all-now",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: Exactly four whole brown fuzzy green-variety kiwifruits together on one shallow simple ceramic serving plate. Intact healthy skin, no wrinkles, no damage. This illustrates serving the whole batch together; do NOT attempt to depict softness visually."
+    },
+    {
+      "name": "now-later",
+      "prompt": "Generate a square high-resolution editorial educational still-life illustration for a green kiwi fruit selection quiz. Warm realistic 3D/product photography hybrid, naturally textured kiwi, clean easily identifiable objects, muted cream and olive palette, soft even studio light, no visual clutter. Generous readable objects filling 85% of square, entire composition uncropped. Transparent background with only subtle grounding shadow, no white rectangle. No written words, symbols, arrows, letters, numbers, verdicts, checkmarks, red/green answer badges, logos or people. Whole uncut fruits only. Scene: Exactly one whole brown fuzzy green-variety kiwi on a small ceramic serving plate at left, and exactly THREE whole kiwi in a plain small produce basket at right. Four kiwi total. Intact healthy skin, no wrinkles or damage; SAME apparent ripeness for all. This illustrates one fruit now and remaining fruit later; do NOT attempt to depict softness visually."
+    }
+  ]
+}

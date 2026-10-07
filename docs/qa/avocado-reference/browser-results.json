@@ -1,0 +1,536 @@
+{
+  "browser": "154.0.8037.58",
+  "runs": [
+    {
+      "width": 1440,
+      "reducedMotion": false,
+      "stageHeights": [
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          },
+          "after": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          },
+          "after": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          },
+          "after": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          },
+          "after": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          },
+          "after": {
+            "y": 4768,
+            "top": 69.90625,
+            "height": 628
+          }
+        }
+      ],
+      "wheels": [
+        {
+          "origin": "visual A",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "visual B",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "Check firmness",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "Resistance",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "answer A",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "answer B",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "empty surface",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "outside",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "feedback",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "Got it",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "completed stage",
+          "blocked": false,
+          "delta": 230
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "reducedMotion": false,
+      "stageHeights": [
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628,
+        628
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          },
+          "after": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          },
+          "after": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          },
+          "after": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          },
+          "after": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          },
+          "after": {
+            "y": 4469,
+            "top": 69.703125,
+            "height": 628
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "reducedMotion": false,
+      "stageHeights": [
+        680,
+        680,
+        680,
+        680,
+        680,
+        680,
+        680,
+        680,
+        680,
+        680
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          },
+          "after": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          },
+          "after": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          },
+          "after": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          },
+          "after": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          },
+          "after": {
+            "y": 5683,
+            "top": 14.71875,
+            "height": 680
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": true,
+      "stageHeights": [
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          },
+          "after": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          },
+          "after": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          },
+          "after": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          },
+          "after": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          },
+          "after": {
+            "y": 5755,
+            "top": 17.515625,
+            "height": 722
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 360,
+      "reducedMotion": false,
+      "stageHeights": [
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722,
+        722
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          },
+          "after": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          },
+          "after": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          },
+          "after": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          },
+          "after": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          },
+          "after": {
+            "y": 5820,
+            "top": 17.90625,
+            "height": 722
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    }
+  ],
+  "otherFruits": [
+    {
+      "slug": "kiwi",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "pomegranate",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "persimmon",
+      "completed": true,
+      "errors": []
+    }
+  ],
+  "touch": {
+    "swipes": [
+      {
+        "origin": "visual",
+        "delta": 165
+      },
+      {
+        "origin": "check",
+        "delta": 301
+      },
+      {
+        "origin": "Resistance",
+        "delta": 305
+      },
+      {
+        "origin": "answer",
+        "delta": 299
+      },
+      {
+        "origin": "feedback",
+        "delta": 291
+      }
+    ],
+    "physicalDevice": false
+  },
+  "keyboard": {
+    "tabLeavesStage": true,
+    "pageDownNative": true
+  },
+  "noJS": {
+    "staticTeaching": true,
+    "nativeInspection": true
+  }
+}

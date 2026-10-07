@@ -1,0 +1,82 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "h1": "Pick better fruit.\nLearn it once. Use it forever.",
+    "quiz": false,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/avocado",
+    "width": 1440,
+    "status": 200,
+    "h1": "How to Tell If an Avocado Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/kiwi",
+    "width": 1440,
+    "status": 200,
+    "h1": "How to Tell If a Kiwi Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/pomegranate",
+    "width": 1440,
+    "status": 200,
+    "h1": "How to Tell If a Pomegranate Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/persimmon",
+    "width": 1440,
+    "status": 200,
+    "h1": "How to Tell If a Persimmon Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "h1": "Pick better fruit.\nLearn it once. Use it forever.",
+    "quiz": false,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/avocado",
+    "width": 390,
+    "status": 200,
+    "h1": "How to Tell If an Avocado Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/kiwi",
+    "width": 390,
+    "status": 200,
+    "h1": "How to Tell If a Kiwi Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/pomegranate",
+    "width": 390,
+    "status": 200,
+    "h1": "How to Tell If a Pomegranate Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  },
+  {
+    "route": "/persimmon",
+    "width": 390,
+    "status": 200,
+    "h1": "How to Tell If a Persimmon Is Ripe",
+    "quiz": true,
+    "horizontalOverflow": 0
+  }
+]

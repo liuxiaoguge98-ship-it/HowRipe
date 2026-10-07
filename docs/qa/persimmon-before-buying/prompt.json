@@ -1,0 +1,7 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Create one high-resolution realistic editorial educational photograph for a guide to choosing persimmons BEFORE buying. Reference image supplies the species appearance: elongated pointed orange Hachiya persimmon with attached leafy calyx. Show one WHOLE UNCUT intact Hachiya gently supported in an adult's open palm, with the broad finger pads of the other hand resting lightly on its side to check overall softness, without poking, pinching or leaving a dent. Natural anatomically correct hands. Entire fruit silhouette, intact skin and calyx clearly visible and dominant, warm cream uncluttered background, soft natural studio light, landscape 4:3 composition. Fruit has no cuts, no missing wedges, no exposed pulp, no cracks, no bruises, no juice. No knives, spoons, plates, text, numbers, arrows, badges or labels. This illustrates HOW to check a whole fruit, not a visual proof that it is ripe.",
+  "reference": "public/fruits/persimmon/variants/hachiya.webp",
+  "source": "<local-source-archive>/generated-images/exec-872b2b5e-5d52-4244-a550-f99fa4a1d8da.png",
+  "output": "public/fruits/persimmon/education/hachiya-whole-touch.webp"
+}

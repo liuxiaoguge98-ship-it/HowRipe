@@ -1,0 +1,188 @@
+[
+  {
+    "fruit": "persimmon",
+    "width": 1366,
+    "height": 650,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 726.390625
+      },
+      {
+        "id": "hachiya",
+        "height": 466.390625
+      },
+      {
+        "id": "damage",
+        "height": 564.59375
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 809.203125
+      },
+      {
+        "id": "hachiya",
+        "height": 744.4375
+      },
+      {
+        "id": "damage",
+        "height": 509.21875
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 360,
+    "height": 800,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 791.203125
+      },
+      {
+        "id": "hachiya",
+        "height": 721.9375
+      },
+      {
+        "id": "damage",
+        "height": 531.71875
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  }
+]

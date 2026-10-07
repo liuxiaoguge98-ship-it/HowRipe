@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root { --color-page: #f7f5ef; --color-ink: #20201c; --color-ink-soft: #4b4a43; --color-muted: #77756b; --color-border: #d9d5ca; --space-page: 1.25rem; }
+@theme inline { --color-background: var(--color-page); --color-foreground: var(--color-ink); --font-sans: Arial, Helvetica, sans-serif; --font-serif: Georgia, "Times New Roman", serif; }
+@media (min-width: 640px) { :root { --space-page: 2rem; } }
+@media (min-width: 1024px) { :root { --space-page: 3rem; } }
+body { background: var(--color-page); color: var(--color-ink); font-family: Arial, Helvetica, sans-serif; }
+.site-container { width: min(100%, 80rem); margin-inline: auto; padding-inline: var(--space-page); }
+.eyebrow { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.16em; color: var(--fruit-dark, var(--color-ink-soft)); }
+.button-primary, .button-secondary { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0.625rem 1rem; border: 1px solid var(--fruit-dark, var(--color-ink)); }
+.button-primary { background: var(--fruit-dark, var(--color-ink)); color: var(--color-page); }
+.button-secondary { color: var(--fruit-dark, var(--color-ink)); }
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--fruit-primary, var(--color-ink));
+  outline-offset: 3px;
+}
+
+button { min-height: 2.75rem; }
+
+:root { --motion-ease: cubic-bezier(.2, .65, .3, 1); }
+.motion-hero-text { animation: hero-enter 600ms var(--motion-ease) both; }
+.motion-hero-asset { animation: section-enter 600ms 120ms var(--motion-ease) both; }
+.motion-enter { animation: section-enter 420ms var(--motion-ease) both; }
+.motion-feedback { animation: feedback-enter 200ms var(--motion-ease) both; }
+.motion-question { animation: question-enter 360ms var(--motion-ease) both; }
+.motion-completion { animation: section-enter 360ms var(--motion-ease) both; }
+.quiz-stage { view-transition-name: fruit-quiz; }
+.tactile-visual { transform-origin: center bottom; }
+.firmness-check { font-size: .8125rem; text-decoration: underline; text-underline-offset: 4px; padding: .5rem .25rem; }
+.resistance-slot { min-height: 2rem; font-size: .75rem; color: var(--color-ink-soft); }
+.resistance-dots { display: inline-block; letter-spacing: .12em; white-space: nowrap; }
+.tactile-answer { width: 100%; border-top: 1px solid var(--color-border); padding: .5rem .25rem; }
+.quiz-option {
+  transition: transform 200ms var(--motion-ease), box-shadow 200ms var(--motion-ease);
+}
+.quiz-text-option { min-width: 0; min-height: 10rem; padding: 1.25rem; border: 1px solid var(--color-border); line-height: 1.65; }
+@media (hover: hover) and (pointer: fine) {
+  .quiz-option:not(:disabled):hover {
+    transform: scale(1.008);
+    box-shadow: inset 0 -1px var(--fruit-primary);
+  }
+}
+.quiz-option:not(:disabled):active { transform: scale(.995); }
+.quiz-option[data-result="correct"] {
+  box-shadow: inset 0 -1px var(--fruit-primary);
+  animation: correct-settle 220ms var(--motion-ease);
+}
+.quiz-option[data-result="wrong"] { animation: wrong-nudge 220ms ease-out; }
+
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes section-enter {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes feedback-enter { from { opacity: 0; } to { opacity: 1; } }
+@keyframes correct-settle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.012); }
+}
+@keyframes wrong-nudge {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-2px); }
+}
+@keyframes question-enter {
+  from { opacity: 0; transform: translateX(6px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes question-leave {
+  from { opacity: 1; transform: none; }
+  to { opacity: 0; transform: translateX(-6px); }
+}
+/* Only the Quiz animates during document view transitions. Snapshot geometry
+   must not interpolate height, and the overlay must never intercept input. */
+::view-transition { pointer-events: none; }
+::view-transition-group(root), ::view-transition-old(root), ::view-transition-new(root) {
+  animation: none;
+}
+::view-transition-old(root) { display: none; }
+::view-transition-group(fruit-quiz) { animation: none; }
+::view-transition-old(fruit-quiz) {
+  animation: question-leave 180ms var(--motion-ease) both;
+}
+::view-transition-new(fruit-quiz) {
+  animation: question-enter 180ms 180ms var(--motion-ease) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+  .quiz-option { transform: none !important; }
+  ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen; precise-object-edit",
+  "master": "public/fruits/kiwi/quiz/neutral.webp",
+  "prompts": [
+    "Use case: precise-object-edit. Controlled educational comparison. Edit this exact whole green fuzzy kiwifruit photograph: make only its skin and contour noticeably shriveled from dehydration, several realistic fine-to-moderate wrinkles and modest loss of fullness. Preserve the exact stem button, identity, orientation, camera, full-fruit framing, light, brown skin color, fuzz and white background. Do not change overall size or placement. This is shriveling, NOT rot: no mold, no dark patches, no wounds, no splitting, no exposed flesh. No labels or text. High-resolution realistic editorial produce photography.",
+    "Use case: precise-object-edit. Controlled educational comparison. Edit this exact whole green fuzzy kiwifruit photograph: add ONE restrained localized shallow depressed bruise on the lower-left front, covering about 10% of visible surface. A subtly brown patch with compressed texture, visible but not a giant crater. Preserve exact stem button, identity, orientation, outer silhouette, camera, crop, fruit scale, lighting, normal brown color and fuzz everywhere else, white background. No mold, no open wound, no cuts or exposed flesh, no leaking, no generalized wrinkles or rot. No labels or text. High-resolution realistic editorial produce photography."
+  ],
+  "outputs": [
+    {
+      "generated": "<local-source-archive>/generated-images/exec-2ade2f7b-5d4f-4444-aa2a-8c65ce1fd1f1.png",
+      "production": "public/fruits/kiwi/education/wrinkles-v2.webp"
+    },
+    {
+      "generated": "<local-source-archive>/generated-images/exec-b8a3ed78-ed9d-4a9a-b293-2ef9ba7ab14f.png",
+      "production": "public/fruits/kiwi/education/local-bruise.webp"
+    }
+  ]
+}

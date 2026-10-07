@@ -1,0 +1,137 @@
+[
+  {
+    "width": 1440,
+    "normal": {
+      "client": 1440,
+      "scroll": 1440,
+      "stage": 990,
+      "overflow": []
+    },
+    "translated": {
+      "client": 1440,
+      "scroll": 1440,
+      "stage": 990,
+      "overflow": []
+    },
+    "gotIt": {
+      "before": {
+        "y": 5350,
+        "top": -45.21875,
+        "height": 990
+      },
+      "after": {
+        "y": 5350,
+        "top": -45.21875,
+        "height": 990
+      }
+    }
+  },
+  {
+    "width": 1024,
+    "normal": {
+      "client": 1024,
+      "scroll": 1024,
+      "stage": 990,
+      "overflow": []
+    },
+    "translated": {
+      "client": 1024,
+      "scroll": 1024,
+      "stage": 990,
+      "overflow": []
+    },
+    "gotIt": {
+      "before": {
+        "y": 5163,
+        "top": -243.234375,
+        "height": 990
+      },
+      "after": {
+        "y": 5163,
+        "top": -243.234375,
+        "height": 990
+      }
+    }
+  },
+  {
+    "width": 768,
+    "normal": {
+      "client": 768,
+      "scroll": 768,
+      "stage": 990,
+      "overflow": []
+    },
+    "translated": {
+      "client": 768,
+      "scroll": 768,
+      "stage": 990,
+      "overflow": []
+    },
+    "gotIt": {
+      "before": {
+        "y": 5902,
+        "top": -222.875,
+        "height": 990
+      },
+      "after": {
+        "y": 5902,
+        "top": -222.875,
+        "height": 990
+      }
+    }
+  },
+  {
+    "width": 390,
+    "normal": {
+      "client": 390,
+      "scroll": 390,
+      "stage": 892,
+      "overflow": []
+    },
+    "translated": {
+      "client": 390,
+      "scroll": 390,
+      "stage": 892,
+      "overflow": []
+    },
+    "gotIt": {
+      "before": {
+        "y": 5626,
+        "top": -23.859375,
+        "height": 892
+      },
+      "after": {
+        "y": 5626,
+        "top": -23.859375,
+        "height": 892
+      }
+    }
+  },
+  {
+    "width": 360,
+    "normal": {
+      "client": 360,
+      "scroll": 360,
+      "stage": 892,
+      "overflow": []
+    },
+    "translated": {
+      "client": 360,
+      "scroll": 360,
+      "stage": 892,
+      "overflow": []
+    },
+    "gotIt": {
+      "before": {
+        "y": 5709,
+        "top": -129.984375,
+        "height": 892
+      },
+      "after": {
+        "y": 5709,
+        "top": -129.984375,
+        "height": 892
+      }
+    }
+  }
+]

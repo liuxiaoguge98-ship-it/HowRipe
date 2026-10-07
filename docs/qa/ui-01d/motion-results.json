@@ -1,0 +1,254 @@
+[
+  {
+    "width": 1440,
+    "q": 1,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.001, 0.998)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.02)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "q": 2,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.001, 0.998)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.02)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "q": 4,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.004, 0.988)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.09)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "q": 1,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.001, 0.998)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.02)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "q": 2,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.001, 0.998)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.02)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "q": 4,
+    "cues": [
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.004, 0.988)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.09)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-fruit",
+        "frames": [
+          "scaleY(1)",
+          "scale(1.008, 0.978)",
+          "scaleY(1)"
+        ],
+        "duration": 640
+      },
+      {
+        "target": "tactile-contact",
+        "frames": [
+          "scaleX(1)",
+          "scaleX(1.16)",
+          "scaleX(1)"
+        ],
+        "duration": 640
+      }
+    ]
+  }
+]

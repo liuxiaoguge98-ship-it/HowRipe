@@ -1,0 +1,342 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1366,
+    "height": 650,
+    "palette": {
+      "page": "rgb(251, 250, 242)",
+      "ink": "rgb(48, 59, 28)",
+      "accent": "#526d22"
+    },
+    "sections": {
+      ".motion-hero": 475,
+      "quick-checks": 238,
+      "[data-editorial-section=\"timing\"]": 338,
+      "press": 318,
+      "plump": 170,
+      "soft-spot": 259,
+      "wrinkles": 542,
+      "fuzz": 177,
+      "timing": 178,
+      "nutrition": 435,
+      "[data-editorial-section=\"faq\"]": 437
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 510,
+        "after": 520.8125,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 510,
+        "after": 520.8125,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "palette": {
+      "page": "rgb(251, 250, 242)",
+      "ink": "rgb(48, 59, 28)",
+      "accent": "#526d22"
+    },
+    "sections": {
+      ".motion-hero": 670,
+      "quick-checks": 511,
+      "[data-editorial-section=\"timing\"]": 609,
+      "press": 450,
+      "plump": 253,
+      "soft-spot": 403,
+      "wrinkles": 458,
+      "fuzz": 254,
+      "timing": 194,
+      "nutrition": 562,
+      "[data-editorial-section=\"faq\"]": 507
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1366,
+    "height": 650,
+    "palette": {
+      "page": "rgb(255, 248, 247)",
+      "ink": "rgb(77, 32, 45)",
+      "accent": "#9a3048"
+    },
+    "sections": {
+      ".motion-hero": 434,
+      "quick-checks": 238,
+      "weight": 182,
+      "shape": 547,
+      "skin": 193,
+      "damage": 542,
+      "color": 199,
+      "counter": 213,
+      "nutrition": 435,
+      "[data-editorial-section=\"faq\"]": 437
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 390,
+    "height": 844,
+    "palette": {
+      "page": "rgb(255, 248, 247)",
+      "ink": "rgb(77, 32, 45)",
+      "accent": "#9a3048"
+    },
+    "sections": {
+      ".motion-hero": 637,
+      "quick-checks": 511,
+      "weight": 294,
+      "shape": 606,
+      "skin": 279,
+      "damage": 435,
+      "color": 282,
+      "counter": 228,
+      "nutrition": 562,
+      "[data-editorial-section=\"faq\"]": 609
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1366,
+    "height": 650,
+    "palette": {
+      "page": "rgb(255, 250, 242)",
+      "ink": "rgb(82, 46, 25)",
+      "accent": "#a95116"
+    },
+    "sections": {
+      ".motion-hero": 459,
+      "quick-checks": 238,
+      "[data-editorial-section=\"variants\"]": 581,
+      "type": 100,
+      "fuyu": 259,
+      "hachiya": 259,
+      "color": 170,
+      "damage": 542,
+      "one-rule": 178,
+      "nutrition": 435,
+      "[data-editorial-section=\"faq\"]": 437
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 510,
+        "after": 520.8125,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 510,
+        "after": 510,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "palette": {
+      "page": "rgb(255, 250, 242)",
+      "ink": "rgb(82, 46, 25)",
+      "accent": "#a95116"
+    },
+    "sections": {
+      ".motion-hero": 683,
+      "quick-checks": 511,
+      "[data-editorial-section=\"variants\"]": 649,
+      "type": 175,
+      "fuyu": 429,
+      "hachiya": 429,
+      "color": 282,
+      "damage": 435,
+      "one-rule": 200,
+      "nutrition": 562,
+      "[data-editorial-section=\"faq\"]": 635
+    },
+    "stages": [
+      {
+        "q": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  }
+]

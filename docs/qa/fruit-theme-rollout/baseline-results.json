@@ -1,0 +1,38 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1440,
+    "height": 1000,
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1440,
+    "height": 1000,
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 390,
+    "height": 844,
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1440,
+    "height": 1000,
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "errors": []
+  }
+]

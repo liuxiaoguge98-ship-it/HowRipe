@@ -1,0 +1,91 @@
+{
+  "project": "fruit-picking-guide",
+  "projectId": "prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn",
+  "teamId": "team_lVEgIkQYtONWEbOtSZL0CYy8",
+  "gitIntegration": null,
+  "gitRemote": null,
+  "workflow": "Existing authenticated Vercel CLI deployment; no automatic Git production branch",
+  "previousProductionDeployment": {
+    "id": "dpl_BE1Xp8748aWkbiVXQUmmfoX9nwqA",
+    "url": "fruit-picking-guide-ff2st13cg-good-dc6d.vercel.app",
+    "readyState": "READY",
+    "target": "production",
+    "meta": {
+      "actor": "codex",
+      "lambdaRuntimeStats": "{\"nodejs\":1}"
+    }
+  },
+  "domainsBefore": [
+    {
+      "name": "howripe.com",
+      "redirect": "www.howripe.com",
+      "redirectStatusCode": 308,
+      "gitBranch": null,
+      "verified": true
+    },
+    {
+      "name": "www.howripe.com",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "verified": true
+    },
+    {
+      "name": "fruit-picking-guide.vercel.app",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "gitBranch": null,
+      "verified": true
+    }
+  ],
+  "productionEnv": {
+    "NEXT_PUBLIC_SITE_URL": "https://www.howripe.com"
+  },
+  "uploadReview": {
+    "fileCount": 110,
+    "totalSize": 7866224,
+    "ignored": [
+      ".env.local",
+      ".git",
+      ".gitignore",
+      ".next",
+      ".vercel",
+      "docs/ASSET_02_AUDIT.md",
+      "docs/ASSET_SPEC.md",
+      "docs/FRUIT_UI_SYSTEM.md",
+      "docs/INTERACTION_SPEC.md",
+      "docs/PHYSICAL_DEVICE_QA.md",
+      "docs/PRODUCT_SPEC.md",
+      "docs/RELEASE_QA.md",
+      "docs/UI_DIRECTION.md",
+      "docs/qa",
+      "docs/superpowers",
+      "node_modules",
+      "tests/asset-02-inventory.test.tsx",
+      "tests/avocado-quiz.test.ts",
+      "tests/editorial-presentation.test.tsx",
+      "tests/fixtures",
+      "tests/four-fruit-audit.test.tsx",
+      "tests/fruit-asset-contract.test.ts",
+      "tests/fruit-assets.test.ts",
+      "tests/fruit-content.test.ts",
+      "tests/fruit-page.test.tsx",
+      "tests/fruit-rollout.test.tsx",
+      "tests/fruit-template-validation.test.tsx",
+      "tests/game-stage.test.tsx",
+      "tests/kiwi-production.test.tsx",
+      "tests/kiwi-quiz.test.tsx",
+      "tests/kiwi-source.regression-1.test.tsx",
+      "tests/persimmon-production.test.tsx",
+      "tests/pomegranate-production.test.tsx",
+      "tests/production-origin.test.ts",
+      "tests/quiz-engine.test.tsx",
+      "tests/quiz-evidence.test.tsx",
+      "tests/quiz-option-types.ts",
+      "tests/tactile-firmness.test.tsx",
+      "tests/teaching-evidence.test.tsx",
+      "tests/text-quiz.test.tsx",
+      "tests/variant-anchor.regression-1.test.tsx"
+    ]
+  }
+}

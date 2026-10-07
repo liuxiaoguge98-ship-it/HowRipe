@@ -1,0 +1,272 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1440,
+    "height": 900,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 588.34375
+      },
+      {
+        "id": "feel",
+        "height": 482.625
+      },
+      {
+        "id": "press",
+        "height": 376.390625
+      },
+      {
+        "id": "plump",
+        "height": 376.390625
+      },
+      {
+        "id": "check",
+        "height": 510.09375
+      },
+      {
+        "id": "wrinkles",
+        "height": 487.59375
+      },
+      {
+        "id": "fuzz",
+        "height": 252.296875
+      },
+      {
+        "id": "plan",
+        "height": 287.734375
+      },
+      {
+        "id": "store",
+        "height": 538.21875
+      },
+      {
+        "id": "batch",
+        "height": 667.3125
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 610,
+        "after": 615.4375,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 610,
+        "after": 611.625,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 0,
+        "before": 600,
+        "after": 600,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 0,
+        "before": 600,
+        "after": 600,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 0,
+        "before": 600,
+        "after": 600,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 808.484375
+      },
+      {
+        "id": "feel",
+        "height": 710.59375
+      },
+      {
+        "id": "press",
+        "height": 637
+      },
+      {
+        "id": "plump",
+        "height": 592.8125
+      },
+      {
+        "id": "check",
+        "height": 487.71875
+      },
+      {
+        "id": "wrinkles",
+        "height": 465.21875
+      },
+      {
+        "id": "fuzz",
+        "height": 323.65625
+      },
+      {
+        "id": "plan",
+        "height": 450.859375
+      },
+      {
+        "id": "store",
+        "height": 785.890625
+      },
+      {
+        "id": "batch",
+        "height": 839.15625
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 900,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 808.484375
+      },
+      {
+        "id": "feel",
+        "height": 710.59375
+      },
+      {
+        "id": "press",
+        "height": 637
+      },
+      {
+        "id": "plump",
+        "height": 592.8125
+      },
+      {
+        "id": "check",
+        "height": 487.71875
+      },
+      {
+        "id": "wrinkles",
+        "height": 465.21875
+      },
+      {
+        "id": "fuzz",
+        "height": 323.65625
+      },
+      {
+        "id": "plan",
+        "height": 450.859375
+      },
+      {
+        "id": "store",
+        "height": 785.890625
+      },
+      {
+        "id": "batch",
+        "height": 839.15625
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 0,
+        "before": 720,
+        "after": 720,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  }
+]

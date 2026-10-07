@@ -1,0 +1,842 @@
+[
+  {
+    "path": "README.md",
+    "line": 1,
+    "category": "tests/development fixtures",
+    "text": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app)."
+  },
+  {
+    "path": "README.md",
+    "line": 17,
+    "category": "tests/development fixtures",
+    "text": "Open [http://localhost:3000](http://localhost:3000) with your browser to see the result."
+  },
+  {
+    "path": "README.md",
+    "line": 21,
+    "category": "tests/development fixtures",
+    "text": "This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel."
+  },
+  {
+    "path": "README.md",
+    "line": 27,
+    "category": "tests/development fixtures",
+    "text": "- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API."
+  },
+  {
+    "path": "README.md",
+    "line": 28,
+    "category": "tests/development fixtures",
+    "text": "- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial."
+  },
+  {
+    "path": "README.md",
+    "line": 30,
+    "category": "tests/development fixtures",
+    "text": "You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!"
+  },
+  {
+    "path": "README.md",
+    "line": 34,
+    "category": "tests/development fixtures",
+    "text": "The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js."
+  },
+  {
+    "path": "README.md",
+    "line": 36,
+    "category": "tests/development fixtures",
+    "text": "Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details."
+  },
+  {
+    "path": ".env.example",
+    "line": 1,
+    "category": "current production env example",
+    "text": "NEXT_PUBLIC_SITE_URL=https://www.howripe.com"
+  },
+  {
+    "path": "src/lib/site-url.ts",
+    "line": 3,
+    "category": "production configuration",
+    "text": "process.env.NEXT_PUBLIC_SITE_URL || \"https://www.howripe.com\","
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 23,
+    "category": "documentation or historical QA",
+    "text": "Installed Google Chrome was exercised against the production build at `127.0.0.1:3001`. Every listed cell returned HTTP 200, had no horizontal overflow or browser error, and passed its expected content, image-decoding, ratio, link, and scroll-height checks. Home has no fruit image by design; it showed the product proposition, General Picking Principles, and four live fruit links without “Coming Soon”."
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 61,
+    "category": "documentation or historical QA",
+    "text": "All four fruit routes have distinct titles, descriptions, and primary H1s. How to Pick and the educational sections are server-rendered and do not require Quiz interaction. Chrome with **JavaScript disabled on all four routes** showed H1, direct answer, Quick Checks, How to Pick, Nutrition, FAQ markup/content, Sources, Related Fruits, and the applicable educational visuals or deliberate no-visual presentation. Quiz interaction being unavailable in this mode is expected. No keyword stuffing or localhost URL in page metadata was observed."
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 63,
+    "category": "documentation or historical QA",
+    "text": "`/robots.txt` returned 200 and permits normal crawling (`User-Agent: *`, `Allow: /`). `/sitemap.xml` returned 200 but an **empty URL set** in this local build because `NEXT_PUBLIC_SITE_URL` is not configured. The tested `sitemapForSiteUrl` function returns the expected homepage plus four fruit URLs when given a real base. No canonical is emitted without a production domain. **Do not interpret the local empty sitemap as public-launch readiness:** configure the actual domain, canonical policy, absolute sitemap base, and robots sitemap reference at deployment, then verify all five absolute URLs and absence of localhost leakage. No domain was invented for QA."
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 85,
+    "category": "documentation or historical QA",
+    "text": "- `[OPEN — Deployment] Configure production domain / canonical / absolute sitemap base`: provide the real host, verify all five sitemap URLs, canonical policy, robots sitemap reference, and absence of localhost URLs on the deployed candidate."
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 94,
+    "category": "documentation or historical QA",
+    "text": "- **Protected preview URL:** https://fruit-picking-guide-fgt0kjab8-good-dc6d.vercel.app (`preview` deployment; Vercel SSO and `X-Robots-Tag: noindex`)."
+  },
+  {
+    "path": "docs/RELEASE_QA.md",
+    "line": 95,
+    "category": "documentation or historical QA",
+    "text": "- **Accessible temporary QA URL:** https://fruit-picking-guide.vercel.app (Vercel assigned the first deployment to its `production` target and created this alias automatically; it serves the same RC commit). This is a QA origin only, not a purchased domain, permanent canonical origin, or public-launch decision."
+  },
+  {
+    "path": "tests/four-fruit-audit.test.tsx",
+    "line": 43,
+    "category": "tests/development fixtures",
+    "text": "expect(sitemapForSiteUrl(\"https://fruit.example\").map((entry) => entry.url)).toEqual([\"https://fruit.example/\", \"https://fruit.example/avocado\", \"https://fruit.example/kiwi\", \"https://fruit.example/pomegranate\", \"https://fruit.example/persimmon\"]);"
+  },
+  {
+    "path": "tests/kiwi-source.regression-1.test.tsx",
+    "line": 14,
+    "category": "tests/development fixtures",
+    "text": "expect(html).toContain('href=\"https://www.zespri.com/en-NZ/corporate-information/faqs\"');"
+  },
+  {
+    "path": "docs/PHYSICAL_DEVICE_QA.md",
+    "line": 5,
+    "category": "documentation or historical QA",
+    "text": "Open the temporary QA URL: https://fruit-picking-guide.vercel.app"
+  },
+  {
+    "path": "docs/PHYSICAL_DEVICE_QA.md",
+    "line": 7,
+    "category": "documentation or historical QA",
+    "text": "The same release candidate has a Vercel SSO-protected preview at https://fruit-picking-guide-fgt0kjab8-good-dc6d.vercel.app; sign in to Vercel first if using that address. Neither address is the permanent domain."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/final-layout.mjs",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "await p.goto('http://localhost:3107/kiwi?v=ripening-control#batch',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 13,
+    "category": "tests/development fixtures",
+    "text": "expect(siteOrigin).toBe(\"https://www.howripe.com\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 14,
+    "category": "tests/development fixtures",
+    "text": "expect(String(rootMetadata.metadataBase)).toBe(\"https://www.howripe.com/\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 15,
+    "category": "tests/development fixtures",
+    "text": "expect(homeMetadata.alternates?.canonical).toBe(\"https://www.howripe.com/\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 17,
+    "category": "tests/development fixtures",
+    "text": "\"https://www.howripe.com/\", ...fruitGuides.map(f => `https://www.howripe.com/${f.slug}`),"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 19,
+    "category": "tests/development fixtures",
+    "text": "expect(robots()).toEqual({ rules: { userAgent: \"*\", allow: \"/\" }, sitemap: \"https://www.howripe.com/sitemap.xml\" });"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 26,
+    "category": "tests/development fixtures",
+    "text": "expect(metadata.alternates?.canonical).toBe(`https://www.howripe.com/${fruit.slug}`);"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 28,
+    "category": "tests/development fixtures",
+    "text": "expect(JSON.stringify(metadata.openGraph?.images)).toContain(\"https://www.howripe.com/fruits/\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 29,
+    "category": "tests/development fixtures",
+    "text": "expect(JSON.stringify(metadata.twitter)).toContain(\"https://www.howripe.com/fruits/\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 30,
+    "category": "tests/development fixtures",
+    "text": "expect(JSON.stringify(metadata)).not.toMatch(/localhost|vercel\\.app/);"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 35,
+    "category": "tests/development fixtures",
+    "text": "vi.stubEnv(\"NEXT_PUBLIC_SITE_URL\", \"http://localhost:3107/some-path/\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 38,
+    "category": "tests/development fixtures",
+    "text": "expect(configured.siteOrigin).toBe(\"http://localhost:3107\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 39,
+    "category": "tests/development fixtures",
+    "text": "expect(configured.absoluteSiteUrl(\"/kiwi\")).toBe(\"http://localhost:3107/kiwi\");"
+  },
+  {
+    "path": "tests/production-origin.test.ts",
+    "line": 40,
+    "category": "tests/development fixtures",
+    "text": "expect(absoluteSiteUrl(\"/avocado\")).toBe(\"https://www.howripe.com/avocado\");"
+  },
+  {
+    "path": "src/content/fruits/avocado.ts",
+    "line": 24,
+    "category": "authoritative external links",
+    "text": "nutrition:{basis:\"per 100g\",metrics:[{label:\"Calories\",value:\"160 kcal\"},{label:\"Fat\",value:\"14.7 g\"},{label:\"Carbs\",value:\"8.5 g\"},{label:\"Fiber\",value:\"6.7 g\"}]},faq:[{question:\"Is color enough to tell whether an avocado is ripe?\",answer:\"No. Hass avocados often darken as they ripen, but firmness is the better final check. Choose one that is still firm and yields slightly to gentle palm pressure.\"},{question:\"Should I avoid an avocado with a small surface scuff?\",answer:\"Not necessarily. A minor scuff can be cosmetic. Avoid deeper dents, localized soft pockets, or signs of structural collapse instead.\"}],relatedFruits:[\"kiwi\",\"pomegranate\",\"persimmon\"],sources:[{label:\"UC Davis — Avocado quality and stem-end rot\",url:\"https://postharvest.ucdavis.edu/produce-facts-sheets/avocado\"},{label:\"California Avocado Commission — Selecting ripe avocados\",url:\"https://californiaavocado.com/how-to/how-to-choose-and-use-an-avocado/\"},{label:\"USDA FoodData Central — FDC 171705\",url:\"https://fdc.nal.usda.gov/food-details/171705/nutrients\"}]"
+  },
+  {
+    "path": "src/content/fruits/pomegranate.ts",
+    "line": 55,
+    "category": "authoritative external links",
+    "text": "sources: [{ label: \"Utah State University Extension — pomegranate cultivar colors\", url: \"https://extension.usu.edu/yardandgarden/research/pomegranate-fruit-of-the-desert\" }, { label: \"UC Davis Postharvest Center — Pomegranate maturity and quality\", url: \"https://postharvest.ucdavis.edu/produce-facts-sheets/pomegranate\" }, { label: \"Utah State University Extension — pomegranate selection\", url: \"https://extension.usu.edu/fscreate/files/2023-26-staff/Create-Better-Health-4-Lesson-Curriculum.pdf\" }, { label: \"University of Georgia Cooperative Extension — Pomegranate production\", url: \"https://extension.uga.edu/publications/detail.html?number=C997&title=pomegranate-production\" }, { label: \"USDA FoodData Central — FDC 169134\", url: \"https://fdc.nal.usda.gov/food-details/169134/nutrients\" }],"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 134,
+    "category": "authoritative external links",
+    "text": "{ label: \"UC Davis Postharvest — Kiwifruit quality and ethylene sensitivity\", url: \"https://postharvest.ucdavis.edu/produce-facts-sheets/kiwifruit\" },"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 135,
+    "category": "authoritative external links",
+    "text": "{ label: \"Utah State University Extension — Kiwifruit selection\", url: \"https://extension.usu.edu/fscreate/files/handoutFFruitsKiwiHandout.pdf\" },"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 136,
+    "category": "authoritative external links",
+    "text": "{ label: \"Zespri — Choosing, ripening and storing kiwifruit\", url: \"https://www.zespri.com/en-NZ/corporate-information/faqs\" },"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 137,
+    "category": "authoritative external links",
+    "text": "{ label: \"Zespri — How to ripen kiwi and manage larger quantities\", url: \"https://www.zespri.com/en-US/blogdetail/how-do-i-ripen-kiwifruit\" },"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 138,
+    "category": "authoritative external links",
+    "text": "{ label: \"Zespri — Freezing and cut-fruit storage\", url: \"https://www.zespri.com/en-US/blogdetail/how-to-store-kiwi-fruit-for-freshness-and-flavor\" },"
+  },
+  {
+    "path": "src/content/fruits/kiwi.ts",
+    "line": 139,
+    "category": "authoritative external links",
+    "text": "{ label: \"USDA FoodData Central — FDC 2710831\", url: \"https://fdc.nal.usda.gov/food-details/2710831/nutrients\" },"
+  },
+  {
+    "path": "src/content/fruits/persimmon.ts",
+    "line": 113,
+    "category": "authoritative external links",
+    "text": "sources: [{ label: \"UC Agriculture and Natural Resources — persimmon eating textures\", url: \"https://ucanr.edu/node/137200/printable/print\" }, { label: \"UC Davis Fruit & Nut Research and Information Center — persimmon scion selection\", url: \"https://fruitsandnuts.ucdavis.edu/persimmon-scion-rooststock-selection\" }, { label: \"UC Davis Postharvest Center — Persimmon maturity and quality\", url: \"https://postharvest.ucdavis.edu/produce-facts-sheets/persimmon\" }, { label: \"UC Davis Postharvest Center — Fuyu ripening guidance\", url: \"https://postharvest.ucdavis.edu/ask-produce-docs/how-should-i-get-my-fuyu-persimmons-ripen-quickly\" }, { label: \"USDA FoodData Central — FDC 169941\", url: \"https://fdc.nal.usda.gov/food-details/169941/nutrients\" }],"
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/README.md",
+    "line": 67,
+    "category": "documentation or historical QA",
+    "text": "- [UC Davis — Kiwifruit](https://postharvest.ucdavis.edu/produce-facts-sheets/kiwifruit): physical quality, cold storage and high ethylene sensitivity. Commercial concentrations, pressure values and controlled-atmosphere settings are excluded."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/README.md",
+    "line": 68,
+    "category": "documentation or historical QA",
+    "text": "- [Utah State Extension — Kiwifruit](https://extension.usu.edu/fscreate/files/handoutFFruitsKiwiHandout.pdf): plump, slightly soft ripe fruit, bruising checks and post-purchase room-temperature ripening."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/README.md",
+    "line": 69,
+    "category": "documentation or historical QA",
+    "text": "- [Zespri FAQ](https://www.zespri.com/en-NZ/corporate-information/faqs): gentle give, soft spots/wrinkles, paper bag with apple/banana, larger batches refrigerated and small amounts brought out of direct sunlight, Gold differences."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/README.md",
+    "line": 70,
+    "category": "documentation or historical QA",
+    "text": "- [Zespri — How do I ripen kiwi fruit?](https://www.zespri.com/en-US/blogdetail/how-do-i-ripen-kiwifruit): practical ripening and cold storage of larger quantities."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/README.md",
+    "line": 71,
+    "category": "documentation or historical QA",
+    "text": "- [Zespri — Storage and freezing](https://www.zespri.com/en-US/blogdetail/how-to-store-kiwi-fruit-for-freshness-and-flavor): prepared sliced/chopped fruit frozen on a tray then packed; smoothies/frozen uses, softer thawed texture and refrigerated covered cut fruit. Promotional acceleration percentages and rigid times omitted."
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/check.mjs",
+    "line": 14,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=ripening-control#quiz`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/kiwi-ripening/check.mjs",
+    "line": 65,
+    "category": "documentation or historical QA",
+    "text": "await staticPage.goto('http://localhost:3107/kiwi');"
+  },
+  {
+    "path": "docs/qa/quiz-illustrations/check.mjs",
+    "line": 14,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=quiz-pictures#quiz`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/stress.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "try{for(const fruit of ['kiwi','pomegranate','persimmon']){for(const [width,height]of [[1024,768],[360,800]]){const p=await b.newPage({viewport:{width,height},reducedMotion:width===360?'reduce':'no-preference'});await p.goto(`http://localhost:3107/${fruit}`,{waitUntil:'networkidle'});await p.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));await translate(p);await p.locator('.motion-hero').screenshot({path:`${out}/${fruit}-${width}-zh-hero.png`});const stages=[];for(let i=0;i<5;i++){await translate(p);const quiz=p.locator('#quiz');await quiz.scrollIntoViewIfNeeded();await p.waitForTimeout(200);const a=p.getByRole('button',{name:'Choose A',exact:true});let hover=null;if(await a.locator('.quiz-specimen').count()){await p.mouse.move(1,1);await p.waitForTimeout(200);const normal=await white(await a.screenshot());await a.hover();await p.waitForTimeout(250);const hovered=await white(await a.screenshot());hover={normal,hovered};assert.ok(hovered<=normal+100)}await a.click();await translate(p);await p.waitForTimeout(100);await quiz.screenshot({path:`${out}/${fruit}-${width}-zh-q${i+1}.png`});const h=(await quiz.boundingBox()).height;await p.getByRole('button',{name:'Got it →',exact:true}).scrollIntoViewIfNeeded();const y=await p.evaluate(()=>scrollY);await p.getByRole('button',{name:'Got it →',exact:true}).click();await p.waitForTimeout(550);stages.push({q:i+1,height:h,hover,scrollDelta:await p.evaluate(()=>scrollY)-y})}assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);result.push({fruit,width,height,stages});await p.close()}}"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/stress.mjs",
+    "line": 5,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width:1366,height:650}});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await p.locator('.motion-hero img').evaluate(i=>i.decode());await p.waitForTimeout(700);const buf=await p.locator('.motion-hero').screenshot({path:`out`.replace('out',`${out}/avocado-regression-hero.png`)});const old=await sharp('<local-baseline>/avocado-scale-1366-hero.png').raw().toBuffer();const now=await sharp(buf).raw().toBuffer();assert.equal(Buffer.compare(old,now),0,'Approved Avocado hero must remain identical');await p.close();fs.writeFileSync(`${out}/stress-results.json`,JSON.stringify(result,null,2));console.log(JSON.stringify(result));}finally{await b.close()}"
+  },
+  {
+    "path": "docs/qa/persimmon-before-buying/check.mjs",
+    "line": 14,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=quiz-pictures#quiz`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/persimmon-before-buying/README.md",
+    "line": 20,
+    "category": "documentation or historical QA",
+    "text": "- [UC ANR persimmon guidance](https://ucanr.edu/node/137200/printable/print): distinguishes firm Fuyu from fully softened Hachiya eating textures."
+  },
+  {
+    "path": "docs/qa/persimmon-before-buying/README.md",
+    "line": 21,
+    "category": "documentation or historical QA",
+    "text": "- [UC Davis persimmon maturity and quality](https://postharvest.ucdavis.edu/produce-facts-sheets/persimmon): variety-specific color, absence of cracks/injuries/decay, softening, and treatment-dependent astringency. Copy specifies fresh untreated Hachiya for its softness rule."
+  },
+  {
+    "path": "docs/qa/avocado-quiz-balance/check.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "const page=await b.newPage({viewport:{width,height},reducedMotion:motion});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));if(translated)await translate(page);await page.waitForTimeout(650);"
+  },
+  {
+    "path": "docs/qa/quiz-illustrations/bilingual.mjs",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "await page.goto('http://localhost:3107/kiwi#quiz',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/avocado-quiz-balance/hover.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "try{await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});for(let i=0;i<question-1;i++){await p.getByRole('button',{name:'Choose A',exact:true}).click();await p.getByRole('button',{name:'Got it →',exact:true}).click();await p.waitForTimeout(600)}await p.locator('#quiz').scrollIntoViewIfNeeded();await p.locator('#quiz img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>i.decode())));const option=p.getByRole('button',{name:'Choose A',exact:true});"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/routes.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "try{for(const fruit of baseline?['kiwi','pomegranate','persimmon']:['avocado','kiwi','pomegranate','persimmon']){for(const [width,height]of [[1440,1000],[390,844]]){const p=await b.newPage({viewport:{width,height},reducedMotion:width===390?'reduce':'no-preference'});const errors=[];let keyboardScrollDelta=null;p.on('pageerror',e=>errors.push(e.message));await p.goto(`http://localhost:${port}/${fruit}`,{waitUntil:'networkidle'});await p.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));await p.waitForTimeout(700);assert.equal(await p.locator('h1').count(),1);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);await p.screenshot({path:`${out}/${baseline?'before':'final'}-${fruit}-${width}-page.png`,fullPage:true});if(baseline){for(const [name,sel]of [['hero','.motion-hero'],['lesson','[data-editorial-section=\"picking\"] article'],['quiz','#quiz'],['nutrition','#nutrition']])await p.locator(sel).first().screenshot({path:`${out}/before-${fruit}-${width}-${name}.png`})}else{const faq=p.locator('[data-editorial-section=\"faq\"] details').first();await faq.locator('summary').click();assert.equal(await faq.getAttribute('open'),'');await faq.locator('summary').click();const related=await p.locator('[data-editorial-section=\"related\"] a').evaluateAll(a=>a.map(e=>e.getAttribute('href')));assert.equal(related.length,3);assert.ok(related.every(h=>h.startsWith('/')));assert.equal(await p.locator('#quiz [data-result]').count(),0);const answer=p.getByRole('button',{name:'Choose A',exact:true});await answer.focus();await p.keyboard.press('Enter');await p.waitForTimeout(1200);assert.equal(await p.getByRole('button',{name:'Got it →',exact:true}).count(),1);await p.getByRole('button',{name:'Got it →',exact:true}).focus();await p.waitForTimeout(400);const y=await p.evaluate(()=>scrollY);await p.keyboard.press('Enter');await p.waitForTimeout(550);keyboardScrollDelta=await p.evaluate(()=>scrollY)-y;assert.equal(keyboardScrollDelta,fruit==='avocado'&&width===390?-6:0);assert.equal(await p.locator('#quiz').getAttribute('data-game-state'),'ANSWERING');assert.equal(await p.locator('button button').count(),0)}assert.deepEqual(errors,[]);results.push({fruit,width,height,errors,keyboardScrollDelta});await p.close()}}fs.writeFileSync(`${out}/${baseline?'baseline':'routes'}-results.json`,JSON.stringify(results,null,2));console.log(JSON.stringify(results))}finally{await b.close()}"
+  },
+  {
+    "path": "docs/qa/ui-01/qa.mjs",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "await page.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/ui-01/qa.mjs",
+    "line": 63,
+    "category": "documentation or historical QA",
+    "text": "for(const width of [320,640,768,1024]){const p=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});await p.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});const overflow=await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth);assert.equal(overflow,false,`overflow at ${width}`);report.responsive.push({width,overflow});await p.close()}"
+  },
+  {
+    "path": "docs/qa/ui-01/qa.mjs",
+    "line": 66,
+    "category": "documentation or historical QA",
+    "text": "await p.goto(`http://localhost:3101/${slug}`,{waitUntil:'networkidle'});await p.screenshot({path:`${dir}/${slug}-hero.png`});"
+  },
+  {
+    "path": "docs/qa/ui-01/qa.mjs",
+    "line": 74,
+    "category": "documentation or historical QA",
+    "text": "const touch=await browser.newPage({viewport:{width:390,height:844},hasTouch:true,isMobile:true,reducedMotion:'reduce'});await touch.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});const tq=touch.locator('#quiz');await tq.scrollIntoViewIfNeeded();await touch.getByRole('button',{name:'Check firmness Option A'}).tap();assert.ok(await tq.getByText('Option A: Resistance level 2 of 4',{exact:true}).count());"
+  },
+  {
+    "path": "docs/qa/ui-01/qa.mjs",
+    "line": 78,
+    "category": "documentation or historical QA",
+    "text": "const nojs=await browser.newPage({javaScriptEnabled:false,viewport:{width:390,height:844}});await nojs.goto('http://localhost:3101/avocado');assert.equal(await nojs.locator('h1').count(),1);assert.equal(await nojs.locator('#guide-foundation h2').count(),6);assert.equal(await nojs.locator('dl dd').count(),4);await nojs.locator('summary').first().click();assert.equal(await nojs.locator('details').first().getAttribute('open'),'');report.noJS={staticEducation:true,nativeFAQ:true,headings:6,metrics:4};"
+  },
+  {
+    "path": "docs/qa/avocado-compact-pair/check.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "const page=await b.newPage({viewport:{width,height},reducedMotion:motion});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));if(translated)await translate(page);await page.waitForTimeout(650);"
+  },
+  {
+    "path": "docs/qa/avocado-reference/review.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width,height:width>=768?900:844},reducedMotion:'reduce'});const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await p.locator('img').evaluateAll(async imgs=>{await Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()}))});"
+  },
+  {
+    "path": "docs/qa/ui-01c/translation-check.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "const results=[];const base=process.env.QA_URL??'http://localhost:3105/avocado';"
+  },
+  {
+    "path": "docs/qa/ui-01c/baseline.mjs",
+    "line": 9,
+    "category": "documentation or historical QA",
+    "text": "await p.goto('http://localhost:3103/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/ui-01c/compact-check.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "await p.goto(process.env.QA_URL??'http://localhost:3105/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/avocado-compact-pair/README.md",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "2026-09-30, user follow-up. Preview: http://localhost:3107/avocado?v=compact-lessons#stem."
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/README.md",
+    "line": 55,
+    "category": "documentation or historical QA",
+    "text": "- [Kiwi](http://localhost:3107/kiwi?v=fruit-themes)"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/README.md",
+    "line": 56,
+    "category": "documentation or historical QA",
+    "text": "- [Pomegranate](http://localhost:3107/pomegranate?v=fruit-themes)"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/README.md",
+    "line": 57,
+    "category": "documentation or historical QA",
+    "text": "- [Persimmon](http://localhost:3107/persimmon?v=fruit-themes)"
+  },
+  {
+    "path": "docs/qa/ui-01/README.md",
+    "line": 97,
+    "category": "documentation or historical QA",
+    "text": "Run the production server on localhost:3101. From the worktree root:"
+  },
+  {
+    "path": "docs/qa/fruit-theme-rollout/check.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "try{for(const fruit of Object.keys(answers)){for(const [width,height]of [[1366,650],[390,844]]){const p=await browser.newPage({viewport:{width,height},reducedMotion:'no-preference'});const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(`http://localhost:3107/${fruit}`,{waitUntil:'networkidle'});await p.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));await p.waitForTimeout(650);const sections={};for(const sel of ['.motion-hero','#quick-checks','[data-editorial-section=\"variants\"]','[data-editorial-section=\"timing\"]','[data-layout]','[data-editorial-section=\"nutrition\"]','[data-editorial-section=\"faq\"]']){for(const el of await p.locator(sel).all()){await el.scrollIntoViewIfNeeded();const id=await el.getAttribute('id')||sel;sections[id]=Math.round((await el.boundingBox()).height);if(['.motion-hero','wrinkles','shape','damage','[data-editorial-section=\"variants\"]'].includes(id))await el.screenshot({path:`${out}/${fruit}-${width}-${id.replace(/[^a-z-]/g,'')}.png`})} }"
+  },
+  {
+    "path": "docs/qa/avocado-reference/flow.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "const browser=await chromium.launch({headless:true});const report={browser:browser.version(),runs:[],otherFruits:[]};const base='http://localhost:3107';"
+  },
+  {
+    "path": "docs/qa/avocado-reference/README.md",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "User requested analysis and whole-page application of two provided teaching UI references. Based on `00403f3` on `feature/ui-01d-avocado-evidence-clarity`; local preview stays at `http://localhost:3107/avocado`."
+  },
+  {
+    "path": "docs/qa/avocado-reference/translation.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "const results=[];const base=process.env.QA_URL??'http://localhost:3107/avocado';"
+  },
+  {
+    "path": "docs/qa/avocado-reference/states.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "try{for(const width of [1440,390,360]){const p=await b.newPage({viewport:{width,height:width===1440?900:844},reducedMotion:'reduce'});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});const q=p.locator('#quiz');const initial=await q.evaluate(e=>e.getBoundingClientRect().height);for(let i=0;i<5;i++){"
+  },
+  {
+    "path": "docs/qa/production-01/browser-check.mjs",
+    "line": 6,
+    "category": "documentation or historical QA",
+    "text": "const origin=process.argv[2] || 'https://www.howripe.com';"
+  },
+  {
+    "path": "docs/qa/production-01/source-check.py",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "parser.add_argument('--origin',default='https://www.howripe.com')"
+  },
+  {
+    "path": "docs/qa/production-01/source-check.py",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "origin=args.origin.rstrip('/'); canonical='https://www.howripe.com'"
+  },
+  {
+    "path": "docs/qa/production-01/source-check.py",
+    "line": 42,
+    "category": "documentation or historical QA",
+    "text": "assert not re.search('localhost|127.0.0.1|vercel.app',json.dumps(parsed.meta))"
+  },
+  {
+    "path": "docs/qa/ui-01/capture.mjs",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "await p.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/ui-01/capture.mjs",
+    "line": 20,
+    "category": "documentation or historical QA",
+    "text": "if(stage==='baseline'){for(const slug of ['kiwi','pomegranate','persimmon']){const p=await browser.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});await p.goto(`http://localhost:3101/${slug}`,{waitUntil:'networkidle'});await p.screenshot({path:`${dir}/${slug}-hero.png`});await p.close()}}"
+  },
+  {
+    "path": "docs/qa/ui-01d/translation-check.mjs",
+    "line": 8,
+    "category": "documentation or historical QA",
+    "text": "const results=[];const base=process.env.QA_URL??'http://localhost:3107/avocado';"
+  },
+  {
+    "path": "docs/qa/ui-01d/motion-check.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "const p=await browser.newPage({viewport:{width,height:width===1440?900:844}});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});const stage=p.locator('#quiz');"
+  },
+  {
+    "path": "docs/qa/ui-01c/overflow-check.mjs",
+    "line": 11,
+    "category": "documentation or historical QA",
+    "text": "await p.goto(`http://localhost:${port}/avocado`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/ui-01c/capture.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "for(const width of [1440,390]){const p=await b.newPage({viewport:{width,height:width===1440?900:844},hasTouch:width===390,isMobile:width===390,reducedMotion:width===390?'reduce':'no-preference'});await p.goto('http://localhost:3105/avocado',{waitUntil:'networkidle'});await p.evaluate(async()=>{for(const img of document.images){img.loading='eager';try{await img.decode()}catch{}}for(let y=0;y<document.body.scrollHeight;y+=700){scrollTo(0,y);await new Promise(r=>setTimeout(r,30))}scrollTo(0,0)});await p.waitForTimeout(800);await p.screenshot({path:`${dir}/${width}-full.png`,fullPage:true});for(const id of ['press','damage','shape','stem','color','guide-foundation','quiz'])await p.locator(`#${id}`).screenshot({path:`${dir}/${width}-${id}.png`});"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/check.mjs",
+    "line": 15,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=visual-lessons`, { waitUntil: 'networkidle' });"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 17,
+    "category": "documentation or historical QA",
+    "text": "- [Zespri：选择和催熟猕猴桃](https://www.zespri.com/en-NZ/corporate-information/faqs)：轻压微微让步、避免软伤与皱缩。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 18,
+    "category": "documentation or historical QA",
+    "text": "- [NC State Extension：石榴](https://plants.ces.ncsu.edu/plants/punica-granatum/)：同等大小的重量感与完整果皮。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 19,
+    "category": "documentation or historical QA",
+    "text": "- [UC Davis：石榴品质](https://postharvest.ucdavis.edu/produce-facts-sheets/pomegranate)：裂口、伤口、腐败及采后不继续成熟。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 20,
+    "category": "documentation or historical QA",
+    "text": "- [USU：石榴品种](https://extension.usu.edu/yardandgarden/research/pomegranate-fruit-of-the-desert)：不同品种的果皮颜色有差异。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 21,
+    "category": "documentation or historical QA",
+    "text": "- [UC ANR：柿子采收与食用质地](https://ucanr.edu/node/137200/printable/print)：Fuyu 可像苹果一样脆食，Hachiya 软熟后果肉呈果冻状。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/README.md",
+    "line": 22,
+    "category": "documentation or historical QA",
+    "text": "- [UC Davis：柿子品质](https://postharvest.ucdavis.edu/produce-facts-sheets/persimmon)：品种对应的成熟颜色及避免裂伤、腐败。"
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 12,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=750&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 38,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=640&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 64,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=384&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 90,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=750&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 113,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=750&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 134,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=640&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 157,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=640&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 178,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=384&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 201,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=384&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 222,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=750&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 235,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=750&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 261,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=640&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 274,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=640&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 300,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=384&q=75\","
+  },
+  {
+    "path": "docs/qa/fruit-visual-lessons/results.json",
+    "line": 313,
+    "category": "documentation or historical QA",
+    "text": "\"src\": \"http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=384&q=75\","
+  },
+  {
+    "path": "docs/qa/ui-01d/keyboard-reduced.mjs",
+    "line": 5,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/translation.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "try{for(const width of [1440,390,360]){const p=await b.newPage({viewport:{width,height:900},reducedMotion:'reduce'});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await p.getByRole('button',{name:'Choose B',exact:true}).click();await p.evaluate(()=>{"
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/translation.mjs",
+    "line": 10,
+    "category": "documentation or historical QA",
+    "text": "for(const slug of ['kiwi','pomegranate','persimmon']){const p=await b.newPage({reducedMotion:'reduce'});const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(`http://localhost:3107/${slug}`,{waitUntil:'networkidle'});for(let i=0;i<5;i++){await p.locator('.quiz-option').last().click();const got=p.getByRole('button',{name:'Got it →'});if(await got.count())await got.click();else await p.waitForTimeout(1200)}await p.getByRole('button',{name:'Restart',exact:true}).click();assert.equal(await p.locator('.quiz-option').count(),2);assert.deepEqual(errors,[]);results.push({slug,flow:'pass',errors});await p.close();}"
+  },
+  {
+    "path": "docs/qa/ui-01c/qa.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "const browser=await chromium.launch({headless:true});const report={browser:browser.version(),runs:[],otherFruits:[]};const base='http://localhost:3105';"
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/check.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "try{for(const width of [1440,768,390,360]){const page=await browser.newPage({viewport:{width,height:900},reducedMotion:'reduce'});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>{i.loading='eager';return i.decode()})));"
+  },
+  {
+    "path": "docs/qa/ui-01c/keyboard-reduced.mjs",
+    "line": 5,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width:1440,height:900},reducedMotion:'reduce'});await p.goto('http://localhost:3105/avocado',{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/README.md",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "2026-09-30. User-authorized follow-up to the green study page. Local preview: http://localhost:3107/avocado?v=stem-study#quiz."
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/README.md",
+    "line": 25,
+    "category": "documentation or historical QA",
+    "text": "- [UC Davis: Avocado quality and stem-end rot](https://postharvest.ucdavis.edu/produce-facts-sheets/avocado) — physical defects and dark lesions developing from the stem."
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/README.md",
+    "line": 26,
+    "category": "documentation or historical QA",
+    "text": "- [California Avocado Commission: Selecting ripe avocados](https://californiaavocado.com/how-to/how-to-choose-and-use-an-avocado/) — gentle palm pressure, slight give, avoiding overly soft fruit."
+  },
+  {
+    "path": "docs/qa/avocado-stem-quiz/README.md",
+    "line": 27,
+    "category": "documentation or historical QA",
+    "text": "- [California Avocado Commission: FAQs](https://californiaavocado.com/faqs/) — shriveled stem end warrants closer inspection."
+  },
+  {
+    "path": "docs/qa/ui-01d/qa.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "const browser=await chromium.launch({headless:true});const report={browser:browser.version(),runs:[],otherFruits:[]};const base='http://localhost:3107';"
+  },
+  {
+    "path": "docs/qa/ui-01d/manual-progression/check.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width,height:width===1440?900:844},reducedMotion:width===390?'reduce':'no-preference'});const errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});const stage=p.locator('#quiz');"
+  },
+  {
+    "path": "docs/qa/kiwi-quiz-illustrations/check.mjs",
+    "line": 14,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=quiz-scenes#quiz`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/kiwi-quiz-illustrations/check.mjs",
+    "line": 58,
+    "category": "documentation or historical QA",
+    "text": "await staticPage.goto('http://localhost:3107/kiwi');"
+  },
+  {
+    "path": "docs/qa/kiwi-quiz-illustrations/README.md",
+    "line": 38,
+    "category": "documentation or historical QA",
+    "text": "Preview: http://localhost:3107/kiwi?v=quiz-scenes#quiz. Local only; not deployed."
+  },
+  {
+    "path": "docs/qa/ui-01d/README.md",
+    "line": 9,
+    "category": "documentation or historical QA",
+    "text": "- Local production preview: `http://localhost:3107/avocado`."
+  },
+  {
+    "path": "docs/qa/ui-01d/capture.mjs",
+    "line": 5,
+    "category": "documentation or historical QA",
+    "text": "const page=await browser.newPage({viewport:{width,height:width===1440?900:844},reducedMotion:'reduce'});await page.goto(`${process.env.QA_BASE||'http://localhost:3106'}/avocado`,{waitUntil:'networkidle'});const stage=page.locator('#quiz');"
+  },
+  {
+    "path": "docs/qa/ui-01d/firmness-callout/check.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "const p=await b.newPage({viewport:{width,height:width===1440?900:844},reducedMotion:'reduce'});await p.goto('http://localhost:3107/avocado',{waitUntil:'networkidle'});const stage=p.locator('#quiz');await stage.evaluate(e=>scrollTo(0,e.getBoundingClientRect().top+scrollY-30));await stage.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(i=>i.decode())));"
+  },
+  {
+    "path": "docs/qa/persimmon-type-first/check.mjs",
+    "line": 14,
+    "category": "documentation or historical QA",
+    "text": "await page.goto(`http://localhost:3107/${fruit}?v=quiz-pictures#quiz`,{waitUntil:'networkidle'});"
+  },
+  {
+    "path": "docs/qa/persimmon-type-first/check.mjs",
+    "line": 62,
+    "category": "documentation or historical QA",
+    "text": "await staticPage.goto('http://localhost:3107/persimmon');"
+  },
+  {
+    "path": "docs/qa/persimmon-type-first/README.md",
+    "line": 61,
+    "category": "documentation or historical QA",
+    "text": "| [UC Davis Fruit & Nut — Persimmon selection](https://fruitsandnuts.ucdavis.edu/persimmon-scion-rooststock-selection) | Flat/squarish-round firm non-astringent Fuyu; oblong/conical Hachiya and loss of astringency at full ripeness |"
+  },
+  {
+    "path": "docs/qa/persimmon-type-first/README.md",
+    "line": 62,
+    "category": "documentation or historical QA",
+    "text": "| [UC Davis Postharvest — Persimmon](https://postharvest.ucdavis.edu/produce-facts-sheets/persimmon) | Cultivar-dependent maturity color, quality without cracks/injury/decay, softening and treatment-dependent astringency |"
+  },
+  {
+    "path": "docs/qa/persimmon-type-first/README.md",
+    "line": 63,
+    "category": "documentation or historical QA",
+    "text": "| [UC ANR — Persimmon harvesting](https://ucanr.edu/node/137200/printable/print) | Firm/crisp Fuyu and jelly-like ripe Hachiya |"
+  },
+  {
+    "path": "docs/qa/ui-01b/diagnose.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "for(const width of [1440,390]){const p=await b.newPage({viewport:{width,height:width===1440?1000:844},reducedMotion:'reduce'});await p.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});await p.evaluate(async()=>{for(const i of document.images){i.loading='eager';await i.decode()} });await p.screenshot({path:`${dir}/${width}-full.png`,fullPage:true});for(const id of ['press','damage','shape','stem','color','quiz'])await p.locator(`#${id}`).screenshot({path:`${dir}/${width}-${id}.png`});await p.getByRole('button',{name:'Choose B',exact:true}).click();await p.locator('#quiz').screenshot({path:`${dir}/${width}-wrong.png`});await p.close()}"
+  },
+  {
+    "path": "docs/qa/ui-01b/diagnose.mjs",
+    "line": 4,
+    "category": "documentation or historical QA",
+    "text": "for(const mode of ['normal','reduce','no-anchor','no-transition']){const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:mode==='reduce'?'reduce':'no-preference'});await p.addInitScript(()=>{window.trace=[];for(const [proto,key]of [[HTMLElement.prototype,'focus'],[Element.prototype,'scrollIntoView'],[window,'scrollTo']]){const orig=proto[key];proto[key]=function(...args){window.trace.push({fn:key,args,time:performance.now()});return orig.apply(this,args)}}});await p.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});if(mode==='no-anchor')await p.addStyleTag({content:'html,body,#quiz,#quiz * {overflow-anchor:none !important}'});if(mode==='no-transition')await p.evaluate(()=>{document.startViewTransition=undefined});"
+  },
+  {
+    "path": "docs/qa/ui-01b/diagnose.mjs",
+    "line": 6,
+    "category": "documentation or historical QA",
+    "text": "await p.goto('http://localhost:3101/avocado',{waitUntil:'networkidle'});if(mode==='no-anchor')await p.addStyleTag({content:'html,body,#quiz,#quiz * {overflow-anchor:none !important}'});if(mode==='no-transition')await p.evaluate(()=>{document.startViewTransition=undefined});"
+  },
+  {
+    "path": "docs/qa/ui-01b/qa.mjs",
+    "line": 2,
+    "category": "documentation or historical QA",
+    "text": "const browser=await chromium.launch({headless:true});const report={browser:browser.version(),runs:[],otherFruits:[]};const base='http://localhost:3103';"
+  },
+  {
+    "path": "docs/qa/ui-01b/capture.mjs",
+    "line": 3,
+    "category": "documentation or historical QA",
+    "text": "for(const width of [1440,390]){const p=await b.newPage({viewport:{width,height:width===1440?1000:844},hasTouch:width===390,isMobile:width===390,reducedMotion:width===390?'reduce':'no-preference'});await p.goto('http://localhost:3103/avocado',{waitUntil:'networkidle'});await p.evaluate(async()=>{for(const img of document.images){img.loading='eager';try{await img.decode()}catch{}}for(let y=0;y<document.body.scrollHeight;y+=700){scrollTo(0,y);await new Promise(r=>setTimeout(r,30))}scrollTo(0,0)});await p.waitForTimeout(800);await p.screenshot({path:`${dir}/${width}-full.png`,fullPage:true});for(const id of ['press','damage','shape','stem','color','guide-foundation','quiz'])await p.locator(`#${id}`).screenshot({path:`${dir}/${width}-${id}.png`});"
+  }
+]

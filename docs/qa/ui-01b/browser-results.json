@@ -1,0 +1,262 @@
+{
+  "browser": "153.0.8010.53",
+  "runs": [
+    {
+      "width": 1440,
+      "reducedMotion": false,
+      "stageHeights": [
+        990,
+        990,
+        990,
+        990,
+        990,
+        990,
+        990,
+        990,
+        990,
+        990
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5628,
+            "top": -323.21875,
+            "height": 990
+          },
+          "after": {
+            "y": 5628,
+            "top": -323.21875,
+            "height": 990
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5628,
+            "top": -323.21875,
+            "height": 990
+          },
+          "after": {
+            "y": 5628,
+            "top": -323.21875,
+            "height": 990
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          },
+          "after": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          },
+          "after": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          },
+          "after": {
+            "y": 5550,
+            "top": -245.21875,
+            "height": 990
+          }
+        }
+      ],
+      "wheels": [
+        {
+          "origin": "visual A",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "visual B",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Check firmness",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Resistance",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "outside",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "feedback",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Got it",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "completed stage",
+          "blocked": false,
+          "delta": 230
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": true,
+      "stageHeights": [
+        892,
+        892,
+        892,
+        892,
+        892,
+        892,
+        892,
+        892,
+        892,
+        892
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          },
+          "after": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          },
+          "after": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          },
+          "after": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          },
+          "after": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          },
+          "after": {
+            "y": 5647,
+            "top": -44.859375,
+            "height": 892
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    }
+  ],
+  "otherFruits": [
+    {
+      "slug": "kiwi",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "pomegranate",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "persimmon",
+      "completed": true,
+      "errors": []
+    }
+  ],
+  "touch": {
+    "swipes": [
+      {
+        "origin": "visual",
+        "delta": 307
+      },
+      {
+        "origin": "check",
+        "delta": 298
+      },
+      {
+        "origin": "answer",
+        "delta": 306
+      },
+      {
+        "origin": "feedback",
+        "delta": 305
+      }
+    ],
+    "physicalDevice": false
+  },
+  "keyboard": {
+    "tabLeavesStage": true,
+    "pageDownNative": true
+  },
+  "noJS": {
+    "staticTeaching": true,
+    "nativeInspection": true
+  }
+}

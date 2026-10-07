@@ -1,0 +1,1 @@
+export function Footer() { return <footer className="border-t border-[var(--color-border)]"><div className="site-container py-8 text-sm text-[var(--color-muted)]">Practical fruit-picking guidance for the market aisle.</div></footer>; }

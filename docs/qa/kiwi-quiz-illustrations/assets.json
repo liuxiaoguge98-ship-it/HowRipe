@@ -1,0 +1,56 @@
+[
+  {
+    "name": "fridge",
+    "input": "<local-source-archive>/generated-images/exec-98a13e9f-7e2e-418d-baec-35fea8ee2593.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/fridge.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 103034
+  },
+  {
+    "name": "bag",
+    "input": "<local-source-archive>/generated-images/exec-bbeb091c-3198-488a-b822-4a2860688462.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/bag.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 213386
+  },
+  {
+    "name": "counter-six",
+    "input": "<local-source-archive>/generated-images/exec-1ae742d4-1a7f-490b-96d3-55d0bd837ac0.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/counter-six.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 349812
+  },
+  {
+    "name": "split-six",
+    "input": "<local-source-archive>/generated-images/exec-7923cabb-9742-43b6-9196-ade55340884f.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/split-six.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 102834
+  },
+  {
+    "name": "all-now",
+    "input": "<local-source-archive>/generated-images/exec-b04c5489-c2a7-48a4-9364-9dbb4e78a7eb.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/all-now.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 273970
+  },
+  {
+    "name": "now-later",
+    "input": "<local-source-archive>/generated-images/exec-30554319-dd6d-44e4-a694-a38bf694c9ba.png",
+    "output": "public/fruits/kiwi/quiz/scenarios/now-later.webp",
+    "width": 960,
+    "height": 960,
+    "hasAlpha": true,
+    "bytes": 174890
+  }
+]

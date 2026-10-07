@@ -1,0 +1,329 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1366,
+    "height": 650,
+    "lessons": [
+      {
+        "id": "press",
+        "height": 466,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=750&q=75",
+            "width": 520,
+            "height": 390,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "wrinkles",
+        "height": 565,
+        "photos": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "press",
+        "height": 634,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=640&q=75",
+            "width": 316,
+            "height": 237,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "wrinkles",
+        "height": 458,
+        "photos": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 360,
+    "height": 800,
+    "lessons": [
+      {
+        "id": "press",
+        "height": 611,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=384&q=75",
+            "width": 286,
+            "height": 215,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "wrinkles",
+        "height": 509,
+        "photos": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1366,
+    "height": 650,
+    "lessons": [
+      {
+        "id": "weight",
+        "height": 466,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=750&q=75",
+            "width": 520,
+            "height": 390,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 542,
+        "photos": []
+      },
+      {
+        "id": "shape",
+        "height": 576,
+        "photos": []
+      },
+      {
+        "id": "color",
+        "height": 466,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=750&q=75",
+            "width": 520,
+            "height": 390,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "weight",
+        "height": 657,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=640&q=75",
+            "width": 316,
+            "height": 237,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 487,
+        "photos": []
+      },
+      {
+        "id": "shape",
+        "height": 487,
+        "photos": []
+      },
+      {
+        "id": "color",
+        "height": 708,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=640&q=75",
+            "width": 316,
+            "height": 237,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 360,
+    "height": 800,
+    "lessons": [
+      {
+        "id": "weight",
+        "height": 659,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=384&q=75",
+            "width": 286,
+            "height": 215,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 509,
+        "photos": []
+      },
+      {
+        "id": "shape",
+        "height": 509,
+        "photos": []
+      },
+      {
+        "id": "color",
+        "height": 686,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=384&q=75",
+            "width": 286,
+            "height": 215,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1366,
+    "height": 650,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 466,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=750&q=75",
+            "width": 520,
+            "height": 390,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "hachiya",
+        "height": 466,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=750&q=75",
+            "width": 520,
+            "height": 390,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 565,
+        "photos": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 634,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=640&q=75",
+            "width": 316,
+            "height": 237,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "hachiya",
+        "height": 664,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=640&q=75",
+            "width": 316,
+            "height": 237,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 509,
+        "photos": []
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 360,
+    "height": 800,
+    "lessons": [
+      {
+        "id": "fuyu",
+        "height": 686,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Ffuyu-texture.webp&w=384&q=75",
+            "width": 286,
+            "height": 215,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "hachiya",
+        "height": 642,
+        "photos": [
+          {
+            "src": "http://localhost:3107/_next/image?url=%2Ffruits%2Fpersimmon%2Feducation%2Fhachiya-texture.webp&w=384&q=75",
+            "width": 286,
+            "height": 215,
+            "loaded": true,
+            "fit": "contain"
+          }
+        ]
+      },
+      {
+        "id": "damage",
+        "height": 532,
+        "photos": []
+      }
+    ],
+    "errors": []
+  }
+]

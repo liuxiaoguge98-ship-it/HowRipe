@@ -1,0 +1,236 @@
+[
+  {
+    "fruit": "persimmon",
+    "width": 1440,
+    "height": 900,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 580.84375
+      },
+      {
+        "id": "variant-lab",
+        "height": 734.546875
+      },
+      {
+        "id": "ready-paths",
+        "height": 563.390625
+      },
+      {
+        "id": "fuyu",
+        "height": 416.390625
+      },
+      {
+        "id": "hachiya",
+        "height": 516.59375
+      },
+      {
+        "id": "damage",
+        "height": 516.59375
+      },
+      {
+        "id": "color",
+        "height": 527.6875
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 650,
+        "after": 650,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 650,
+        "after": 650,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 650,
+        "after": 650,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 650,
+        "after": 650,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 830.578125
+      },
+      {
+        "id": "variant-lab",
+        "height": 777.34375
+      },
+      {
+        "id": "ready-paths",
+        "height": 789.90625
+      },
+      {
+        "id": "fuyu",
+        "height": 730.734375
+      },
+      {
+        "id": "hachiya",
+        "height": 569.21875
+      },
+      {
+        "id": "damage",
+        "height": 569.21875
+      },
+      {
+        "id": "color",
+        "height": 518.21875
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 900,
+    "lessons": [
+      {
+        "id": "hero",
+        "height": 830.578125
+      },
+      {
+        "id": "variant-lab",
+        "height": 777.34375
+      },
+      {
+        "id": "ready-paths",
+        "height": 789.90625
+      },
+      {
+        "id": "fuyu",
+        "height": 730.734375
+      },
+      {
+        "id": "hachiya",
+        "height": 569.21875
+      },
+      {
+        "id": "damage",
+        "height": 569.21875
+      },
+      {
+        "id": "color",
+        "height": 518.21875
+      }
+    ],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 713,
+        "after": 713,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  }
+]

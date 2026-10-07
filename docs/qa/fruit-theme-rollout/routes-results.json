@@ -1,0 +1,58 @@
+[
+  {
+    "fruit": "avocado",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "avocado",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "keyboardScrollDelta": -6
+  },
+  {
+    "fruit": "kiwi",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1440,
+    "height": 1000,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "errors": [],
+    "keyboardScrollDelta": 0
+  }
+]

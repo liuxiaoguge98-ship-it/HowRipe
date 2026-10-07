@@ -1,0 +1,27 @@
+[
+  {
+    "id": "kiwi-pressure",
+    "source": "<local-source-archive>/generated-images/exec-57616a6e-7278-4e7c-8022-5fca947e2ede.png",
+    "output": "public/fruits/kiwi/education/palm-pressure.webp"
+  },
+  {
+    "id": "pomegranate-weight",
+    "source": "<local-source-archive>/generated-images/exec-34e38e24-14ff-4d5c-aa12-3ffac1d2e3de.png",
+    "output": "public/fruits/pomegranate/education/heft-comparison.webp"
+  },
+  {
+    "id": "pomegranate-colors",
+    "source": "<local-source-archive>/generated-images/exec-a028f2be-6918-446a-b2d1-53b7b0f2c63d.png",
+    "output": "public/fruits/pomegranate/education/color-varieties.webp"
+  },
+  {
+    "id": "fuyu-texture",
+    "source": "<local-source-archive>/generated-images/exec-39758234-3894-4ad7-a687-c07a2d581b18.png",
+    "output": "public/fruits/persimmon/education/fuyu-texture.webp"
+  },
+  {
+    "id": "hachiya-texture",
+    "source": "<local-source-archive>/generated-images/exec-a3148b55-ba67-49e1-8f8a-bbdfc0c2d3b2.png",
+    "output": "public/fruits/persimmon/education/hachiya-texture.webp"
+  }
+]

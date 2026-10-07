@@ -1,0 +1,2 @@
+import type { SourceReference } from "@/content/fruits/types";
+export function SourcesList({ sources }: { sources: SourceReference[] }) { return <section className="border-t border-[var(--color-border)] py-10"><p className="eyebrow">SOURCES</p><ul className="mt-4 space-y-2 text-sm text-[var(--color-muted)]">{sources.map((source) => <li key={source.url}><a className="underline underline-offset-4" href={source.url} rel="noreferrer" target="_blank">{source.label}</a></li>)}</ul></section>; }

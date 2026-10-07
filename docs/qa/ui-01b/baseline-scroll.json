@@ -1,0 +1,218 @@
+[
+  {
+    "mode": "normal",
+    "align": "stage-top",
+    "before": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1123
+      }
+    ]
+  },
+  {
+    "mode": "normal",
+    "align": "feedback-bottom",
+    "before": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1109.2999999970198
+      }
+    ]
+  },
+  {
+    "mode": "reduce",
+    "align": "stage-top",
+    "before": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1107.2999999970198
+      }
+    ]
+  },
+  {
+    "mode": "reduce",
+    "align": "feedback-bottom",
+    "before": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1073.2000000029802
+      }
+    ]
+  },
+  {
+    "mode": "no-anchor",
+    "align": "stage-top",
+    "before": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1128.6999999955297
+      }
+    ]
+  },
+  {
+    "mode": "no-anchor",
+    "align": "feedback-bottom",
+    "before": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1105.7000000029802
+      }
+    ]
+  },
+  {
+    "mode": "no-transition",
+    "align": "stage-top",
+    "before": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 3761,
+      "top": 39.703125,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1100.9000000059605
+      }
+    ]
+  },
+  {
+    "mode": "no-transition",
+    "align": "feedback-bottom",
+    "before": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 995.328125,
+      "focus": "FRUIT PICKING GUIDEPICK WITH C"
+    },
+    "after": {
+      "y": 4513,
+      "top": -712.296875,
+      "height": 823.359375,
+      "focus": "Check firmness"
+    },
+    "trace": [
+      {
+        "fn": "focus",
+        "args": [
+          {
+            "preventScroll": true
+          }
+        ],
+        "time": 1106.8999999985099
+      }
+    ]
+  }
+]

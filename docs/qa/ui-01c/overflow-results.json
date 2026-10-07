@@ -1,0 +1,162 @@
+[
+  {
+    "port": 3103,
+    "width": 1440,
+    "native": {
+      "client": 1440,
+      "scroll": 1440,
+      "ddWhiteSpace": "nowrap",
+      "grid": "296px 296px 296px 296px"
+    },
+    "translated": {
+      "client": 1440,
+      "scroll": 2261,
+      "ddWhiteSpace": "nowrap",
+      "grid": "615.625px 532.031px 496.125px 489.062px"
+    }
+  },
+  {
+    "port": 3103,
+    "width": 1024,
+    "native": {
+      "client": 1024,
+      "scroll": 1024,
+      "ddWhiteSpace": "nowrap",
+      "grid": "232px 232px 232px 232px"
+    },
+    "translated": {
+      "client": 1024,
+      "scroll": 2181,
+      "ddWhiteSpace": "nowrap",
+      "grid": "615.625px 532.031px 496.125px 489.062px"
+    }
+  },
+  {
+    "port": 3103,
+    "width": 768,
+    "native": {
+      "client": 768,
+      "scroll": 768,
+      "ddWhiteSpace": "nowrap",
+      "grid": "176px 176px 176px 176px"
+    },
+    "translated": {
+      "client": 768,
+      "scroll": 1593,
+      "ddWhiteSpace": "nowrap",
+      "grid": "453.547px 388.875px 362.281px 356.781px"
+    }
+  },
+  {
+    "port": 3103,
+    "width": 390,
+    "native": {
+      "client": 390,
+      "scroll": 390,
+      "ddWhiteSpace": "nowrap",
+      "grid": "166px 166px"
+    },
+    "translated": {
+      "client": 390,
+      "scroll": 785,
+      "ddWhiteSpace": "nowrap",
+      "grid": "412.812px 334.281px"
+    }
+  },
+  {
+    "port": 3103,
+    "width": 360,
+    "native": {
+      "client": 360,
+      "scroll": 360,
+      "ddWhiteSpace": "nowrap",
+      "grid": "151px 151px"
+    },
+    "translated": {
+      "client": 360,
+      "scroll": 785,
+      "ddWhiteSpace": "nowrap",
+      "grid": "412.812px 334.281px"
+    }
+  },
+  {
+    "port": 3105,
+    "width": 1440,
+    "native": {
+      "client": 1440,
+      "scroll": 1440,
+      "ddWhiteSpace": "normal",
+      "grid": "296px 296px 296px 296px"
+    },
+    "translated": {
+      "client": 1440,
+      "scroll": 1440,
+      "ddWhiteSpace": "normal",
+      "grid": "296px 296px 296px 296px"
+    }
+  },
+  {
+    "port": 3105,
+    "width": 1024,
+    "native": {
+      "client": 1024,
+      "scroll": 1024,
+      "ddWhiteSpace": "normal",
+      "grid": "232px 232px 232px 232px"
+    },
+    "translated": {
+      "client": 1024,
+      "scroll": 1024,
+      "ddWhiteSpace": "normal",
+      "grid": "232px 232px 232px 232px"
+    }
+  },
+  {
+    "port": 3105,
+    "width": 768,
+    "native": {
+      "client": 768,
+      "scroll": 768,
+      "ddWhiteSpace": "normal",
+      "grid": "176px 176px 176px 176px"
+    },
+    "translated": {
+      "client": 768,
+      "scroll": 768,
+      "ddWhiteSpace": "normal",
+      "grid": "176px 176px 176px 176px"
+    }
+  },
+  {
+    "port": 3105,
+    "width": 390,
+    "native": {
+      "client": 390,
+      "scroll": 390,
+      "ddWhiteSpace": "normal",
+      "grid": "166px 166px"
+    },
+    "translated": {
+      "client": 390,
+      "scroll": 390,
+      "ddWhiteSpace": "normal",
+      "grid": "166px 166px"
+    }
+  },
+  {
+    "port": 3105,
+    "width": 360,
+    "native": {
+      "client": 360,
+      "scroll": 360,
+      "ddWhiteSpace": "normal",
+      "grid": "151px 151px"
+    },
+    "translated": {
+      "client": 360,
+      "scroll": 360,
+      "ddWhiteSpace": "normal",
+      "grid": "151px 151px"
+    }
+  }
+]

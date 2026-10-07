@@ -1,0 +1,103 @@
+{
+  "browser": "Installed Google Chrome, production build",
+  "avocado": [
+    {
+      "width": 1440,
+      "motion": "no-preference",
+      "questionHeights": [
+        823,
+        823,
+        737,
+        873,
+        787
+      ],
+      "keyboard": "check/choose/got-it/restart/FAQ passed",
+      "answers": "correct + wrong paths, lock and reset passed",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "motion": "reduce",
+      "questionHeights": [
+        592,
+        579,
+        527,
+        627,
+        541
+      ],
+      "keyboard": "check/choose/got-it/restart/FAQ passed",
+      "answers": "correct + wrong paths, lock and reset passed",
+      "errors": []
+    }
+  ],
+  "otherFruits": [
+    {
+      "slug": "kiwi",
+      "questions": 5,
+      "completed": true,
+      "mobileOverflow": false,
+      "errors": []
+    },
+    {
+      "slug": "pomegranate",
+      "questions": 5,
+      "completed": true,
+      "mobileOverflow": false,
+      "errors": []
+    },
+    {
+      "slug": "persimmon",
+      "questions": 5,
+      "completed": true,
+      "mobileOverflow": false,
+      "errors": []
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 640,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "overflow": false
+    }
+  ],
+  "noJS": {
+    "staticEducation": true,
+    "nativeFAQ": true,
+    "headings": 6,
+    "metrics": 4
+  },
+  "version": "153.0.8010.53",
+  "emulatedTouch": {
+    "tapControls": true,
+    "swipes": [
+      {
+        "origin": "fruit",
+        "documentMoved": true
+      },
+      {
+        "origin": "firmness utility",
+        "documentMoved": true
+      },
+      {
+        "origin": "decision",
+        "documentMoved": true
+      },
+      {
+        "origin": "feedback",
+        "documentMoved": true
+      }
+    ],
+    "physicalDevice": false
+  }
+}

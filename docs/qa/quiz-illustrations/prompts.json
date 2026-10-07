@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kiwi-scuff",
+    "fruit": "kiwi",
+    "ref": "public/fruits/kiwi/quiz/neutral.webp",
+    "transparent": true,
+    "prompt": "Use case: scientific-educational image edit. Edit the provided kiwi photograph to make a neutral food-selection quiz illustration. Preserve the same plump oval shape, exact front camera angle, size in frame, light direction, golden-brown green-kiwifruit skin and dense natural fuzz. Add one SMALL shallow dry tan surface scuff on the lower left face, about 8% of fruit width. Keep the skin and silhouette intact, no depression, dark bruise, crack, mold, or rotten patch. Remove the white background, leaving a genuinely TRANSPARENT background with a subtle contact shadow, complete fruit entirely within frame with same margins. No words, arrows, symbols, colored marks, border, hand or extra fruit. High-detail photorealism. The scuff should be visible but minor."
+  },
+  {
+    "id": "kiwi-bruise",
+    "fruit": "kiwi",
+    "ref": "public/fruits/kiwi/quiz/neutral.webp",
+    "transparent": true,
+    "prompt": "Use case: scientific-educational image edit. Edit the provided kiwi photograph into a matched localized-damage specimen for a food-selection quiz. Preserve exact camera angle, scale, overall oval shape, lighting and background margins. Introduce ONE clearly visible shallow sunken brown bruise on the lower left face, roughly 22% of fruit width; intact but darker depressed skin with a natural soft transition, not a pasted circle. The rest of the fruit stays plump. Sparse shorter fuzz on this fruit, especially at the bruise, to illustrate that smoother skin does not outweigh damage. No deep hole, no cut exposing flesh, no mold, no dramatic rot. Remove white background to genuinely TRANSPARENT background, subtle contact shadow, full fruit inside frame. No labels, arrows, words, symbols or markings. Photorealistic educational specimen, not a visual measurement of softness."
+  },
+  {
+    "id": "pomegranate-pale",
+    "fruit": "pomegranate",
+    "ref": "public/fruits/pomegranate/quiz/neutral.webp",
+    "transparent": true,
+    "prompt": "Use case: scientific-educational image edit. Preserve the provided whole pomegranate's exact round silhouette, crown, camera angle, framing, scale and soft lighting. Change only the natural rind coloration to a healthy light pink and pale creamy yellow blush pomegranate, as found in lighter-colored cultivars. Keep natural pores, subtle marks and intact unbroken rind. The result should be visibly lighter in color than the red original, NOT green or sickly. This is cultivar variation, no ripeness verdict. Remove white background and produce a genuinely TRANSPARENT background with restrained contact shadow. No writing, arrows, labels, hands, color patches or extra fruit. High-resolution realistic food photograph."
+  },
+  {
+    "id": "hachiya-firm",
+    "fruit": "persimmon",
+    "ref": "public/fruits/persimmon/education/hachiya-texture.webp",
+    "transparent": false,
+    "prompt": "Use case: scientific-educational image edit. Make a matched BEFORE-softening Hachiya persimmon photograph using the provided ripe Hachiya image. Preserve the cream ceramic plate, warm apricot background, two elongated pointed acorn-shaped halves in the same positions, orange rind, calyx, lighting, framing and overall proportions. Change flesh texture to FIRM opaque pale orange flesh: dense smooth clean cut faces with natural internal fibers, holds shape, no translucent jelly, no soft pulp or liquid. Remove the spoonful of jelly and the spoon so no soft-state object remains. The cut faces must look like firm Hachiya cut in half, not mango, pumpkin, papaya or squash; no seed cavities. No text, labels, arrows or symbols. High detail food photography, educational illustrative contrast with fully soft Hachiya."
+  }
+]

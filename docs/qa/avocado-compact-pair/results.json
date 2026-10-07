@@ -1,0 +1,338 @@
+[
+  {
+    "width": 1440,
+    "height": 720,
+    "translated": false,
+    "motion": "no-preference",
+    "blocks": {
+      "hero": 478,
+      "quick": 238,
+      "timing": 407,
+      "press": 365,
+      "timingLesson": 171,
+      "damage": 498,
+      "shape": 476,
+      "stem": 484,
+      "color": 133,
+      "rules": 269,
+      "quiz": 610,
+      "nutrition": 301,
+      "faq": 208,
+      "related": 448
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 1440,
+    "height": 720,
+    "translated": true,
+    "motion": "no-preference",
+    "blocks": {
+      "hero": 594,
+      "quick": 238,
+      "timing": 445,
+      "press": 453,
+      "timingLesson": 273,
+      "damage": 543,
+      "shape": 521,
+      "stem": 567,
+      "color": 195,
+      "rules": 269,
+      "quiz": 610,
+      "nutrition": 301,
+      "faq": 208,
+      "related": 448
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 1366,
+    "height": 650,
+    "translated": true,
+    "motion": "no-preference",
+    "blocks": {
+      "hero": 590,
+      "quick": 238,
+      "timing": 445,
+      "press": 453,
+      "timingLesson": 273,
+      "damage": 522,
+      "shape": 500,
+      "stem": 548,
+      "color": 195,
+      "rules": 269,
+      "quiz": 610,
+      "nutrition": 301,
+      "faq": 208,
+      "related": 448
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "translated": true,
+    "motion": "reduce",
+    "blocks": {
+      "hero": 563,
+      "quick": 238,
+      "timing": 502,
+      "press": 477,
+      "timingLesson": 273,
+      "damage": 575,
+      "shape": 535,
+      "stem": 635,
+      "color": 195,
+      "rules": 292,
+      "quiz": 610,
+      "nutrition": 301,
+      "faq": 208,
+      "related": 448
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 610,
+        "after": 615.875,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 610,
+        "after": 615.875,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 610,
+        "after": 615.875,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "translated": false,
+    "motion": "no-preference",
+    "blocks": {
+      "hero": 610,
+      "quick": 489,
+      "timing": 701,
+      "press": 533,
+      "timingLesson": 219,
+      "damage": 584,
+      "shape": 413,
+      "stem": 561,
+      "color": 155,
+      "rules": 462,
+      "quiz": 664,
+      "nutrition": 439,
+      "faq": 312,
+      "related": 517
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 664,
+        "after": 669.53125,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 664,
+        "after": 669.53125,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 664,
+        "after": 669.53125,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "translated": true,
+    "motion": "reduce",
+    "blocks": {
+      "hero": 741,
+      "quick": 489,
+      "timing": 738,
+      "press": 649,
+      "timingLesson": 367,
+      "damage": 746,
+      "shape": 488,
+      "stem": 741,
+      "color": 217,
+      "rules": 462,
+      "quiz": 681,
+      "nutrition": 439,
+      "faq": 312,
+      "related": 517
+    },
+    "stages": [
+      {
+        "question": 1,
+        "before": 681.390625,
+        "after": 780.390625,
+        "scrollDelta": 0
+      },
+      {
+        "question": 2,
+        "before": 681.390625,
+        "after": 780.390625,
+        "scrollDelta": 0
+      },
+      {
+        "question": 3,
+        "before": 660,
+        "after": 727,
+        "scrollDelta": 0
+      },
+      {
+        "question": 4,
+        "before": 686.78125,
+        "after": 768.390625,
+        "scrollDelta": 0
+      },
+      {
+        "question": 5,
+        "before": 660,
+        "after": 749.78125,
+        "scrollDelta": 0
+      }
+    ],
+    "overflow": 0,
+    "errors": []
+  }
+]

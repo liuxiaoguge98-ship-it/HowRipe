@@ -1,0 +1,62 @@
+[
+  {
+    "width": 1440,
+    "overflow": 0,
+    "stage": 786.4375,
+    "reasons": [
+      {
+        "bottom": 590.71875,
+        "container": 602.71875
+      },
+      {
+        "bottom": 590.71875,
+        "container": 602.71875
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "overflow": 0,
+    "stage": 869.171875,
+    "reasons": [
+      {
+        "bottom": 587.0625,
+        "container": 597.0625
+      },
+      {
+        "bottom": 587.0625,
+        "container": 597.0625
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "overflow": 0,
+    "stage": 869.171875,
+    "reasons": [
+      {
+        "bottom": 587.34375,
+        "container": 597.34375
+      },
+      {
+        "bottom": 587.34375,
+        "container": 597.34375
+      }
+    ]
+  },
+  {
+    "slug": "kiwi",
+    "flow": "pass",
+    "errors": []
+  },
+  {
+    "slug": "pomegranate",
+    "flow": "pass",
+    "errors": []
+  },
+  {
+    "slug": "persimmon",
+    "flow": "pass",
+    "errors": []
+  }
+]

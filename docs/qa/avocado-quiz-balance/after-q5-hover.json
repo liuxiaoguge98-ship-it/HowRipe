@@ -1,0 +1,48 @@
+{
+  "normal": {
+    "whitePixels": 133,
+    "styles": [
+      {
+        "class": "quiz-option text-left",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "normal"
+      },
+      {
+        "class": "quiz-specimen",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "multiply"
+      },
+      {
+        "class": "relative overflow-hidden bg-[var(--fruit-soft)] aspect-square specimen-whole",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "normal"
+      }
+    ]
+  },
+  "hover": {
+    "whitePixels": 133,
+    "styles": [
+      {
+        "class": "quiz-option text-left",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "normal"
+      },
+      {
+        "class": "quiz-specimen",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "multiply"
+      },
+      {
+        "class": "relative overflow-hidden bg-[var(--fruit-soft)] aspect-square specimen-whole",
+        "background": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "blend": "normal"
+      }
+    ]
+  }
+}

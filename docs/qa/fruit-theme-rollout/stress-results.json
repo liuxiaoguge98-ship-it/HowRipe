@@ -1,0 +1,248 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1024,
+    "height": 768,
+    "stages": [
+      {
+        "q": 1,
+        "height": 647.90625,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 601.15625,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 603.578125,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 632.734375,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 593.765625,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "fruit": "kiwi",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "height": 776,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 827.546875,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 774.859375,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 766.109375,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 830.734375,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1024,
+    "height": 768,
+    "stages": [
+      {
+        "q": 1,
+        "height": 593.765625,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 612.734375,
+        "hover": {
+          "normal": 133,
+          "hovered": 133
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 612.734375,
+        "hover": {
+          "normal": 133,
+          "hovered": 133
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 584.96875,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 578.59375,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "height": 753.859375,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 749.5,
+        "hover": {
+          "normal": 77,
+          "hovered": 77
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 749.5,
+        "hover": {
+          "normal": 77,
+          "hovered": 77
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 753.859375,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 792.25,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1024,
+    "height": 768,
+    "stages": [
+      {
+        "q": 1,
+        "height": 560.796875,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 594.78125,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 612.734375,
+        "hover": {
+          "normal": 133,
+          "hovered": 133
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 619.109375,
+        "hover": {
+          "normal": 133,
+          "hovered": 133
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 578.59375,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  },
+  {
+    "fruit": "persimmon",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "height": 739.65625,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 2,
+        "height": 768.15625,
+        "hover": null,
+        "scrollDelta": 0
+      },
+      {
+        "q": 3,
+        "height": 732.109375,
+        "hover": {
+          "normal": 77,
+          "hovered": 77
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 4,
+        "height": 732.109375,
+        "hover": {
+          "normal": 77,
+          "hovered": 77
+        },
+        "scrollDelta": 0
+      },
+      {
+        "q": 5,
+        "height": 774.859375,
+        "hover": null,
+        "scrollDelta": 0
+      }
+    ]
+  }
+]

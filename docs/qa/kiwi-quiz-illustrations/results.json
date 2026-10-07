@@ -1,0 +1,149 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1440,
+    "height": 900,
+    "lessons": [],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 610,
+        "after": 615.4375,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 610,
+        "after": 611.625,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 696,
+        "after": 696,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 696,
+        "after": 696,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 696,
+        "after": 696,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "lessons": [],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 900,
+    "lessons": [],
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 760,
+        "after": 760,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  }
+]

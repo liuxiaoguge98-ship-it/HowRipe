@@ -1,0 +1,133 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 13190,
+    "title": "Fruit Picking Guide",
+    "metadata": {
+      "viewport": "width=device-width, initial-scale=1",
+      "description": "Practical guidance for choosing ripe, good-quality fruit.",
+      "canonical": "https://www.howripe.com",
+      "og:title": "Fruit Picking Guide",
+      "og:description": "Practical guidance for choosing ripe, good-quality fruit.",
+      "og:url": "https://www.howripe.com",
+      "og:site_name": "HowRipe",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Fruit Picking Guide",
+      "twitter:description": "Practical guidance for choosing ripe, good-quality fruit."
+    },
+    "core_copy_server_rendered": true,
+    "jsonld": 0
+  },
+  {
+    "path": "/avocado",
+    "status": 200,
+    "bytes": 84354,
+    "title": "How to Tell If an Avocado Is Ripe | Fruit Picking Guide",
+    "metadata": {
+      "viewport": "width=device-width, initial-scale=1",
+      "description": "Learn the quick checks for choosing a ripe Hass avocado, from gentle pressure to structural damage.",
+      "canonical": "https://www.howripe.com/avocado",
+      "og:title": "How to Tell If an Avocado Is Ripe | Fruit Picking Guide",
+      "og:description": "Learn the quick checks for choosing a ripe Hass avocado, from gentle pressure to structural damage.",
+      "og:url": "https://www.howripe.com/avocado",
+      "og:site_name": "HowRipe",
+      "og:image": "https://www.howripe.com/fruits/avocado/hero/hero.webp",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "How to Tell If an Avocado Is Ripe | Fruit Picking Guide",
+      "twitter:description": "Learn the quick checks for choosing a ripe Hass avocado, from gentle pressure to structural damage.",
+      "twitter:image": "https://www.howripe.com/fruits/avocado/hero/hero.webp"
+    },
+    "core_copy_server_rendered": true,
+    "jsonld": 0
+  },
+  {
+    "path": "/kiwi",
+    "status": 200,
+    "bytes": 94125,
+    "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+    "metadata": {
+      "viewport": "width=device-width, initial-scale=1",
+      "description": "Check when green kiwi is ready to eat, learn how to ripen or store kiwi, and keep a whole batch from softening at once.",
+      "canonical": "https://www.howripe.com/kiwi",
+      "og:title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "og:description": "Check when green kiwi is ready to eat, learn how to ripen or store kiwi, and keep a whole batch from softening at once.",
+      "og:url": "https://www.howripe.com/kiwi",
+      "og:site_name": "HowRipe",
+      "og:image": "https://www.howripe.com/fruits/kiwi/hero/hero.webp",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "twitter:description": "Check when green kiwi is ready to eat, learn how to ripen or store kiwi, and keep a whole batch from softening at once.",
+      "twitter:image": "https://www.howripe.com/fruits/kiwi/hero/hero.webp"
+    },
+    "core_copy_server_rendered": true,
+    "jsonld": 0
+  },
+  {
+    "path": "/pomegranate",
+    "status": 200,
+    "bytes": 79229,
+    "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+    "metadata": {
+      "viewport": "width=device-width, initial-scale=1",
+      "description": "Learn how to choose a mature pomegranate using weight, shape, intact skin, and simple checks for cracks, bruises, and decay.",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "og:title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "og:description": "Learn how to choose a mature pomegranate using weight, shape, intact skin, and simple checks for cracks, bruises, and decay.",
+      "og:url": "https://www.howripe.com/pomegranate",
+      "og:site_name": "HowRipe",
+      "og:image": "https://www.howripe.com/fruits/pomegranate/hero/hero.webp",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "twitter:description": "Learn how to choose a mature pomegranate using weight, shape, intact skin, and simple checks for cracks, bruises, and decay.",
+      "twitter:image": "https://www.howripe.com/fruits/pomegranate/hero/hero.webp"
+    },
+    "core_copy_server_rendered": true,
+    "jsonld": 0
+  },
+  {
+    "path": "/persimmon",
+    "status": 200,
+    "bytes": 90461,
+    "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+    "metadata": {
+      "viewport": "width=device-width, initial-scale=1",
+      "description": "Identify Fuyu or Hachiya first. Learn why mature Fuyu can be ready while firm, why Hachiya needs to be very soft, and how to distinguish normal ripening from damage.",
+      "canonical": "https://www.howripe.com/persimmon",
+      "og:title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "og:description": "Identify Fuyu or Hachiya first. Learn why mature Fuyu can be ready while firm, why Hachiya needs to be very soft, and how to distinguish normal ripening from damage.",
+      "og:url": "https://www.howripe.com/persimmon",
+      "og:site_name": "HowRipe",
+      "og:image": "https://www.howripe.com/fruits/persimmon/variants/fuyu.webp",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "twitter:description": "Identify Fuyu or Hachiya first. Learn why mature Fuyu can be ready while firm, why Hachiya needs to be very soft, and how to distinguish normal ripening from damage.",
+      "twitter:image": "https://www.howripe.com/fruits/persimmon/variants/fuyu.webp"
+    },
+    "core_copy_server_rendered": true,
+    "jsonld": 0
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "bytes": 69,
+    "content": "User-Agent: *\nAllow: /\n\nSitemap: https://www.howripe.com/sitemap.xml\n"
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "bytes": 386,
+    "urls": [
+      "https://www.howripe.com/",
+      "https://www.howripe.com/avocado",
+      "https://www.howripe.com/kiwi",
+      "https://www.howripe.com/pomegranate",
+      "https://www.howripe.com/persimmon"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "width": 1440,
+    "height": 626,
+    "overflow": 0,
+    "buttons": [
+      {
+        "height": 44,
+        "overflow": 0
+      },
+      {
+        "height": 44,
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 734.390625,
+    "overflow": 0,
+    "buttons": [
+      {
+        "height": 58.390625,
+        "overflow": 0
+      },
+      {
+        "height": 58.390625,
+        "overflow": 0
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "height": 734.390625,
+    "overflow": 0,
+    "buttons": [
+      {
+        "height": 58.390625,
+        "overflow": 0
+      },
+      {
+        "height": 58.390625,
+        "overflow": 0
+      }
+    ]
+  }
+]

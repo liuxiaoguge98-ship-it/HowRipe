@@ -1,0 +1,142 @@
+[
+  {
+    "width": 1440,
+    "outcome": "correct",
+    "q": 1,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "correct",
+    "q": 2,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "correct",
+    "q": 3,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "correct",
+    "q": 4,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "correct",
+    "q": 5,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "wrong",
+    "q": 1,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "wrong",
+    "q": 2,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "wrong",
+    "q": 3,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "wrong",
+    "q": 4,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 1440,
+    "outcome": "wrong",
+    "q": 5,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "correct",
+    "q": 1,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "correct",
+    "q": 2,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "correct",
+    "q": 3,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "correct",
+    "q": 4,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "correct",
+    "q": 5,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "wrong",
+    "q": 1,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "wrong",
+    "q": 2,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "wrong",
+    "q": 3,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "wrong",
+    "q": 4,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  },
+  {
+    "width": 390,
+    "outcome": "wrong",
+    "q": 5,
+    "waitedMs": 1600,
+    "scrollDelta": 0
+  }
+]

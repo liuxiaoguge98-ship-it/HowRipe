@@ -1,0 +1,11 @@
+{
+  "desktopReduced": true,
+  "checkSpace": true,
+  "chooseEnter": true,
+  "gotItSpace": true,
+  "restartSpace": true,
+  "visibleFocus": true,
+  "gotItScrollDelta": 0,
+  "wheelInsideDelta": 0,
+  "tactileAnimations": 0
+}

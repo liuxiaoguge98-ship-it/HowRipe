@@ -1,0 +1,434 @@
+[
+  {
+    "fruit": "kiwi",
+    "width": 1366,
+    "height": 650,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 390,
+    "height": 844,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "kiwi",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 665.53125,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 1366,
+    "height": 650,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 390,
+    "height": 844,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "pomegranate",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 5,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 1366,
+    "height": 650,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 610,
+        "after": 610,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 4,
+        "before": 620,
+        "after": 620,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 390,
+    "height": 844,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 4,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  },
+  {
+    "fruit": "persimmon",
+    "width": 360,
+    "height": 800,
+    "stages": [
+      {
+        "q": 1,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 2,
+        "images": 2,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 3,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": false
+      },
+      {
+        "q": 4,
+        "images": 2,
+        "before": 660,
+        "after": 660,
+        "scrollDelta": 0,
+        "avoid": true
+      },
+      {
+        "q": 5,
+        "images": 4,
+        "before": 680,
+        "after": 680,
+        "scrollDelta": 0,
+        "avoid": false
+      }
+    ],
+    "errors": []
+  }
+]

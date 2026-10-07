@@ -1,0 +1,521 @@
+{
+  "browser": "154.0.8037.58",
+  "runs": [
+    {
+      "width": 1440,
+      "reducedMotion": false,
+      "stageHeights": [
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          },
+          "after": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          },
+          "after": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          },
+          "after": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          },
+          "after": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          },
+          "after": {
+            "y": 5255,
+            "top": 70.03125,
+            "height": 626
+          }
+        }
+      ],
+      "wheels": [
+        {
+          "origin": "visual A",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "visual B",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Check firmness",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Resistance",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "outside",
+          "blocked": false,
+          "delta": 230
+        },
+        {
+          "origin": "feedback",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "Got it",
+          "blocked": true,
+          "delta": 0
+        },
+        {
+          "origin": "completed stage",
+          "blocked": false,
+          "delta": 230
+        }
+      ],
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "reducedMotion": false,
+      "stageHeights": [
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626,
+        626
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          },
+          "after": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          },
+          "after": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          },
+          "after": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          },
+          "after": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          },
+          "after": {
+            "y": 4864,
+            "top": 69.765625,
+            "height": 626
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 768,
+      "reducedMotion": false,
+      "stageHeights": [
+        678,
+        678,
+        678,
+        678,
+        678,
+        678,
+        678,
+        678,
+        678,
+        678
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          },
+          "after": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          },
+          "after": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          },
+          "after": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          },
+          "after": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          },
+          "after": {
+            "y": 5696,
+            "top": 11.125,
+            "height": 678
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 390,
+      "reducedMotion": true,
+      "stageHeights": [
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          },
+          "after": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          },
+          "after": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          },
+          "after": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          },
+          "after": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          },
+          "after": {
+            "y": 5613,
+            "top": 25.140625,
+            "height": 700
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    },
+    {
+      "width": 360,
+      "reducedMotion": false,
+      "stageHeights": [
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700,
+        700
+      ],
+      "gotIt": [
+        {
+          "question": 1,
+          "before": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          },
+          "after": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          }
+        },
+        {
+          "question": 2,
+          "before": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          },
+          "after": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          }
+        },
+        {
+          "question": 3,
+          "before": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          },
+          "after": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          }
+        },
+        {
+          "question": 4,
+          "before": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          },
+          "after": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          }
+        },
+        {
+          "question": 5,
+          "before": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          },
+          "after": {
+            "y": 5620,
+            "top": 25.015625,
+            "height": 700
+          }
+        }
+      ],
+      "wheels": [],
+      "errors": []
+    }
+  ],
+  "otherFruits": [
+    {
+      "slug": "kiwi",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "pomegranate",
+      "completed": true,
+      "errors": []
+    },
+    {
+      "slug": "persimmon",
+      "completed": true,
+      "errors": []
+    }
+  ],
+  "touch": {
+    "swipes": [
+      {
+        "origin": "visual",
+        "delta": 165
+      },
+      {
+        "origin": "check",
+        "delta": 299
+      },
+      {
+        "origin": "Resistance",
+        "delta": 308
+      },
+      {
+        "origin": "answer",
+        "delta": 288
+      },
+      {
+        "origin": "feedback",
+        "delta": 298
+      }
+    ],
+    "physicalDevice": false
+  },
+  "keyboard": {
+    "tabLeavesStage": true,
+    "pageDownNative": true
+  },
+  "noJS": {
+    "staticTeaching": true,
+    "nativeInspection": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "soft": {
+    "prompt": "Controlled photo edit for a persimmon educational comparison. Edit this exact whole Hachiya reference fruit to a FULLY RIPE, VERY SOFT but HEALTHY state. Preserve identity of attached calyx and stem, same front three-quarter camera, same white background, same lighting, same portrait 4:5 framing and fruit size, same acorn/conical type. Change ONLY overall ripe-soft appearance: a gently relaxed fuller lower body, subtle even fine folds across both sides, delicate translucent luminous orange-red surface and softer tautness all over. Keep orange color close to source, only slightly richer. It should still look delicious, a complete upright Hachiya, not rotten. No isolated dents, no dark patches, mold, leaking, split skin, exposed flesh, crater, collapse or heavy shriveling. No hands/tools/text/arrows. A real subtle photographic ripe fruit, not cartoon deformed. All skin remains unbroken. Show entire silhouette with same margins as reference.",
+    "reference": "public/fruits/persimmon/variants/hachiya.webp",
+    "source": "<local-source-archive>/generated-images/exec-2aa2252b-ee63-4aaa-a6e9-59c70f865eaf.png",
+    "output": "public/fruits/persimmon/variants/hachiya-soft.webp"
+  },
+  "damage": {
+    "prompt": "Make a controlled LOCALIZED DAMAGE variant of the supplied ripe WHOLE Hachiya photo for an educational A/B comparison. Preserve exactly the same fruit identity, overall mature orange color, evenly ripe skin elsewhere, leafy calyx, front camera, studio light, white background, 4:5 portrait framing, object position and overall scale. Change ONLY one localized structural injury on the lower RIGHT side of the fruit: a clearly visible modest sunken bruised pocket with a sharply creased edge and muted brown-orange discoloration, occupying about 12 percent of fruit surface, interrupting the otherwise even structure. It must read as a local damaged area rather than the gentle uniform ripening of the rest. No giant crater, black rot, mold, juice, split-open pulp or exposed flesh. Rest of fruit stays intact and unmodified. No text, labels, arrows, hands or tools. Photorealistic restrained food illustration, same specimen same shoot.",
+    "reference": "soft generated PNG",
+    "source": "<local-source-archive>/generated-images/exec-16edb0a1-57ba-497d-97d2-6e5af1620725.png",
+    "output": "public/fruits/persimmon/variants/hachiya-local-damage.webp"
+  }
+}
