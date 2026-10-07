@@ -17,7 +17,6 @@ export const kiwi: FruitContent = {
   hero: {
     eyebrow: "GREEN / FUZZY KIWI", title: "How to Tell If a Kiwi Is Ripe",
     directAnswer: "A ripe green kiwi should feel plump and yield slightly to gentle pressure. If it is still very firm, let it ripen longer; if it feels mushy or has localized soft spots, inspect it carefully.",
-    directAnswerZh: "成熟的绿色猕猴桃应该饱满，轻轻按压时会有一点让步，但不会软塌。很硬说明还需要继续成熟；如果已经软烂或出现局部异常软点，就要检查是否过熟受损。",
     primaryCta: "Check if it's ready", secondaryCta: "Control the ripening", secondaryCtaHref: "#store",
     note: "This guide focuses on green / fuzzy kiwifruit. Gold varieties can ripen somewhat differently.", assetKey: "kiwi.hero",
   },

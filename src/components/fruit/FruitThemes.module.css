@@ -29,7 +29,6 @@
 .kiwi { composes: rollout; }
 .pomegranate { composes: rollout; }
 .persimmon { composes: rollout; }
-.persimmon :global(.hero-direct-zh) { display: block; margin-top: 10px; font: 400 14px/1.7 Arial,sans-serif; color: var(--lab-muted); }
 .persimmon [data-layout="photo"] :global(.evidence-window) > div { height: 340px; aspect-ratio: auto; }
 .persimmon [data-layout="photo"] :global(.teaching-figure) :global(.evidence-window) { background: var(--lab-page); mix-blend-mode: normal; }
 .persimmon [data-layout="photo"] :global(.evidence-window) > div { mix-blend-mode: multiply; }
@@ -151,7 +150,6 @@
   .rollout [data-editorial-section="nutrition"] dl > div:last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
 /* Green kiwi: compact teaching specimens and descriptive household touch cues. */
-.kiwi :global(.hero-direct-zh) { display:block; margin-top:10px; font:400 14px/1.65 Arial,sans-serif; color:var(--lab-muted); }
 .kiwi :global(.motion-hero-text) > p:nth-of-type(2) { font-size:18px; line-height:1.5; }
 .kiwi [data-layout="photo"] :global(.evidence-window) > div { height:300px; aspect-ratio:auto; }
 .kiwi [data-layout="photo"] :global(.teaching-figure) :global(.evidence-window) { background:var(--lab-page); }
