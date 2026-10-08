@@ -1,6 +1,6 @@
 # PERF-IMG-01 — mobile image delivery
 
-**PARTIAL — implementation and browser QA complete; physical-phone approval pending.**
+**PASS — implementation, browser QA and user-observed physical-phone approval complete.**
 
 Branch: `feature/perf-mobile-images`. Base: exact approved `feature/seo-home-01` HEAD `f1fbde6f1bf5c4c9ec0915d5ffe8186523bd3b7a`. Main stays at `c2a471388abd63fc701a9165c3c1c0f621d137c8`. This branch includes BRAND-HOME-01 + SEO-HOME-01 + PERF-IMG-01. No merge or Production deployment.
 
@@ -163,20 +163,22 @@ These are actual displayed production sources, distinct from larger unreferenced
 - Quality comparison checks preserve component width and height. Before/after actual cold-load screenshots preserve approved composition. All image-related initial and scroll CLS samples are 0. No broken images, horizontal overflow or new redundant accessible placeholder content.
 - Existing SEO browser regression passes home 1440/1024/768/390/360 plus all fruit routes at 1440/390: English only, one H1, 500 meaningful homepage words / 341 editorial words, descriptive links, crawlable server HTML, metadata/canonical, robots and sitemap, navigation, Quiz controls and no console errors. Source files for CSS, content, SEO, assets and dependencies are unchanged from the approved base.
 
-## Real-phone approval gate
+## Real-phone approval — user-observed PASS (2026-10-08)
 
-**PERF-IMG-01: PARTIAL. Browser QA may PASS; final perceived-performance PASS requires the user's physical phone.** On mobile data, use a fresh/private tab after signing into existing Preview protection:
+The user completed QA on a real phone and explicitly approved the final Preview at `8874eb40aab2abc6887c3cb554a923db1e4e4390`: [approved Preview](https://fruit-picking-guide-db88v57ol-good-dc6d.vercel.app/).
 
-1. Cold-load Home and watch text then fruit appearance.
-2. Scroll through the fruit index at a normal pace.
-3. Open Avocado and inspect skin/teaching detail.
-4. Open Kiwi and inspect fuzz/detail.
-5. Enter Quiz, check images across questions and advance normally.
-6. Return Home and compare the warm revisit.
+The user confirmed:
 
-Confirm whether image appearance feels materially faster and fruit evidence stays clear. No merge, PR or Production deployment is performed by this task. Existing Preview SSO can still ask for Vercel login; protection is intentionally preserved.
+- Image loading is materially improved.
+- Image clarity remains acceptable.
+- Homepage scrolling is normal.
+- Fruit navigation works.
+- Avocado and Kiwi loading is acceptable.
+- Quiz works.
+- Returning to the homepage works.
+- No unacceptable horizontal scrolling was observed.
 
-Continuation self-check: all measured high-value responsive/priority/teaching/interaction cases were addressed without changing quality settings or visuals. Further work would target native lazy-fetch policy or another format/cache pipeline; current evidence does not justify that added complexity or a quality tradeoff. Physical-phone feedback is the remaining meaningful next evidence.
+This is user-observed physical-device approval. Device model, OS/browser version, network and numeric device measurements were not recorded. The controlled Chrome results above are separate browser evidence. **PERF-IMG-01: PASS.** This documentation update does not change the approved application. The user authorized the final combined production release; see [HOWRIPE-V1-PRODUCTION](../howripe-v1-production/README.md).
 
 ## Requested final-report coverage
 
@@ -194,4 +196,4 @@ Continuation self-check: all measured high-value responsive/priority/teaching/in
 | 30–35 Verification / dependencies | 91 tests / 26 files PASS; lint, TypeScript, production build, diff-check PASS; no dependency or manifest/lockfile change |
 | 36–37 Commits / push | Implementation `7cc94e3` plus evidence follow-up; pushed to `origin/feature/perf-mobile-images`; main unchanged |
 | 38–39 Preview | Existing `fruit-picking-guide` project, Git-triggered READY Preview; measured deployment URL above; final delivery deployment verified at the documentation HEAD |
-| 40–41 Remaining / verdict | Native lazy loading still fetches 3 index variants early; lower bytes/priority documented. Real-phone perception, network/CPU and Safari remain the user's final gate. **PERF-IMG-01 PARTIAL; browser QA PASS.** No merge or Production deployment. |
+| 40–41 Remaining / verdict | Native lazy loading still fetches 3 index variants early; lower bytes/priority documented. Browser QA and user-observed real-phone QA PASS. **PERF-IMG-01 PASS.** Combined release is authorized in HOWRIPE-V1-PRODUCTION. |
