@@ -1,0 +1,77 @@
+{
+  "status": "RUNNING",
+  "method": "Three alternating cold-browser trials per origin and route; 390×844 DPR 3; 150ms, 200000 B/s down, 93750 B/s up; no CPU throttle; no scrolling or input during LCP.",
+  "samples": [
+    {
+      "round": 1,
+      "label": "baseline",
+      "origin": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app",
+      "route": "/",
+      "lcp": {
+        "time": 3448,
+        "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+        "element": "IMG"
+      },
+      "imageRequests": 7,
+      "imageBytes": 854730,
+      "images": [
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "cache": {
+            "age": "871522",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 81813
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "cache": {
+            "age": "871533",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 84623
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "cache": {
+            "age": "871513",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 73853
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "cache": {
+            "age": "871524",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 36915
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=1080&q=75",
+          "cache": {
+            "age": "78951",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 219932
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=1080&q=75",
+          "cache": {
+            "age": "78952",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 192940
+        },
+        {
+          "url": "https://fruit-picking-guide-9mnhpf9by-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=1080&q=75",
+          "cache": {
+            "age": "72640",
+            "x-vercel-cache": "HIT"
+          },
+          "bytes": 164654
+        }
+      ]
+    }
+  ]
+}

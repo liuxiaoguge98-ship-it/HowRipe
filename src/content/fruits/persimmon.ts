@@ -7,7 +7,6 @@ export const persimmon: FruitContent = {
   hero: {
     eyebrow: "PERSIMMON · TYPE FIRST", title: "How to Tell If a Persimmon Is Ripe",
     directAnswer: "First identify the type. Fuyu persimmons can be ready to eat while still firm and crisp. Hachiya persimmons should become fully ripe and very soft before fresh eating.",
-    directAnswerZh: "先判断品种。富有柿（Fuyu）成熟后即使仍然硬脆也可以食用；蜂屋柿（Hachiya）则需要等到充分软熟、接近果冻般柔软后再直接食用。",
     primaryCta: "See the quick checks", secondaryCta: "Test your eye", secondaryCtaHref: "#quiz",
     note: "This guide focuses on the common Japanese/Oriental persimmon types Fuyu and Hachiya. Other cultivars may behave differently. Hachiya guidance here is for fresh, untreated fruit.",
     assetKey: "persimmon.hero",

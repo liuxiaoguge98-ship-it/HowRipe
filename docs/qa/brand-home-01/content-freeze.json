@@ -1,0 +1,31 @@
+{
+  "fruits": [
+    {
+      "fruit": "avocado",
+      "englishContentPreserved": true,
+      "allowedChanges": [
+        "existing SEO brand suffix"
+      ]
+    },
+    {
+      "fruit": "kiwi",
+      "englishContentPreserved": true,
+      "allowedChanges": [
+        "remove secondary-language hero line"
+      ]
+    },
+    {
+      "fruit": "pomegranate",
+      "englishContentPreserved": true,
+      "allowedChanges": []
+    },
+    {
+      "fruit": "persimmon",
+      "englishContentPreserved": true,
+      "allowedChanges": [
+        "remove secondary-language hero line"
+      ]
+    }
+  ],
+  "quizAssetsRoutesDependenciesUnchanged": true
+}

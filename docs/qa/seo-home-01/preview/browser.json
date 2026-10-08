@@ -1,0 +1,357 @@
+{
+  "origin": "https://fruit-picking-guide-57ic2j2jl-good-dc6d.vercel.app",
+  "status": "PASS",
+  "home": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3604,
+      "h1Count": 1,
+      "title": "HowRipe — How to Tell If Fruit Is Ripe",
+      "canonical": "https://www.howripe.com/",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "meaningfulText": "A FIELD GUIDE TO RIPE FRUIT Pick better fruit. Know what’s ripe, when to eat it, and how to keep it at its best. THE FRUIT INDEX Choose a fruit. A few good clues. A better choice at the market. Firmness · Timing · Damage Avocado Find the gentle give. Pick for when you’ll eat it. How to tell if an avocado is ripe Ripeness · Storage · Timing Kiwi Know when it’s ready. Keep the rest on your schedule. How to tell if a kiwi is ripe Weight · Shape · Skin Pomegranate Look beyond the red. Learn what to feel and inspect. How to choose a ripe pomegranate Fuyu · Hachiya · Ready to eat Persimmon Start with the type. Firm means different things. How to tell if a persimmon is ripe READ THE RIGHT CLUES Why ripeness looks different for every fruit There is no single universal sign that tells you every fruit is ripe. A color or texture that helps with one fruit can mean something different in another. HowRipe starts with the fruit in front of you, then connects a few useful clues to a practical decision: what to choose, and when to eat it. Firmness Firmness can help you judge readiness, but “softer” does not always mean “better.” Hass avocados and green kiwis should have a slight give when ready to eat, while still holding their structure. That is a starting point, not a rule for every fruit. Use the avocado ripeness guide to understand gentle give, or the kiwi readiness guide to connect the feel with your eating plans. Color Color is supporting evidence. A darker Hass avocado may be further along, but firmness still matters. Pomegranate rind color varies by variety: pale pink and deep red can both be normal. An attractive color is a reason to look more closely, not the whole decision. The pomegranate selection guide brings weight, shape and skin condition together so you can choose beyond the deepest red. Variety Identify the type before borrowing a ripeness rule. Persimmons make this especially clear: a mature Fuyu can be ready while firm and crisp, while an untreated Hachiya needs to become very soft before fresh eating. The same firm feel can therefore point to two different decisions. The Fuyu and Hachiya persimmon guide explains which clues belong to each type, so “firm” does not become an automatic reason to eat or reject it. Timing The best fruit for your basket depends on when you will eat it. A ready-to-eat avocado makes sense for today; firmer fruit can be a better fit for later. A whole batch of very soft kiwi gives you less flexibility. Think in meals, not just ripeness. Choose some fruit for now and some for later, then use the individual guides for the ripening and storage details that suit each fruit. A LITTLE KNOW-HOW GOES A LONG WAY No universal trick. Just the right clues. Firmness, weight, skin, variety. Every fruit tells a different story. Learn what matters for the one in your hand.",
+      "editorialText": "READ THE RIGHT CLUES Why ripeness looks different for every fruit There is no single universal sign that tells you every fruit is ripe. A color or texture that helps with one fruit can mean something different in another. HowRipe starts with the fruit in front of you, then connects a few useful clues to a practical decision: what to choose, and when to eat it. Firmness Firmness can help you judge readiness, but “softer” does not always mean “better.” Hass avocados and green kiwis should have a slight give when ready to eat, while still holding their structure. That is a starting point, not a rule for every fruit. Use the avocado ripeness guide to understand gentle give, or the kiwi readiness guide to connect the feel with your eating plans. Color Color is supporting evidence. A darker Hass avocado may be further along, but firmness still matters. Pomegranate rind color varies by variety: pale pink and deep red can both be normal. An attractive color is a reason to look more closely, not the whole decision. The pomegranate selection guide brings weight, shape and skin condition together so you can choose beyond the deepest red. Variety Identify the type before borrowing a ripeness rule. Persimmons make this especially clear: a mature Fuyu can be ready while firm and crisp, while an untreated Hachiya needs to become very soft before fresh eating. The same firm feel can therefore point to two different decisions. The Fuyu and Hachiya persimmon guide explains which clues belong to each type, so “firm” does not become an automatic reason to eat or reject it. Timing The best fruit for your basket depends on when you will eat it. A ready-to-eat avocado makes sense for today; firmer fruit can be a better fit for later. A whole batch of very soft kiwi gives you less flexibility. Think in meals, not just ripeness. Choose some fruit for now and some for later, then use the individual guides for the ripening and storage details that suit each fruit.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Pick better fruit."
+        },
+        {
+          "level": 2,
+          "text": "Choose a fruit."
+        },
+        {
+          "level": 3,
+          "text": "Avocado"
+        },
+        {
+          "level": 3,
+          "text": "Kiwi"
+        },
+        {
+          "level": 3,
+          "text": "Pomegranate"
+        },
+        {
+          "level": 3,
+          "text": "Persimmon"
+        },
+        {
+          "level": 2,
+          "text": "Why ripeness looks different for every fruit"
+        },
+        {
+          "level": 3,
+          "text": "Firmness"
+        },
+        {
+          "level": 3,
+          "text": "Color"
+        },
+        {
+          "level": 3,
+          "text": "Variety"
+        },
+        {
+          "level": 3,
+          "text": "Timing"
+        },
+        {
+          "level": 2,
+          "text": "No universal trick. Just the right clues."
+        }
+      ],
+      "headingSkips": [],
+      "description": "Learn when avocados, kiwis, pomegranates, and persimmons are ripe and ready to eat. Choose fruit with practical clues and timing that fits your plans.",
+      "contextualLinks": [
+        {
+          "href": "/avocado",
+          "text": "avocado ripeness guide"
+        },
+        {
+          "href": "/kiwi",
+          "text": "kiwi readiness guide"
+        },
+        {
+          "href": "/pomegranate",
+          "text": "pomegranate selection guide"
+        },
+        {
+          "href": "/persimmon",
+          "text": "Fuyu and Hachiya persimmon guide"
+        }
+      ],
+      "conceptColumns": "346.953px 346.969px",
+      "meaningfulWords": 500,
+      "editorialWords": 341,
+      "screenshots": {
+        "hero": {
+          "baseline": "development render",
+          "byteIdentical": true
+        },
+        "footer": {
+          "baseline": "development render",
+          "byteIdentical": false
+        }
+      },
+      "rawHtmlCrawlable": true,
+      "navigation": "click-tested"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 5078,
+      "h1Count": 1,
+      "title": "HowRipe — How to Tell If Fruit Is Ripe",
+      "canonical": "https://www.howripe.com/",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "meaningfulText": "A FIELD GUIDE TO RIPE FRUIT Pick better fruit. Know what’s ripe, when to eat it, and how to keep it at its best. THE FRUIT INDEX Choose a fruit. A few good clues. A better choice at the market. Firmness · Timing · Damage Avocado Find the gentle give. Pick for when you’ll eat it. How to tell if an avocado is ripe Ripeness · Storage · Timing Kiwi Know when it’s ready. Keep the rest on your schedule. How to tell if a kiwi is ripe Weight · Shape · Skin Pomegranate Look beyond the red. Learn what to feel and inspect. How to choose a ripe pomegranate Fuyu · Hachiya · Ready to eat Persimmon Start with the type. Firm means different things. How to tell if a persimmon is ripe READ THE RIGHT CLUES Why ripeness looks different for every fruit There is no single universal sign that tells you every fruit is ripe. A color or texture that helps with one fruit can mean something different in another. HowRipe starts with the fruit in front of you, then connects a few useful clues to a practical decision: what to choose, and when to eat it. Firmness Firmness can help you judge readiness, but “softer” does not always mean “better.” Hass avocados and green kiwis should have a slight give when ready to eat, while still holding their structure. That is a starting point, not a rule for every fruit. Use the avocado ripeness guide to understand gentle give, or the kiwi readiness guide to connect the feel with your eating plans. Color Color is supporting evidence. A darker Hass avocado may be further along, but firmness still matters. Pomegranate rind color varies by variety: pale pink and deep red can both be normal. An attractive color is a reason to look more closely, not the whole decision. The pomegranate selection guide brings weight, shape and skin condition together so you can choose beyond the deepest red. Variety Identify the type before borrowing a ripeness rule. Persimmons make this especially clear: a mature Fuyu can be ready while firm and crisp, while an untreated Hachiya needs to become very soft before fresh eating. The same firm feel can therefore point to two different decisions. The Fuyu and Hachiya persimmon guide explains which clues belong to each type, so “firm” does not become an automatic reason to eat or reject it. Timing The best fruit for your basket depends on when you will eat it. A ready-to-eat avocado makes sense for today; firmer fruit can be a better fit for later. A whole batch of very soft kiwi gives you less flexibility. Think in meals, not just ripeness. Choose some fruit for now and some for later, then use the individual guides for the ripening and storage details that suit each fruit. A LITTLE KNOW-HOW GOES A LONG WAY No universal trick. Just the right clues. Firmness, weight, skin, variety. Every fruit tells a different story. Learn what matters for the one in your hand.",
+      "editorialText": "READ THE RIGHT CLUES Why ripeness looks different for every fruit There is no single universal sign that tells you every fruit is ripe. A color or texture that helps with one fruit can mean something different in another. HowRipe starts with the fruit in front of you, then connects a few useful clues to a practical decision: what to choose, and when to eat it. Firmness Firmness can help you judge readiness, but “softer” does not always mean “better.” Hass avocados and green kiwis should have a slight give when ready to eat, while still holding their structure. That is a starting point, not a rule for every fruit. Use the avocado ripeness guide to understand gentle give, or the kiwi readiness guide to connect the feel with your eating plans. Color Color is supporting evidence. A darker Hass avocado may be further along, but firmness still matters. Pomegranate rind color varies by variety: pale pink and deep red can both be normal. An attractive color is a reason to look more closely, not the whole decision. The pomegranate selection guide brings weight, shape and skin condition together so you can choose beyond the deepest red. Variety Identify the type before borrowing a ripeness rule. Persimmons make this especially clear: a mature Fuyu can be ready while firm and crisp, while an untreated Hachiya needs to become very soft before fresh eating. The same firm feel can therefore point to two different decisions. The Fuyu and Hachiya persimmon guide explains which clues belong to each type, so “firm” does not become an automatic reason to eat or reject it. Timing The best fruit for your basket depends on when you will eat it. A ready-to-eat avocado makes sense for today; firmer fruit can be a better fit for later. A whole batch of very soft kiwi gives you less flexibility. Think in meals, not just ripeness. Choose some fruit for now and some for later, then use the individual guides for the ripening and storage details that suit each fruit.",
+      "headings": [
+        {
+          "level": 1,
+          "text": "Pick better fruit."
+        },
+        {
+          "level": 2,
+          "text": "Choose a fruit."
+        },
+        {
+          "level": 3,
+          "text": "Avocado"
+        },
+        {
+          "level": 3,
+          "text": "Kiwi"
+        },
+        {
+          "level": 3,
+          "text": "Pomegranate"
+        },
+        {
+          "level": 3,
+          "text": "Persimmon"
+        },
+        {
+          "level": 2,
+          "text": "Why ripeness looks different for every fruit"
+        },
+        {
+          "level": 3,
+          "text": "Firmness"
+        },
+        {
+          "level": 3,
+          "text": "Color"
+        },
+        {
+          "level": 3,
+          "text": "Variety"
+        },
+        {
+          "level": 3,
+          "text": "Timing"
+        },
+        {
+          "level": 2,
+          "text": "No universal trick. Just the right clues."
+        }
+      ],
+      "headingSkips": [],
+      "description": "Learn when avocados, kiwis, pomegranates, and persimmons are ripe and ready to eat. Choose fruit with practical clues and timing that fits your plans.",
+      "contextualLinks": [
+        {
+          "href": "/avocado",
+          "text": "avocado ripeness guide"
+        },
+        {
+          "href": "/kiwi",
+          "text": "kiwi readiness guide"
+        },
+        {
+          "href": "/pomegranate",
+          "text": "pomegranate selection guide"
+        },
+        {
+          "href": "/persimmon",
+          "text": "Fuyu and Hachiya persimmon guide"
+        }
+      ],
+      "conceptColumns": "350px",
+      "meaningfulWords": 500,
+      "editorialWords": 341,
+      "screenshots": {
+        "hero": {
+          "baseline": "development render",
+          "byteIdentical": false
+        },
+        "footer": {
+          "baseline": "development render",
+          "byteIdentical": false
+        }
+      },
+      "rawHtmlCrawlable": true,
+      "navigation": "click-tested"
+    }
+  ],
+  "fruit": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6054,
+      "h1Count": 1,
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/avocado",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 7661,
+      "h1Count": 1,
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/kiwi",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 5690,
+      "h1Count": 1,
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/pomegranate",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 6894,
+      "h1Count": 1,
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/persimmon",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 7417,
+      "h1Count": 1,
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/avocado",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 10203,
+      "h1Count": 1,
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/kiwi",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 7184,
+      "h1Count": 1,
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/pomegranate",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 8925,
+      "h1Count": 1,
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "englishOnly": true,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "missingImages": 0,
+      "oldBrand": false,
+      "ogSiteName": "HowRipe",
+      "route": "/persimmon",
+      "quizInitialized": true,
+      "answerAndGotIt": true
+    }
+  ],
+  "errors": [],
+  "crawl": {
+    "/robots.txt": {
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://www.howripe.com/sitemap.xml\n"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.howripe.com/</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/avocado</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/kiwi</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/pomegranate</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/persimmon</loc>\n</url>\n</urlset>\n"
+    }
+  }
+}

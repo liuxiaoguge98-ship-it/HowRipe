@@ -1,0 +1,1553 @@
+{
+  "origin": "http://localhost:3101",
+  "routes": [
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "Pick betterfruit.",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "86px",
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "canonical": "https://www.howripe.com/",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 8,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "How to Tell If an Avocado Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "56px",
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 17,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "How to Tell If a Kiwi Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "56px",
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 12,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/pomegranate",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "How to Tell If a Pomegranate Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "56px",
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/persimmon",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1Count": 1,
+      "h1": "How to Tell If a Persimmon Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "56px",
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "Pick betterfruit.",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "64px",
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "canonical": "https://www.howripe.com/",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 8,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/avocado",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "How to Tell If an Avocado Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "40.96px",
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 17,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "How to Tell If a Kiwi Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "40.96px",
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 12,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/pomegranate",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "How to Tell If a Pomegranate Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "40.96px",
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/persimmon",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "h1Count": 1,
+      "h1": "How to Tell If a Persimmon Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "40.96px",
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "h1": "Pick betterfruit.",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "64px",
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "canonical": "https://www.howripe.com/",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 8,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/avocado",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "h1": "How to Tell If an Avocado Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "38px",
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 17,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "h1": "How to Tell If a Kiwi Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "38px",
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 12,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/pomegranate",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "h1": "How to Tell If a Pomegranate Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "38px",
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/persimmon",
+      "width": 768,
+      "scrollWidth": 768,
+      "h1Count": 1,
+      "h1": "How to Tell If a Persimmon Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "38px",
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "h1": "Pick betterfruit.",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "57px",
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "canonical": "https://www.howripe.com/",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 8,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/avocado",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "h1": "How to Tell If an Avocado Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 17,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "h1": "How to Tell If a Kiwi Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 12,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/pomegranate",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "h1": "How to Tell If a Pomegranate Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/persimmon",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1Count": 1,
+      "h1": "How to Tell If a Persimmon Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1Count": 1,
+      "h1": "Pick betterfruit.",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "57px",
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "canonical": "https://www.howripe.com/",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 8,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/avocado",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1Count": 1,
+      "h1": "How to Tell If an Avocado Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+      "canonical": "https://www.howripe.com/avocado",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 17,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1Count": 1,
+      "h1": "How to Tell If a Kiwi Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/kiwi",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 12,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/pomegranate",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1Count": 1,
+      "h1": "How to Tell If a Pomegranate Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+      "canonical": "https://www.howripe.com/pomegranate",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    },
+    {
+      "route": "/persimmon",
+      "width": 360,
+      "scrollWidth": 360,
+      "h1Count": 1,
+      "h1": "How to Tell If a Persimmon Is Ripe",
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "fontSize": "36px",
+      "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+      "canonical": "https://www.howripe.com/persimmon",
+      "ogSiteName": "HowRipe",
+      "language": "en",
+      "chinese": false,
+      "otherLanguage": 0,
+      "oldBrand": false,
+      "imageCount": 16,
+      "brokenImages": 0,
+      "headerBrand": "HowRipe",
+      "footerBrand": "HowRipe",
+      "headingSkips": [],
+      "brokenAnchors": [],
+      "missingAlts": 0,
+      "shellTargets": [
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Choose a fruit ↗",
+          "height": 44
+        },
+        {
+          "name": "HowRipe",
+          "height": 44
+        },
+        {
+          "name": "Avocado",
+          "height": 44
+        },
+        {
+          "name": "Kiwi",
+          "height": 44
+        },
+        {
+          "name": "Pomegranate",
+          "height": 44
+        },
+        {
+          "name": "Persimmon",
+          "height": 44
+        },
+        {
+          "name": "Find your fruit ↑",
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 1440,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 1440,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/persimmon",
+      "width": 1440,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/avocado",
+      "width": 390,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 390,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 390,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    },
+    {
+      "route": "/persimmon",
+      "width": 390,
+      "states": [
+        "CORRECT_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "WRONG_FEEDBACK",
+        "CORRECT_FEEDBACK"
+      ],
+      "completed": true,
+      "restart": true
+    }
+  ],
+  "errors": [],
+  "reducedMotion": {
+    "animation": "none",
+    "opacity": "1"
+  },
+  "fontsUnified": true,
+  "crawl": {
+    "/robots.txt": {
+      "status": 200,
+      "body": "User-Agent: *\nAllow: /\n\nSitemap: https://www.howripe.com/sitemap.xml\n"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.howripe.com/</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/avocado</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/kiwi</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/pomegranate</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/persimmon</loc>\n</url>\n</urlset>\n"
+    }
+  },
+  "status": "PASS"
+}

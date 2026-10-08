@@ -1,0 +1,445 @@
+{
+  "origin": "http://localhost:3102",
+  "status": "PASS",
+  "comparison": "Same unchanged layout; baseline delivery candidate restored for image-quality comparison only.",
+  "cases": [
+    {
+      "route": "/avocado",
+      "width": 390,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fpalm-pressure.webp&w=828&q=75",
+          "visible": true,
+          "width": 316,
+          "height": 190
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/education/palm-pressure.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fpalm-pressure.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/avocado",
+      "width": 390,
+      "name": "stem",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-macro.webp&w=512&q=75",
+          "visible": true,
+          "width": 139,
+          "height": 130
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-damage.webp&w=512&q=75",
+          "visible": true,
+          "width": 139,
+          "height": 130
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/education/stem-macro.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-macro.webp&w=1200&q=75",
+        "/fruits/avocado/education/stem-damage.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-damage.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/avocado",
+      "width": 390,
+      "name": "surface",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=512&q=75",
+          "visible": true,
+          "width": 170.4000244140625,
+          "height": 192
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=512&q=75",
+          "visible": true,
+          "width": 170.4000244140625,
+          "height": 192
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=1200&q=75",
+          "visible": true,
+          "width": 282,
+          "height": 300
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=1200&q=75",
+          "visible": true,
+          "width": 282,
+          "height": 300
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/quiz/q03-a.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=1200&q=75",
+        "/fruits/avocado/quiz/q03-b.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 390,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1080&q=75",
+          "visible": true,
+          "width": 316,
+          "height": 220
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/education/palm-pressure.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 390,
+      "name": "whole",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=512&q=75",
+          "visible": true,
+          "width": 145,
+          "height": 180
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=512&q=75",
+          "visible": true,
+          "width": 145,
+          "height": 180
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/quiz/neutral.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+        "/fruits/kiwi/education/local-bruise.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 390,
+      "name": "quiz-scenario",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Ffridge.webp&w=512&q=75",
+          "visible": true,
+          "width": 163,
+          "height": 165
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fbag.webp&w=512&q=75",
+          "visible": true,
+          "width": 163,
+          "height": 165
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/quiz/scenarios/fridge.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Ffridge.webp&w=1200&q=75",
+        "/fruits/kiwi/quiz/scenarios/bag.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fbag.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 390,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=1080&q=75",
+          "visible": true,
+          "width": 316,
+          "height": 237
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/pomegranate/education/heft-comparison.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=1200&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 390,
+      "name": "surface",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=512&q=75",
+          "visible": true,
+          "width": 153.3599853515625,
+          "height": 172.7998046875
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=512&q=75",
+          "visible": true,
+          "width": 153.3599853515625,
+          "height": 172.7998046875
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "visible": true,
+          "width": 190.35000610351562,
+          "height": 202.5
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=640&q=75",
+          "visible": true,
+          "width": 190.34999084472656,
+          "height": 202.5
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/pomegranate/quiz/neutral.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=640&q=75",
+        "/fruits/pomegranate/quiz/crack.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=640&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/persimmon",
+      "width": 390,
+      "name": "whole",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=512&q=75",
+          "visible": true,
+          "width": 144,
+          "height": 185
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=512&q=75",
+          "visible": true,
+          "width": 144,
+          "height": 185
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/persimmon/variants/hachiya.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=640&q=75",
+        "/fruits/persimmon/variants/hachiya-soft.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=640&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fpalm-pressure.webp&w=512&q=75",
+          "visible": true,
+          "width": 561.484375,
+          "height": 320
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/education/palm-pressure.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fpalm-pressure.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "name": "stem",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-macro.webp&w=750&q=75",
+          "visible": true,
+          "width": 513,
+          "height": 210
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-damage.webp&w=750&q=75",
+          "visible": true,
+          "width": 513,
+          "height": 210
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/education/stem-macro.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-macro.webp&w=750&q=75",
+        "/fruits/avocado/education/stem-damage.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-damage.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "name": "surface",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=384&q=75",
+          "visible": true,
+          "width": 637.199951171875,
+          "height": 360
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=384&q=75",
+          "visible": true,
+          "width": 637.199951171875,
+          "height": 360
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=750&q=75",
+          "visible": true,
+          "width": 1064,
+          "height": 300
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=750&q=75",
+          "visible": true,
+          "width": 1064,
+          "height": 300
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/avocado/quiz/q03-a.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=750&q=75",
+        "/fruits/avocado/quiz/q03-b.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 1440,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=512&q=75",
+          "visible": true,
+          "width": 520,
+          "height": 300
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/education/palm-pressure.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 1440,
+      "name": "whole",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=384&q=75",
+          "visible": true,
+          "width": 540,
+          "height": 270
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=384&q=75",
+          "visible": true,
+          "width": 540,
+          "height": 270
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/quiz/neutral.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=384&q=75",
+        "/fruits/kiwi/education/local-bruise.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=384&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/kiwi",
+      "width": 1440,
+      "name": "quiz-scenario",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Ffridge.webp&w=384&q=75",
+          "visible": true,
+          "width": 358,
+          "height": 240
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fbag.webp&w=384&q=75",
+          "visible": true,
+          "width": 358,
+          "height": 240
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/kiwi/quiz/scenarios/fridge.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Ffridge.webp&w=750&q=75",
+        "/fruits/kiwi/quiz/scenarios/bag.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fbag.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 1440,
+      "name": "hand",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=640&q=75",
+          "visible": true,
+          "width": 520,
+          "height": 390
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/pomegranate/education/heft-comparison.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=750&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/pomegranate",
+      "width": 1440,
+      "name": "surface",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=384&q=75",
+          "visible": true,
+          "width": 573.47998046875,
+          "height": 324
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=384&q=75",
+          "visible": true,
+          "width": 573.47998046875,
+          "height": 324
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=384&q=75",
+          "visible": true,
+          "width": 718.199951171875,
+          "height": 202.5
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=384&q=75",
+          "visible": true,
+          "width": 718.199951171875,
+          "height": 202.5
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/pomegranate/quiz/neutral.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=384&q=75",
+        "/fruits/pomegranate/quiz/crack.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=384&q=75"
+      },
+      "geometryUnchanged": true
+    },
+    {
+      "route": "/persimmon",
+      "width": 1440,
+      "name": "whole",
+      "images": [
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=384&q=75",
+          "visible": true,
+          "width": 538,
+          "height": 250
+        },
+        {
+          "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=384&q=75",
+          "visible": true,
+          "width": 538,
+          "height": 250
+        }
+      ],
+      "baselineCandidates": {
+        "/fruits/persimmon/variants/hachiya.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=384&q=75",
+        "/fruits/persimmon/variants/hachiya-soft.webp": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=384&q=75"
+      },
+      "geometryUnchanged": true
+    }
+  ]
+}

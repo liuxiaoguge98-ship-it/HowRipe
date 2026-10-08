@@ -1,0 +1,640 @@
+[
+  {
+    "route": "/",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1": {
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "72px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-2.88px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(75, 74, 67)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(75, 74, 67)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "h1": {
+      "font": "Georgia, \"Times New Roman\", serif",
+      "size": "48px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-1.92px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(75, 74, 67)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(75, 74, 67)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  },
+  {
+    "route": "/avocado",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1": {
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "size": "56px",
+      "weight": "800",
+      "color": "rgb(16, 55, 30)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(16, 55, 30)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-2.52px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(69, 111, 30)",
+      "background": "rgb(233, 245, 212)",
+      "border": "1px solid rgb(162, 198, 107)",
+      "radius": "99px",
+      "padding": "8px 18px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(35, 74, 37)",
+      "background": "rgb(242, 248, 231)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(232, 242, 217)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fpalm-pressure.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-a.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq03-b.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-a.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-b.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-a.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-b.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-macro.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Feducation%2Fstem-damage.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-a.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fquiz%2Fq05-a.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": false
+      }
+    ],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  },
+  {
+    "route": "/kiwi",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1": {
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "size": "56px",
+      "weight": "800",
+      "color": "rgb(48, 59, 28)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(48, 59, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-2.52px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(82, 109, 34)",
+      "background": "rgb(241, 244, 223)",
+      "border": "1px solid rgb(172, 184, 120)",
+      "radius": "99px",
+      "padding": "8px 18px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(82, 109, 34)",
+      "background": "rgb(241, 244, 223)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(241, 244, 223)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": false
+      }
+    ],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  },
+  {
+    "route": "/persimmon",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1": {
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "size": "56px",
+      "weight": "800",
+      "color": "rgb(82, 46, 25)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(82, 46, 25)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-2.52px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(169, 81, 22)",
+      "background": "rgb(255, 240, 220)",
+      "border": "1px solid rgb(215, 175, 121)",
+      "radius": "99px",
+      "padding": "8px 18px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(169, 81, 22)",
+      "background": "rgb(255, 240, 220)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(255, 240, 220)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-soft.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya-local-damage.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Fhachiya.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": false
+      }
+    ],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  },
+  {
+    "route": "/pomegranate",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "h1": {
+      "font": "\"Arial Rounded MT Bold\", \"Trebuchet MS\", Arial, sans-serif",
+      "size": "56px",
+      "weight": "800",
+      "color": "rgb(77, 32, 45)",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px solid rgb(77, 32, 45)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "-2.52px"
+    },
+    "eyebrow": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "12px",
+      "weight": "700",
+      "color": "rgb(154, 48, 72)",
+      "background": "rgb(251, 239, 238)",
+      "border": "1px solid rgb(212, 160, 168)",
+      "radius": "99px",
+      "padding": "8px 18px",
+      "spacing": "1.92px"
+    },
+    "header": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(154, 48, 72)",
+      "background": "rgb(251, 239, 238)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "footer": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(251, 239, 238)",
+      "border": "",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "body": {
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "color": "rgb(32, 32, 28)",
+      "background": "rgb(247, 245, 239)",
+      "border": "0px solid rgb(32, 32, 28)",
+      "radius": "0px",
+      "padding": "0px",
+      "spacing": "normal"
+    },
+    "images": [
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fheft-comparison.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fcrack.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fangular-v2.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fangular-v2.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Feducation%2Fcolor-varieties.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fquiz%2Fneutral.webp&w=3840&q=75",
+        "loaded": false
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+        "loaded": true
+      },
+      {
+        "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+        "loaded": true
+      }
+    ],
+    "links": [
+      "FRUIT PICKING GUIDE"
+    ]
+  }
+]

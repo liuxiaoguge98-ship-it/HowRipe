@@ -24,7 +24,6 @@ export type HeroContent = {
   note?: string;
   assetKey?: FruitAssetKey;
   specimens?: [{ assetKey: FruitAssetKey; name: string; rule: string }, { assetKey: FruitAssetKey; name: string; rule: string }];
-  directAnswerZh?: string;
 };
 
 export type QuickCheck = {

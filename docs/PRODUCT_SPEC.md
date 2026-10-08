@@ -1,8 +1,8 @@
-# Fruit Picking Guide — Product & Architecture Spec
+# HowRipe — Product & Architecture Spec
 
 ## 1. Product
 
-Fruit Picking Guide is an English-language interactive website that teaches users how to choose ripe, good-quality fruit.
+HowRipe is an English-language interactive website that teaches users how to choose ripe, good-quality fruit.
 
 Initial fruits:
 

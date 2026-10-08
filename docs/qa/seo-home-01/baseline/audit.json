@@ -1,0 +1,153 @@
+{
+  "base": "feature/brand-home-unification",
+  "sha": "37aea30040664a578fa53b8ea36556f21472f877",
+  "source": "Actual Next.js rendered HTML before SEO edits",
+  "viewports": [
+    {
+      "width": 1440,
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "description": "Learn how to pick ripe fruit, tell when it is ready to eat, and plan ripening and storage. Explore practical avocado, kiwi, pomegranate and persimmon guides.",
+      "h1": "Pick better fruit.",
+      "bodyWords": 178,
+      "meaningfulWords": 137,
+      "meaningfulText": "A FIELD GUIDE TO RIPE FRUIT Pick better fruit. Know what’s ripe, when to eat it, and how to keep it at its best. THE FRUIT INDEX Choose a fruit. A few good clues. A better choice at the market. Firmness · Timing · Damage Avocado Find the gentle give. Pick for when you’ll eat it. Explore guide Ripeness · Storage · Timing Kiwi Know when it’s ready. Keep the rest on your schedule. Explore guide Weight · Shape · Skin Pomegranate Look beyond the red. Learn what to feel and inspect. Explore guide Fuyu · Hachiya · Ready to eat Persimmon Start with the type. Firm means different things. Explore guide A LITTLE KNOW-HOW GOES A LONG WAY No universal trick. Just the right clues. Firmness, weight, skin, variety. Every fruit tells a different story. Learn what matters for the one in your hand.",
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Pick better fruit."
+        },
+        {
+          "tag": "H2",
+          "text": "Choose a fruit."
+        },
+        {
+          "tag": "H3",
+          "text": "Avocado"
+        },
+        {
+          "tag": "H3",
+          "text": "Kiwi"
+        },
+        {
+          "tag": "H3",
+          "text": "Pomegranate"
+        },
+        {
+          "tag": "H3",
+          "text": "Persimmon"
+        },
+        {
+          "tag": "H2",
+          "text": "No universal trick. Just the right clues."
+        }
+      ],
+      "entries": [
+        {
+          "tag": "A",
+          "href": "/avocado",
+          "text": "01 Firmness · Timing · Damage ↗ Avocado Find the gentle give. Pick for when you’ll eat it. Explore guide →",
+          "labelledBy": "avocado-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/kiwi",
+          "text": "02 Ripeness · Storage · Timing ↗ Kiwi Know when it’s ready. Keep the rest on your schedule. Explore guide →",
+          "labelledBy": "kiwi-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/pomegranate",
+          "text": "03 Weight · Shape · Skin ↗ Pomegranate Look beyond the red. Learn what to feel and inspect. Explore guide →",
+          "labelledBy": "pomegranate-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/persimmon",
+          "text": "04 Fuyu · Hachiya · Ready to eat ↗ Persimmon Start with the type. Firm means different things. Explore guide →",
+          "labelledBy": "persimmon-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "title": "HowRipe — How to Pick Ripe Fruit",
+      "description": "Learn how to pick ripe fruit, tell when it is ready to eat, and plan ripening and storage. Explore practical avocado, kiwi, pomegranate and persimmon guides.",
+      "h1": "Pick better fruit.",
+      "bodyWords": 173,
+      "meaningfulWords": 137,
+      "meaningfulText": "A FIELD GUIDE TO RIPE FRUIT Pick better fruit. Know what’s ripe, when to eat it, and how to keep it at its best. THE FRUIT INDEX Choose a fruit. A few good clues. A better choice at the market. Firmness · Timing · Damage Avocado Find the gentle give. Pick for when you’ll eat it. Explore guide Ripeness · Storage · Timing Kiwi Know when it’s ready. Keep the rest on your schedule. Explore guide Weight · Shape · Skin Pomegranate Look beyond the red. Learn what to feel and inspect. Explore guide Fuyu · Hachiya · Ready to eat Persimmon Start with the type. Firm means different things. Explore guide A LITTLE KNOW-HOW GOES A LONG WAY No universal trick. Just the right clues. Firmness, weight, skin, variety. Every fruit tells a different story. Learn what matters for the one in your hand.",
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Pick better fruit."
+        },
+        {
+          "tag": "H2",
+          "text": "Choose a fruit."
+        },
+        {
+          "tag": "H3",
+          "text": "Avocado"
+        },
+        {
+          "tag": "H3",
+          "text": "Kiwi"
+        },
+        {
+          "tag": "H3",
+          "text": "Pomegranate"
+        },
+        {
+          "tag": "H3",
+          "text": "Persimmon"
+        },
+        {
+          "tag": "H2",
+          "text": "No universal trick. Just the right clues."
+        }
+      ],
+      "entries": [
+        {
+          "tag": "A",
+          "href": "/avocado",
+          "text": "01 Firmness · Timing · Damage ↗ Avocado Find the gentle give. Pick for when you’ll eat it. Explore guide →",
+          "labelledBy": "avocado-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/kiwi",
+          "text": "02 Ripeness · Storage · Timing ↗ Kiwi Know when it’s ready. Keep the rest on your schedule. Explore guide →",
+          "labelledBy": "kiwi-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/pomegranate",
+          "text": "03 Weight · Shape · Skin ↗ Pomegranate Look beyond the red. Learn what to feel and inspect. Explore guide →",
+          "labelledBy": "pomegranate-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        },
+        {
+          "tag": "A",
+          "href": "/persimmon",
+          "text": "04 Fuyu · Hachiya · Ready to eat ↗ Persimmon Start with the type. Firm means different things. Explore guide →",
+          "labelledBy": "persimmon-name",
+          "fruitNameInside": true,
+          "cta": "Explore guide →"
+        }
+      ]
+    }
+  ]
+}

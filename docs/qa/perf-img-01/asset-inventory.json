@@ -1,0 +1,432 @@
+[
+  {
+    "path": "public/fruits/avocado/education/stem-damage.webp",
+    "bytes": 377748,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/avocado/education/stem-macro.webp",
+    "bytes": 376700,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/quiz/pomegranate-pale.webp",
+    "bytes": 369654,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/counter-six.webp",
+    "bytes": 349812,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/kiwi-bruise.webp",
+    "bytes": 327330,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/kiwi-scuff.webp",
+    "bytes": 320124,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/all-now.webp",
+    "bytes": 273970,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/education/local-bruise.webp",
+    "bytes": 263906,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/education/wrinkles-v2.webp",
+    "bytes": 259414,
+    "width": 1254,
+    "height": 1254,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/hero/hero.webp",
+    "bytes": 250948,
+    "width": 1080,
+    "height": 1350,
+    "format": "webp",
+    "alpha": true,
+    "role": "Hero / reused navigation",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/education/hachiya-texture.webp",
+    "bytes": 220896,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/pomegranate/hero/hero.webp",
+    "bytes": 218382,
+    "width": 1080,
+    "height": 1350,
+    "format": "webp",
+    "alpha": true,
+    "role": "Hero / reused navigation",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/bag.webp",
+    "bytes": 213386,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/education/heft-comparison.webp",
+    "bytes": 209954,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/quiz/hachiya-firm.webp",
+    "bytes": 188048,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/persimmon/education/fuyu-texture.webp",
+    "bytes": 184062,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/avocado/hero/hero.webp",
+    "bytes": 181158,
+    "width": 916,
+    "height": 1145,
+    "format": "webp",
+    "alpha": true,
+    "role": "Hero / reused navigation",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/education/palm-pressure.webp",
+    "bytes": 180396,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/education/color-varieties.webp",
+    "bytes": 177240,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/now-later.webp",
+    "bytes": 174890,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/neutral.webp",
+    "bytes": 133232,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/avocado/education/palm-pressure.webp",
+    "bytes": 124548,
+    "width": 1200,
+    "height": 900,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/variants/hachiya-local-damage.webp",
+    "bytes": 124024,
+    "width": 1122,
+    "height": 1402,
+    "format": "webp",
+    "alpha": false,
+    "role": "Persimmon hero/variety/evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/education/hachiya-whole-touch.webp",
+    "bytes": 119958,
+    "width": 1448,
+    "height": 1086,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/persimmon/variants/hachiya-soft.webp",
+    "bytes": 118680,
+    "width": 1122,
+    "height": 1402,
+    "format": "webp",
+    "alpha": false,
+    "role": "Persimmon hero/variety/evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/quiz/neutral.webp",
+    "bytes": 115934,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/hero/hero.webp",
+    "bytes": 110102,
+    "width": 1080,
+    "height": 1350,
+    "format": "webp",
+    "alpha": true,
+    "role": "Hero / reused navigation",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/quiz/angular-v2.webp",
+    "bytes": 106618,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/quiz/crack.webp",
+    "bytes": 106160,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/fridge.webp",
+    "bytes": 103034,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/quiz/scenarios/split-six.webp",
+    "bytes": 102834,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": true,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/kiwi/education/wrinkles.webp",
+    "bytes": 86480,
+    "width": 960,
+    "height": 720,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/avocado/quiz/q03-b.webp",
+    "bytes": 84468,
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/avocado/quiz/q03-a.webp",
+    "bytes": 82658,
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/variants/hachiya.webp",
+    "bytes": 68686,
+    "width": 1080,
+    "height": 1350,
+    "format": "webp",
+    "alpha": false,
+    "role": "Persimmon hero/variety/evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/variants/fuyu.webp",
+    "bytes": 66554,
+    "width": 1080,
+    "height": 1350,
+    "format": "webp",
+    "alpha": false,
+    "role": "Persimmon hero/variety/evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/education/damage.webp",
+    "bytes": 65018,
+    "width": 960,
+    "height": 720,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/pomegranate/education/shape-v2.webp",
+    "bytes": 64662,
+    "width": 960,
+    "height": 720,
+    "format": "webp",
+    "alpha": false,
+    "role": "Education",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/avocado/quiz/q05-a.webp",
+    "bytes": 52544,
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/avocado/quiz/q05-b.webp",
+    "bytes": 49944,
+    "width": 1024,
+    "height": 1024,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/quiz/hachiya.webp",
+    "bytes": 39734,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": false
+  },
+  {
+    "path": "public/fruits/persimmon/quiz/fuyu.webp",
+    "bytes": 39670,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  },
+  {
+    "path": "public/fruits/persimmon/quiz/crack.webp",
+    "bytes": 39358,
+    "width": 960,
+    "height": 960,
+    "format": "webp",
+    "alpha": false,
+    "role": "Quiz / reused educational evidence",
+    "runtimeReferenced": true
+  }
+]

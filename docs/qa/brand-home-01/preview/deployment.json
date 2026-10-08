@@ -1,0 +1,14 @@
+{
+  "id": "dpl_DnMFw2kpwq8UKnLrX1CqESXCj9J4",
+  "url": "https://fruit-picking-guide-d5ka6gkwy-good-dc6d.vercel.app",
+  "state": "READY",
+  "target": null,
+  "source": "git",
+  "branch": "feature/brand-home-unification",
+  "sha": "9bc00792ee038ca3b9f09ebda82253a904fe2dc5",
+  "aliases": [
+    "fruit-picking-guide-git-feature-brand-home-uni-e2303c-good-dc6d.vercel.app"
+  ],
+  "projectId": "prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn",
+  "browserQA": "PASS"
+}

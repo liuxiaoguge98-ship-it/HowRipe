@@ -1,3 +1,21 @@
+# BRAND-HOME-01 — HowRipe shared identity (2026-10-07)
+
+**PUBLIC BRAND:** HowRipe. **DESIGN SYSTEM:** Editorial Fruit Lab, as evolved by the current production fruit pages. **HOMEPAGE ROLE:** Brand introduction + fruit index.
+
+The user explicitly chose the current fruit-page display family over the historical serif wording: `Arial Rounded MT Bold`, `Trebuchet MS`, Arial, sans-serif, weight 800. Body text stays Arial/Helvetica/sans-serif. The global display token matches the existing fruit-page token. Brand uses compact tracking; headings use approximately -.055em; 12px uppercase labels use .16em. The homepage uses an 86px desktop / 57px phone two-line H1 and clear 46px / 35px section titles. Inner-page typography remains unchanged.
+
+Use warm paper (#f7f5ef), one soft index surface (#f0f1e7), and a slightly deeper neutral footer. Preserve fruit-specific green/olive/ruby/orange accents. Shared header/footer structure and text wordmark work on every route; their inherited fruit theme remains contextual. Header navigation is one clear “Choose a fruit” link, with 44px targets. Footer preserves the descriptive line and adds all live guide links; no legal claim is invented.
+
+Homepage imagery uses existing transparent production assets, including the original whole Fuyu/Hachiya hero. One overlapping still life introduces the range; open numbered index entries use radial media light without cards, blend modes, recoloring or generated imagery. Names appear before specimens so navigation scans quickly. Offset two-column desktop rhythm becomes one ordered column on phones. Keep concise, fruit-specific learning promises; educational detail belongs in the fruit guides.
+
+Reuse the existing one-time hero entrance and reduced-motion override. Link arrows and a maximum 1.02 specimen hover scale provide restrained feedback. No looping motion, parallax or new animation dependency.
+
+**LANGUAGE:** English only. The user's follow-up removes authored secondary-language hero copy on Kiwi/Persimmon; retain all English facts, quizzes, answers, tactile mappings, storage, nutrition and sources. Existing compatibility styles for user-controlled translation extensions do not produce text.
+
+[Baseline, iteration, screenshots and verification](qa/brand-home-01/BASELINE.md). This section supersedes prior homepage branding and typography instructions; older entries below record historical fruit design work.
+
+---
+
 # Kiwi quiz imagery update (2026-10-01)
 
 The latest user request supersedes the earlier text-only Q03–Q05 decision. All five questions now have imagery for both options. Three scenario pairs use transparent product-style illustrations, the Kiwi cream/olive palette, unframed image areas and compact choice pills. The image framing stays complete on hover. Text remains explicit for facts a photograph cannot establish, especially firmness. The existing tactile and localized-damage pairs remain unchanged. See [quiz image audit](qa/kiwi-quiz-illustrations/README.md).
