@@ -46,6 +46,23 @@
 .closing h2 { margin-top: 20px; font-size: clamp(36px, 3.5vw, 50px); line-height: 1.06; }
 .closing > p:not(:first-child) { max-width: 450px; margin-top: 22px; font-size: 16px; line-height: 1.7; color: var(--color-ink-soft); }
 .closing > a { margin-top: 18px; }
+.principles { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.65fr); gap: 72px; padding-block: 72px 28px; }
+.principlesIntro h2 { max-width: 340px; margin-top: 20px; font-size: clamp(36px, 3.5vw, 50px); line-height: 1.08; text-wrap: balance; }
+.principlesIntro > p:not(:first-child) { max-width: 340px; margin-top: 22px; font-size: 16px; line-height: 1.7; color: var(--color-ink-soft); }
+.principlesIntro > p + p { margin-top: 14px; }
+.concepts { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px 40px; }
+.concept { border-top: 1px solid #bfc5b0; padding-top: 18px; }
+.conceptHeading { display: flex; align-items: center; gap: 16px; }
+.conceptHeading > span { font-size: 12px; letter-spacing: .08em; color: var(--color-ink-soft); }
+.conceptHeading h3 { font-size: 27px; line-height: 1.15; }
+.concept > p { margin-top: 18px; font-size: 15px; line-height: 1.7; color: var(--color-ink-soft); }
+.concept > p + p { margin-top: 12px; }
+.concept a { color: var(--color-ink); text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 1023px) {
+  .principles { grid-template-columns: minmax(0, 1fr); gap: 36px; padding-top: 56px; }
+  .principlesIntro h2 { max-width: 480px; }
+  .principlesIntro > p:not(:first-child) { max-width: 540px; }
+}
 @media (max-width: 1023px) {
   .hero { gap: 12px; padding-block: 38px; }
   .hero h1 { font-size: 64px; }
@@ -80,4 +97,12 @@
   .closing > .eyebrow { font-size: 10px; }
   .closing h2 { font-size: 35px; }
   .closing > p:not(:first-child) { font-size: 15px; margin-top: 18px; }
+  .principles { gap: 30px; padding-block: 42px 0; }
+  .principlesIntro h2 { font-size: 35px; max-width: 330px; margin-top: 18px; }
+  .principlesIntro > p:not(:first-child) { font-size: 15px; margin-top: 18px; }
+  .principlesIntro > p + p { margin-top: 12px; }
+  .concepts { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .concept { padding-top: 16px; }
+  .conceptHeading h3 { font-size: 26px; }
+  .concept > p { margin-top: 14px; }
 }

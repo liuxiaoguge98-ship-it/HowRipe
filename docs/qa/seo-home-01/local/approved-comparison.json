@@ -1,0 +1,28 @@
+[
+  {
+    "width": 1440,
+    "hero": {
+      "size": "1440x1000",
+      "approvedSize": "1440x1000",
+      "pixelsEqual": false
+    },
+    "footer": {
+      "size": "1440x265",
+      "approvedSize": "1440x265",
+      "pixelsEqual": false
+    }
+  },
+  {
+    "width": 390,
+    "hero": {
+      "size": "390x844",
+      "approvedSize": "390x844",
+      "pixelsEqual": false
+    },
+    "footer": {
+      "size": "390x349",
+      "approvedSize": "390x349",
+      "pixelsEqual": false
+    }
+  }
+]

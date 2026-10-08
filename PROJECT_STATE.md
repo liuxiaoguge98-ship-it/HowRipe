@@ -1,5 +1,13 @@
 # Project State
 
+## SEO-HOME-01 — Homepage content and internal linking (2026-10-08)
+
+The user visually approved BRAND-HOME-01 and replaced the production-release request with a combined brand + homepage SEO workflow. `feature/seo-home-01` starts directly from the exact approved brand HEAD `37aea30040664a578fa53b8ea36556f21472f877`; origin/main remains `c2a4713`. Brand work has not been merged. Keep both changes together for a future PR after SEO Preview approval.
+
+Homepage title now targets broad fruit ripeness intent. Hero H1 remains “Pick better fruit.” Four generic index CTAs are descriptive, accessible, crawlable links. A 341-word editorial section explains Firmness, Color, Variety and Timing with four contextual links; meaningful homepage content is approximately 500 words. Copy only uses existing guide knowledge. Header/Footer, Hero imagery, typography system, fruit-page content/UI, Quiz, tactile interactions, canonical/crawl architecture, dependencies and deployment configuration are unchanged from the approved brand branch.
+
+Local production QA: home passes 1440/1024/768/390/360, all four fruit routes pass desktop/phone smoke tests including Quiz, no overflow/broken visible images/console errors. English only, one H1, logical headings, raw server HTML links and production metadata pass. 89 tests / 25 files, lint, TypeScript, production build and diff-check pass. See [SEO-HOME-01 evidence](docs/qa/seo-home-01/README.md). Push for Git-triggered Preview only; no main merge or production deployment until user approval.
+
 ## BRAND-HOME-01 — HowRipe brand and homepage unification (2026-10-07)
 
 Work is on `feature/brand-home-unification`, based on clean production `main` at `c2a4713`. Public header/footer and home/root metadata use HowRipe; Avocado retains its search title with the new brand suffix. Homepage now introduces the brand with an existing-asset fruit still life and a numbered, fruit-accented editorial index. The user confirmed the current rounded Sans display family as the source of truth. No dependency, new image, route, canonical, robots or sitemap change.

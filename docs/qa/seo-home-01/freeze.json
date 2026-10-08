@@ -1,0 +1,17 @@
+{
+  "base": "37aea30040664a578fa53b8ea36556f21472f877",
+  "frozenPaths": [
+    "src/components",
+    "src/content",
+    "src/lib",
+    "src/app/layout.tsx",
+    "src/app/globals.css",
+    "src/app/robots.ts",
+    "src/app/sitemap.ts",
+    "public",
+    "package.json",
+    "pnpm-lock.yaml",
+    "next.config.ts"
+  ],
+  "unchanged": true
+}

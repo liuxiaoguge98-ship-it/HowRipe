@@ -42,7 +42,7 @@ it("preserves an explicit development origin and normalizes the configured base"
 
 it("uses HowRipe as the public metadata brand without losing fruit search intent", () => {
   expect(rootMetadata.title).toBe("HowRipe — How to Pick Ripe Fruit");
-  expect(homeMetadata.title).toBe("HowRipe — How to Pick Ripe Fruit");
+  expect(homeMetadata.title).toBe("HowRipe — How to Tell If Fruit Is Ripe");
   expect(homeMetadata.openGraph).toMatchObject({ siteName: "HowRipe", title: homeMetadata.title });
   expect(homeMetadata.twitter).toMatchObject({ title: homeMetadata.title });
   for (const guide of fruitGuides) {
