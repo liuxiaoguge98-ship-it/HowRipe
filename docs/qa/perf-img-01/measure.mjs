@@ -19,8 +19,8 @@ for (const profile of profiles) for (const route of routes) {
   const context = await browser.newContext({ viewport: { width: mobile ? 390 : 1440, height: mobile ? 844 : 1000 }, deviceScaleFactor: mobile ? 3 : 1, isMobile: mobile, hasTouch: mobile });
   // Cookie authentication keeps the HTTP cache functional; request routing would disable it.
   if (remote && process.env.VERCEL_AUTOMATION_BYPASS_SECRET) {
-    const auth = await context.request.get(origin + '/', { headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } });
-    if (auth.status() !== 200) throw Error('Preview cookie authentication failed');
+    const auth = await context.request.get(origin + '/', { maxRedirects: 0, headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } }).catch(() => { throw Error('Preview cookie authentication transport failed'); });
+    if (![200, 307].includes(auth.status())) throw Error('Preview cookie authentication failed');
   }
   await context.addInitScript(() => {
     window.__imagePerf = { lcp: null, cls: 0, appearances: [] };
@@ -108,7 +108,7 @@ for (const profile of profiles) for (const route of routes) {
 }
 // Header audit runs outside all timed navigation windows.
 const cacheContext = await browser.newContext();
-if (remote && process.env.VERCEL_AUTOMATION_BYPASS_SECRET) await cacheContext.request.get(origin + '/', { headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } });
+if (remote && process.env.VERCEL_AUTOMATION_BYPASS_SECRET) await cacheContext.request.get(origin + '/', { maxRedirects: 0, headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } }).catch(() => { throw Error('Preview cookie authentication transport failed'); });
 report.cacheAudit = [];
 for (const url of ['/fruits/kiwi/hero/hero.webp', '/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75']) {
   const response = await cacheContext.request.get(origin + url, { headers: { Accept: 'image/webp' } });

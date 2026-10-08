@@ -1,0 +1,15 @@
+{
+  "id": "dpl_7g5kVffUTBo3zkf2EpaNQ9xD3Qgs",
+  "url": "https://fruit-picking-guide-rnhm0illk-good-dc6d.vercel.app",
+  "state": "READY",
+  "environment": "Preview",
+  "target": null,
+  "source": "git",
+  "branch": "feature/perf-mobile-images",
+  "sha": "7cc94e39f1879f0e61783738510ba256e59fc43d",
+  "aliases": [
+    "fruit-picking-guide-git-feature-perf-mobile-images-good-dc6d.vercel.app"
+  ],
+  "projectId": "prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn",
+  "browserQA": "PASS"
+}

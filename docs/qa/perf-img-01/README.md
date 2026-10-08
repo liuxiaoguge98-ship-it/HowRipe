@@ -70,7 +70,68 @@ A local Pomegranate desktop Quiz click hit an action-stability timeout during ex
 
 ## Actual Vercel Preview before / after
 
-Pending Git-triggered Preview validation at this commit. Final remote metrics and deployment proof will be appended after READY.
+### Cold mobile
+
+| Page | Requests before → after | Image wire bytes before → after | Reduction | Above-fold bytes before → after | LCP ms before → after | CLS |
+|---|---:|---:|---:|---:|---:|---:|
+| `/` | 7 → 7 | 854,788 → 398,605 | 53.4% | 277,388 → 158,430 | 5092 → 3456 | 0 |
+| `/avocado` | 1 → 1 | 164,790 → 107,901 | 34.5% | 164,790 → 107,901 | 3568 → 3180 | 0 |
+| `/kiwi` | 1 → 1 | 219,934 → 81,813 | 62.8% | 219,934 → 81,813 | 4000 → 2480 | 0 |
+| `/pomegranate` | 2 → 2 | 260,055 → 131,844 | 49.3% | 193,081 → 73,945 | 3812 → 2392 | 0 |
+| `/persimmon` | 3 → 2 | 83,123 → 26,508 | 68.1% | 64,007 → 26,508 | 3192 → 2708 | 0 |
+
+### Cold desktop
+
+| Page | Requests before → after | Image wire bytes before → after | Reduction | Above-fold bytes before → after | LCP ms before → after | CLS |
+|---|---:|---:|---:|---:|---:|---:|
+| `/` | 8 → 6 | 391,473 → 123,706 | 68.4% | 280,640 → 108,666 | 2168 → 2364 | 0 |
+| `/avocado` | 8 → 4 | 395,344 → 95,290 | 75.9% | 84,714 → 58,581 | 2516 → 1964 | 0 |
+| `/kiwi` | 5 → 3 | 194,055 → 64,898 | 66.6% | 81,812 → 33,401 | 1956 → 1796 | 0 |
+| `/pomegranate` | 6 → 5 | 172,519 → 96,947 | 43.8% | 106,685 → 54,531 | 1808 → 2028 | 0 |
+| `/persimmon` | 5 → 4 | 55,039 → 25,882 | 53.0% | 27,382 → 16,891 | 2428 → 1648 | 0 |
+
+### Warm mobile revisit
+
+| Page | Requests before → after | Image wire bytes before → after | Reduction | Above-fold bytes before → after | LCP ms before → after | CLS |
+|---|---:|---:|---:|---:|---:|---:|
+| `/` | 8 → 8 | 493 → 437 | 11.4% | 249 → 222 | 540 → 496 | 0 |
+| `/avocado` | 12 → 12 | 646 → 692 | -7.1% | 59 → 61 | 520 → 524 | 0 |
+| `/kiwi` | 8 → 9 | 437 → 507 | -16.0% | 53 → 78 | 572 → 452 | 0 |
+| `/pomegranate` | 9 → 12 | 508 → 679 | -33.7% | 54 → 54 | 504 → 388 | 0 |
+| `/persimmon` | 8 → 9 | 454 → 484 | -6.6% | 107 → 107 | 608 → 472 | 0 |
+
+Warm Preview image transfer is approximately half a kilobyte per page, consisting of revalidation headers. The separate CDP extra-info audit confirms actual HTTP 304 responses; cached bodies are reused. Local warm transfer is 0. No custom cache headers are needed. Actual Preview static and optimized cache headers:
+
+- `/fruits/kiwi/hero/hero.webp`: HTTP 200, `{'age': '0', 'cache-control': 'public, max-age=0, must-revalidate', 'content-type': 'image/webp', 'etag': '"0e5e9cd1ff9abd461d96269903f7e891"', 'x-vercel-cache': 'MISS'}`
+- `/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75`: HTTP 200, `{'age': '871517', 'cache-control': 'public, max-age=0, must-revalidate', 'content-type': 'image/webp', 'x-vercel-cache': 'HIT'}`
+
+The optimized response was a CDN HIT; the raw static-source probe was a MISS with cache/revalidation headers. Browser revalidation is inexpensive. No cache policy change.
+
+### Alternating repeated cold trials
+
+| Page | Baseline LCP ms (3 samples) | Final LCP ms (3 samples) | Median before → after | Median reduction |
+|---|---|---|---|---:|
+| `/` | 3820, 4908, 3628 | 1864, 3996, 3184 | 3820 → 3184 | 16.6% |
+| `/kiwi` | 4484, 3560, 3552 | 2796, 2268, 2528 | 3560 → 2528 | 29.0% |
+
+These are browser-cache-cold trials against already deployed CDN endpoints. They reduce single-run timing uncertainty but cannot establish real-phone perception or a universal percentage. Remote routing/TTFB and device CPU still vary. Homepage mobile request count remains 7: native lazy loading still starts three index variants early, now substantially smaller and low priority. The browser evidence supports keeping native loading without a custom observer. Desktop Hero/index LCP selection can change as smaller index art finishes earlier; single desktop LCP is reported as observed rather than presented as a guaranteed improvement.
+
+### Scroll and current/future Quiz behavior
+
+| Page | Cold mobile full-scroll bytes before → after | Reduction |
+|---|---:|---:|
+| `/` | 945,863 → 435,669 | 53.9% |
+| `/avocado` | 955,121 → 396,362 | 58.5% |
+| `/kiwi` | 642,108 → 331,898 | 48.3% |
+| `/pomegranate` | 601,121 → 323,055 | 46.3% |
+| `/persimmon` | 364,925 → 191,781 | 47.4% |
+
+Initial requests contain no future Quiz-only illustrations. Some shared Q01 art appears in teaching earlier and is correctly reused, rather than classified as future prefetch. All 8 remote complete Quiz/restart flows pass. Related images remain late-page lazy, not in mobile startup. Raw per-question candidates are in the measurements JSON.
+
+### Deployment and release boundary
+
+Implementation commit: `7cc94e39f1879f0e61783738510ba256e59fc43d` (`perf: optimize mobile image delivery`), pushed to GitHub. Actual measured Git-triggered deployment: `dpl_7g5kVffUTBo3zkf2EpaNQ9xD3Qgs`, READY Preview, existing project `prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn`, SHA `7cc94e39f1879f0e61783738510ba256e59fc43d`. [Measured Preview](https://fruit-picking-guide-rnhm0illk-good-dc6d.vercel.app). A documentation-only follow-up records this evidence; its application source is identical. The paired driver encountered transient proxy ECONNRESET during cookie setup outside the timed window, then completed all 12 samples using the supported two-retry request option; credentials were revoked after every attempt. No PR, main merge, Production deployment, DNS or project-structure change. Temporary QA credential was revoked.
+
 
 ## Largest 15 registered runtime image sources
 
@@ -116,3 +177,21 @@ These are actual displayed production sources, distinct from larger unreferenced
 Confirm whether image appearance feels materially faster and fruit evidence stays clear. No merge, PR or Production deployment is performed by this task. Existing Preview SSO can still ask for Vercel login; protection is intentionally preserved.
 
 Continuation self-check: all measured high-value responsive/priority/teaching/interaction cases were addressed without changing quality settings or visuals. Further work would target native lazy-fetch policy or another format/cache pipeline; current evidence does not justify that added complexity or a quality tradeoff. Physical-phone feedback is the remaining meaningful next evidence.
+
+## Requested final-report coverage
+
+| Items | Result / evidence |
+|---|---|
+| 1–2 Branch, HEAD, base | `feature/perf-mobile-images`; implementation `7cc94e39f1879f0e61783738510ba256e59fc43d`; documentation delivery HEAD in Git; base `feature/seo-home-01` / `f1fbde6f1bf5c4c9ec0915d5ffe8186523bd3b7a` |
+| 3–6 Baseline / bottlenecks | 7 home mobile images, 854,788 bytes, 5,092ms first LCP; oversized slots, larger repeated index variants, four emitted home preloads |
+| 7–8 Image/raw audit | All existing Next/image; no authored raw img or image CSS background conversion needed |
+| 9–11 Loading / sizes | One emitted critical preload/high request per route; eager/low visible secondary art, lazy noncritical art; contained size hints and 512w candidate |
+| 12–14 Hero/index/inner | Exact art/composition; smaller mobile candidates; index lazy/low; teaching comparison, cover and hand-photo sizing; expanded detail preserved |
+| 15–16 Quiz / related | Current question only, no future illustrations in startup; lazy related absent from mobile startup; all 8 Preview Quiz flows complete/restart |
+| 17–21 Format / quality / cache / assets | WebP / q75 retained, CDN HIT for optimized image, HTTP 304 browser reuse, top 15 table and inventory above; no derivatives or master changes |
+| 22–26 Final home / change / CLS | 7 images, 398,605 bytes (−53.4%), 158,430 above-fold bytes (−42.9%), first LCP 3,456ms; alternating median 3,820→3,184ms (−16.6%); all measured CLS 0 |
+| 27–29 Visual/detail QA | 390/DPR3 and 1440 before/after; four-fruit skin/fuzz/surface/edges, cover crops, hand photos and native expanded detail inspected; quality comparison geometry unchanged |
+| 30–35 Verification / dependencies | 91 tests / 26 files PASS; lint, TypeScript, production build, diff-check PASS; no dependency or manifest/lockfile change |
+| 36–37 Commits / push | Implementation `7cc94e3` plus evidence follow-up; pushed to `origin/feature/perf-mobile-images`; main unchanged |
+| 38–39 Preview | Existing `fruit-picking-guide` project, Git-triggered READY Preview; measured deployment URL above; final delivery deployment verified at the documentation HEAD |
+| 40–41 Remaining / verdict | Native lazy loading still fetches 3 index variants early; lower bytes/priority documented. Real-phone perception, network/CPU and Safari remain the user's final gate. **PERF-IMG-01 PARTIAL; browser QA PASS.** No merge or Production deployment. |

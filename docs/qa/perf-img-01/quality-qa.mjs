@@ -13,7 +13,7 @@ try {
 for (const mobile of [true, false]) for (const route of ['/avocado', '/kiwi', '/pomegranate', '/persimmon']) {
   const profile = mobile ? 'slow4g' : 'desktop'; const width = mobile ? 390 : 1440;
   const context = await browser.newContext({ viewport: { width, height: mobile ? 844 : 1000 }, deviceScaleFactor: mobile ? 3 : 1 });
-  if (process.env.VERCEL_AUTOMATION_BYPASS_SECRET) await context.request.get(origin + '/', { headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } });
+  if (process.env.VERCEL_AUTOMATION_BYPASS_SECRET) await context.request.get(origin + '/', { maxRedirects: 0, headers: { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET, 'x-vercel-set-bypass-cookie': 'true' } }).catch(() => { throw Error('Preview cookie authentication transport failed'); });
   const page = await context.newPage(); await page.goto(origin + route, { waitUntil: 'networkidle' });
   const cases = route === '/avocado' ? [['hand', '.teaching-figure[data-treatment="pressure"]'], ['stem', '.condition-guide'], ['surface', '.teaching-comparison[data-detail="surface"]']]
     : route === '/kiwi' ? [['hand', '.teaching-figure[data-treatment="photo"]'], ['whole', '.teaching-comparison[data-detail="whole"]'], ['quiz-scenario', '#quiz']]
