@@ -80,3 +80,17 @@ Only home page/CSS, directly relevant tests, state documentation and QA evidence
 ## Preview handoff
 
 Push `feature/seo-home-01` to the existing Git-linked `fruit-picking-guide` project. Preview validation is recorded after the automatic deployment is READY. No PR merge and no production deployment are authorized at this stage. No PR is needed until the user's SEO Preview approval, when both nodes can be reviewed together.
+
+## Actual Vercel Preview — PASS
+
+[Tested immutable Preview](https://fruit-picking-guide-57ic2j2jl-good-dc6d.vercel.app) · [branch Preview](https://fruit-picking-guide-git-feature-seo-home-01-good-dc6d.vercel.app) · [deployment](preview/deployment.json) · [remote browser results](preview/browser.json).
+
+Git push created Preview `dpl_8ZqUahYL4DAuRkciTe8vTmjp4Ux3` from implementation commit `4fcea505a5728c3e649c70e01dbdb95290737aec`. Vercel reports READY, source `git`, branch `feature/seo-home-01`, target preview (`null`), existing project `prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn`. No manual deployment.
+
+Actual remote home at 1440×1000 and 390×844: same 500/341 word counts, desired title/150-character description, one H1, logical headings, accessible descriptive index names, four crawlable index links and four contextual links present in raw server HTML. Desktop/phone navigation passes; new section and index transition were visually reviewed against local production. All four fruit routes at both sizes load with correct branding, English-only body, images, self-canonical and working Quiz/firmness/Got it smoke behavior. Ten route/viewport cases and eight Quiz smoke flows pass. No console/page errors or overflow. Robots permits crawling, sitemap contains exactly five production URLs, and no Preview/localhost appears in production metadata.
+
+[Remote desktop](preview/home-1440.png) · [remote phone](preview/home-390.png) · [desktop editorial](preview/editorial-1440.png) · [phone transition](preview/index-transition-390.png).
+
+Authenticated QA uses the existing HTTPS proxy and Vercel's temporary automation credential mechanism. The credential was revoked in cleanup; deployment protection remains enabled. No credential is stored in evidence. A prior local harness assertion was corrected to wait for the existing asynchronous Got it transition rather than asserting immediately; product Quiz code stayed frozen.
+
+The final follow-up commit records evidence/state only, with no source/asset/dependency change. Its Git-triggered Preview must also be READY and verified before handoff. Main and the current Production deployment remain at `c2a471388abd63fc701a9165c3c1c0f621d137c8`. No PR created. **SEO-HOME-01 PASS — awaiting user visual approval of Preview.**
