@@ -1,5 +1,13 @@
 # Project State
 
+## PERF-IMG-01 — Mobile image delivery (2026-10-08)
+
+**PARTIAL — browser verification passes; physical-phone performance approval pending.** Work on `feature/perf-mobile-images`, based on the exact approved SEO HEAD `f1fbde6f1bf5c4c9ec0915d5ffe8186523bd3b7a`. Main remains `c2a4713`; no merge or Production deployment.
+
+Measured all five routes on local production and the approved actual Vercel Preview, cold/warm at 390×844 DPR 3 with controlled 1.6Mbps / 150ms network, plus 1440×1000 unthrottled desktop. Baseline remote homepage: 7 initial images / 854,788 bytes, 277,388 above-fold bytes, 5,092ms LCP. Fixed contained-art responsive sizes, one critical eager/high Hero per page, low-priority secondary/related art, explicitly lazy reused assets, Quiz illustration slots and teaching/photo sizes. Added only a 512w Next candidate; quality 75 and WebP remain. No new asset, derivative, dependency, layout, copy, SEO, route or Quiz semantic change.
+
+Local final homepage is approximately 400KB initial images (53% lower), approximately 159KB above fold (43% lower), CLS 0. All five routes and complete Quiz flows measured; close/expanded evidence and hand-photo quality compared. 91 tests / 26 files, lint, TypeScript, production build and diff-check pass. SEO/English regression passes. Remote final deployment validation is recorded in [PERF-IMG-01 evidence](docs/qa/perf-img-01/README.md). Stop after READY Preview handoff and wait for the user to test cold Home → index scroll → Avocado → Kiwi → Quiz → warm Home.
+
 ## SEO-HOME-01 — Homepage content and internal linking (2026-10-08)
 
 The user visually approved BRAND-HOME-01 and replaced the production-release request with a combined brand + homepage SEO workflow. `feature/seo-home-01` starts directly from the exact approved brand HEAD `37aea30040664a578fa53b8ea36556f21472f877`; origin/main remains `c2a4713`. Brand work has not been merged. Keep both changes together for a future PR after SEO Preview approval.

@@ -20,7 +20,7 @@ export function RelatedFruits({ fruits, visual = false }: { fruits: FruitSlug[];
           return available ? (
             <a className={className} href={`/${fruit}`} key={fruit}>
               {/* Navigation reuses approved art lazily; the destination Hero retains its critical loading contract. */}
-              {asset?.src ? <span className="related-visual"><Image src={asset.src} alt="" fill loading="lazy" sizes="(max-width: 639px) 140px, 30vw" style={{ objectFit: asset.objectFit }} /></span> : null}
+              {asset?.src ? <span className="related-visual"><Image src={asset.src} alt="" fill loading="lazy" fetchPriority="low" sizes="(max-width: 639px) 90px, 180px" style={{ objectFit: asset.objectFit }} /></span> : null}
               {visual ? <span>{labels[fruit]}<span aria-hidden="true"> ↗</span></span> : labels[fruit]}
             </a>
           ) : <span className={className} key={fruit}>{labels[fruit]} <span className="font-normal">COMING SOON</span></span>;

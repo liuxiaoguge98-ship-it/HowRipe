@@ -1,0 +1,1889 @@
+{
+  "origin": "http://localhost:3102",
+  "profile": {
+    "name": "Controlled Slow 4G equivalent",
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "mobileDPR": 3,
+    "cpuThrottling": false
+  },
+  "measurements": [
+    {
+      "route": "/",
+      "profile": "slow4g",
+      "cache": "cold",
+      "lcp": {
+        "time": 1808,
+        "size": 53929,
+        "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+        "element": "IMG",
+        "text": ""
+      },
+      "cls": 0,
+      "appearances": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=384&q=75",
+          "time": 749.5
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=384&q=75",
+          "time": 1169.8999999761581
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=512&q=75",
+          "time": 1626.5999999642372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+          "time": 1799.5999999642372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 3322.399999976158
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 3344.099999964237
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 3352.800000011921
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "preloadCount": 4,
+      "images": [
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+          "sizes": "(max-width: 639px) 170px, (max-width: 1023px) 237px, 295px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 227.07711791992188,
+          "height": 250.190673828125,
+          "cssWidth": 178.5,
+          "cssHeight": 211.188,
+          "top": 366.0765380859375,
+          "bottom": 616.2672119140625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "A actual LCP"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=384&q=75",
+          "sizes": "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 186.42630004882812,
+          "height": 176.95779418945312,
+          "cssWidth": 164.5,
+          "cssHeight": 153.109,
+          "top": 476.6539001464844,
+          "bottom": 653.6116943359375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=512&q=75",
+          "sizes": "(max-width: 639px) 155px, (max-width: 1023px) 217px, 269px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 220.913818359375,
+          "height": 218.12112426757812,
+          "cssWidth": 196,
+          "cssHeight": 192.719,
+          "top": 375.5175476074219,
+          "bottom": 593.638671875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=384&q=75",
+          "sizes": "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 173.73170471191406,
+          "height": 166.558837890625,
+          "cssWidth": 161,
+          "cssHeight": 153.109,
+          "top": 481.8533935546875,
+          "bottom": 648.4122314453125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 393.2900390625,
+          "height": 312.415283203125,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 898.5892333984375,
+          "bottom": 1211.0045166015625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "C near fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 1378.78125,
+          "bottom": 1623.78125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 1848.359375,
+          "bottom": 2093.359375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 2317.9375,
+          "bottom": 2562.9375,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        }
+      ],
+      "initialImageRequests": 7,
+      "initialNetworkImageRequests": 7,
+      "initialImageBytes": 400280,
+      "aboveFoldImageBytes": 159354,
+      "initialRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 172.79700003564358,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "EjPQ91ufdqc1KNMvtoFp2Mm1507U9Jg3k4MPRNJy5IE",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 58745,
+          "endMs": 1800.273000029847,
+          "bodyBytes": 58324,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 172.9310000082478,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ygMtSB0QNhJ0Xx7UYXM2EbZVKlzpjgT2wilaZnn_VAE",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 33582,
+          "endMs": 1170.9850000333972,
+          "bodyBytes": 33162,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 172.96300001908094,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "FSasRHykCOJ5BEjtLi_fLBSYWAGMwSczGWOZ-F_xec8",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 51055,
+          "endMs": 1627.3740000324324,
+          "bodyBytes": 50634,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 172.99600003752857,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "hx3r7z5Zx_xoP_T6rsMAdfnHSlIr6Niaz1AZE45UGho",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 15972,
+          "endMs": 750.253000005614,
+          "bodyBytes": 15552,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.8720000209287,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "XcWkL6s5F3HVgPXQVDlsoUsgUSbyeTgRT6g62x5fyGg",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 84866,
+          "endMs": 3353.7210000213236,
+          "bodyBytes": 84446,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.95000003278255,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 81966,
+          "endMs": 3345.0789999915287,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.97599999792874,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "yw6aUof4Hi0CBITTKuyi-I9Zru5z-TsWKCxn2Ep2Btc",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 74094,
+          "endMs": 3323.2610000413842,
+          "bodyBytes": 73674,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        }
+      ],
+      "fullScrollImageRequests": 8,
+      "fullScrollImageBytes": 437478,
+      "allRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 172.79700003564358,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "EjPQ91ufdqc1KNMvtoFp2Mm1507U9Jg3k4MPRNJy5IE",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 58745,
+          "endMs": 1800.273000029847,
+          "bodyBytes": 58324,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 172.9310000082478,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ygMtSB0QNhJ0Xx7UYXM2EbZVKlzpjgT2wilaZnn_VAE",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 33582,
+          "endMs": 1170.9850000333972,
+          "bodyBytes": 33162,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 172.96300001908094,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "FSasRHykCOJ5BEjtLi_fLBSYWAGMwSczGWOZ-F_xec8",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 51055,
+          "endMs": 1627.3740000324324,
+          "bodyBytes": 50634,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 172.99600003752857,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "hx3r7z5Zx_xoP_T6rsMAdfnHSlIr6Niaz1AZE45UGho",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 15972,
+          "endMs": 750.253000005614,
+          "bodyBytes": 15552,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.8720000209287,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "XcWkL6s5F3HVgPXQVDlsoUsgUSbyeTgRT6g62x5fyGg",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 84866,
+          "endMs": 3353.7210000213236,
+          "bodyBytes": 84446,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.95000003278255,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 81966,
+          "endMs": 3345.0789999915287,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 493.97599999792874,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "yw6aUof4Hi0CBITTKuyi-I9Zru5z-TsWKCxn2Ep2Btc",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 74094,
+          "endMs": 3323.2610000413842,
+          "bodyBytes": 73674,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 5772.748999996111,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "N46TcBsw67xqRsKqLUnpNHkJd7PGuOYzjAi_oW_zGY8",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 37198,
+          "endMs": 6142.454000015277,
+          "bodyBytes": 36778,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        }
+      ],
+      "clsAfterScroll": 0
+    },
+    {
+      "route": "/",
+      "profile": "slow4g",
+      "cache": "warm",
+      "lcp": {
+        "time": 180,
+        "size": 8760,
+        "url": "",
+        "element": "H2",
+        "text": "Choose a fruit."
+      },
+      "cls": 0,
+      "appearances": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.70000004768372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.70000004768372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.70000004768372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.70000004768372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.70000004768372
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.9000000357628
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.9000000357628
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 178.9000000357628
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "preloadCount": 4,
+      "images": [
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 170px, (max-width: 1023px) 237px, 295px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 227.07711791992188,
+          "height": 250.190673828125,
+          "cssWidth": 178.5,
+          "cssHeight": 211.188,
+          "top": 366.0765380859375,
+          "bottom": 616.2672119140625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 186.42630004882812,
+          "height": 176.95779418945312,
+          "cssWidth": 164.5,
+          "cssHeight": 153.109,
+          "top": 476.6539001464844,
+          "bottom": 653.6116943359375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 155px, (max-width: 1023px) 217px, 269px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 220.913818359375,
+          "height": 218.12112426757812,
+          "cssWidth": 196,
+          "cssHeight": 192.719,
+          "top": 375.5175476074219,
+          "bottom": 593.638671875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+          "loading": "eager",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 173.73170471191406,
+          "height": 166.558837890625,
+          "cssWidth": 161,
+          "cssHeight": 153.109,
+          "top": 481.8533935546875,
+          "bottom": 648.4122314453125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 393.2900390625,
+          "height": 312.415283203125,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 898.5892333984375,
+          "bottom": 1211.0045166015625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "C near fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 1378.78125,
+          "bottom": 1623.78125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 1848.359375,
+          "bottom": 2093.359375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 350,
+          "height": 245,
+          "cssWidth": 350,
+          "cssHeight": 245,
+          "top": 2317.9375,
+          "bottom": 2562.9375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        }
+      ],
+      "initialImageRequests": 8,
+      "initialNetworkImageRequests": 0,
+      "initialImageBytes": 0,
+      "aboveFoldImageBytes": 0,
+      "initialRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 163.9819999691099,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "EjPQ91ufdqc1KNMvtoFp2Mm1507U9Jg3k4MPRNJy5IE",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 164.06099998857826,
+          "bodyBytes": 58324,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 164.08899996895343,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ygMtSB0QNhJ0Xx7UYXM2EbZVKlzpjgT2wilaZnn_VAE",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 164.13399996235967,
+          "bodyBytes": 33162,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=512&q=75",
+          "type": "Image",
+          "startMs": 164.1480000107549,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "FSasRHykCOJ5BEjtLi_fLBSYWAGMwSczGWOZ-F_xec8",
+            "X-Nextjs-Cache": "MISS",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 164.19899999164045,
+          "bodyBytes": 50634,
+          "downloadedWidth": 512,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 164.21299998182803,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "hx3r7z5Zx_xoP_T6rsMAdfnHSlIr6Niaz1AZE45UGho",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 164.26099999807775,
+          "bodyBytes": 15552,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 166.5250000078231,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "XcWkL6s5F3HVgPXQVDlsoUsgUSbyeTgRT6g62x5fyGg",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 166.59599996637553,
+          "bodyBytes": 84446,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 166.7559999623336,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 166.83800000464544,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 166.9289999990724,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "yw6aUof4Hi0CBITTKuyi-I9Zru5z-TsWKCxn2Ep2Btc",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 166.96999996202067,
+          "bodyBytes": 73674,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 167.04699996626005,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "N46TcBsw67xqRsKqLUnpNHkJd7PGuOYzjAi_oW_zGY8",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 167.083999956958,
+          "bodyBytes": 36778,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        }
+      ]
+    },
+    {
+      "route": "/kiwi",
+      "profile": "slow4g",
+      "cache": "cold",
+      "lcp": {
+        "time": 1692,
+        "size": 36338,
+        "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+        "element": "IMG",
+        "text": ""
+      },
+      "cls": 0,
+      "appearances": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 1691.300000011921
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "preloadCount": 1,
+      "images": [
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 174px, 363px",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "alt": "How to Tell If a Kiwi Is Ripe",
+          "width": 360.5,
+          "height": 216.300048828125,
+          "cssWidth": 350,
+          "cssHeight": 210,
+          "top": 541.9593505859375,
+          "bottom": 758.2593994140625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "A actual LCP"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 1023px) 100vw, 50vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A whole green kiwi cradled gently in a hand with relaxed fingers",
+          "width": 316,
+          "height": 220,
+          "cssWidth": 316,
+          "cssHeight": 220,
+          "top": 2246.046875,
+          "bottom": 2466.046875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A plump green kiwi with a full outline",
+          "width": 316,
+          "height": 220,
+          "cssWidth": 316,
+          "cssHeight": 220,
+          "top": 2858.359375,
+          "bottom": 3078.359375,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A whole kiwi with an even, intact surface",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 3581.96875,
+          "bottom": 3761.96875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "The same kiwi with one restrained localized bruise",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 3581.96875,
+          "bottom": 3761.96875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A plump green kiwi with a full outline",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 4047.1875,
+          "bottom": 4227.1875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 1023px) 100vw, 50vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A noticeably shriveled green kiwi",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 4047.1875,
+          "bottom": 4227.1875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 192.33999633789062,
+          "height": 205.3203125,
+          "cssWidth": 163,
+          "cssHeight": 174,
+          "top": 7324.88671875,
+          "bottom": 7530.20703125,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "E Quiz/current interaction"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 192.33998107910156,
+          "height": 205.3203125,
+          "cssWidth": 163,
+          "cssHeight": 174,
+          "top": 7324.88671875,
+          "bottom": 7530.20703125,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "E Quiz/current interaction"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9476.296875,
+          "bottom": 9566.296875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9600.296875,
+          "bottom": 9690.296875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+          "currentSrc": "",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9724.296875,
+          "bottom": 9814.296875,
+          "complete": false,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        }
+      ],
+      "initialImageRequests": 1,
+      "initialNetworkImageRequests": 1,
+      "initialImageBytes": 81966,
+      "aboveFoldImageBytes": 81966,
+      "initialRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 165.98199994768947,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 81966,
+          "endMs": 1658.4639999782667,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        }
+      ],
+      "fullScrollImageRequests": 8,
+      "fullScrollImageBytes": 401911,
+      "allRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 165.98199994768947,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 81966,
+          "endMs": 1658.4639999782667,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1200&q=75",
+          "type": "Image",
+          "startMs": 4054.5819999533705,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "eYDgJOSRgjPQf6c7jOFeJ_HYiktUO7wsSvPSxMrQ3U8",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 58029,
+          "endMs": 4500.267999945208,
+          "bodyBytes": 57600,
+          "downloadedWidth": 1200,
+          "downloadedHeight": 900,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 4656.131999974605,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "unm71-mJfre965QzgzS-xBySarzACBvbGvA_dFX1zkI",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 44497,
+          "endMs": 5033.841999946162,
+          "bodyBytes": 44074,
+          "downloadedWidth": 640,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 5257.960999966599,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "q1pgebpIl2qIDvxOPu66oWvA5OI_P62VHpANfveZ_0g",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 41672,
+          "endMs": 5618.607999989763,
+          "bodyBytes": 41244,
+          "downloadedWidth": 640,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=1200&q=75",
+          "type": "Image",
+          "startMs": 5859.792999981437,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "KXuMMLfMo3sgI5fohxlVUi0V_qGWzLsbncLUSAwumak",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 101012,
+          "endMs": 6518.431999953464,
+          "bodyBytes": 100584,
+          "downloadedWidth": 1200,
+          "downloadedHeight": 1200,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 11273.770999978296,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "BMyiVsbeZ6ZkF6LkaiAamiSaJjxEdTU7Z9MK6AUExYM",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 36148,
+          "endMs": 11804.840999946464,
+          "bodyBytes": 35728,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 11273.968999972567,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "KAiGCRrJ0y1w1qGf_-JNTd5TPDjrE1saOBOlTztPprM",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 29688,
+          "endMs": 11768.52299994789,
+          "bodyBytes": 29268,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 11274.059999966994,
+          "initialPriority": "Low",
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "5IpUDzaP1S0e-6f2n288Bd_TsjJi54YgwKGLHyZ_GHA",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 8899,
+          "endMs": 11558.216999983415,
+          "bodyBytes": 8480,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        }
+      ],
+      "clsAfterScroll": 0,
+      "quiz": {
+        "states": [
+          "CORRECT_FEEDBACK",
+          "CORRECT_FEEDBACK",
+          "WRONG_FEEDBACK",
+          "CORRECT_FEEDBACK",
+          "WRONG_FEEDBACK"
+        ],
+        "completed": true,
+        "questionAssets": [
+          [
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+              "sizes": "(max-width: 639px) 46vw, 360px",
+              "width": 192.33999633789062
+            },
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+              "sizes": "(max-width: 639px) 46vw, 360px",
+              "width": 192.33998107910156
+            }
+          ],
+          [
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+              "sizes": "(max-width: 639px) 46vw, 360px",
+              "width": 176.04000854492188
+            },
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75",
+              "sizes": "(max-width: 639px) 46vw, 360px",
+              "width": 176.04002380371094
+            }
+          ],
+          [
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Ffridge.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            },
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fbag.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            }
+          ],
+          [
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fcounter-six.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            },
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fsplit-six.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            }
+          ],
+          [
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fall-now.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            },
+            {
+              "src": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fscenarios%2Fnow-later.webp&w=512&q=75",
+              "sizes": "(max-width: 639px) calc((100vw - 64px) / 2), 360px",
+              "width": 163
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "route": "/kiwi",
+      "profile": "slow4g",
+      "cache": "warm",
+      "lcp": {
+        "time": 208,
+        "size": 3696,
+        "url": "",
+        "element": "A",
+        "text": "HowRipe"
+      },
+      "cls": 0,
+      "appearances": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1200&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=1200&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=384&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=384&q=75",
+          "time": 181.60000002384186
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=384&q=75",
+          "time": 181.60000002384186
+        }
+      ],
+      "width": 390,
+      "scrollWidth": 390,
+      "preloadCount": 1,
+      "images": [
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 174px, 363px",
+          "loading": "auto",
+          "fetchPriority": "auto",
+          "alt": "How to Tell If a Kiwi Is Ripe",
+          "width": 360.5,
+          "height": 216.300048828125,
+          "cssWidth": 350,
+          "cssHeight": 210,
+          "top": 541.9593505859375,
+          "bottom": 758.2593994140625,
+          "complete": true,
+          "visible": true,
+          "aboveFold": true,
+          "role": "B above fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1200&q=75",
+          "sizes": "(max-width: 1023px) 100vw, 50vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A whole green kiwi cradled gently in a hand with relaxed fingers",
+          "width": 316,
+          "height": 220,
+          "cssWidth": 316,
+          "cssHeight": 220,
+          "top": 2246.046875,
+          "bottom": 2466.046875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A plump green kiwi with a full outline",
+          "width": 316,
+          "height": 220,
+          "cssWidth": 316,
+          "cssHeight": 220,
+          "top": 2858.359375,
+          "bottom": 3078.359375,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A whole kiwi with an even, intact surface",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 3581.96875,
+          "bottom": 3761.96875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "The same kiwi with one restrained localized bruise",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 3581.96875,
+          "bottom": 3761.96875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A plump green kiwi with a full outline",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 4047.1875,
+          "bottom": 4227.1875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=1200&q=75",
+          "sizes": "(max-width: 1023px) 100vw, 50vw",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "A noticeably shriveled green kiwi",
+          "width": 145,
+          "height": 180,
+          "cssWidth": 145,
+          "cssHeight": 180,
+          "top": 4047.1875,
+          "bottom": 4227.1875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "D below fold"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 192.33999633789062,
+          "height": 205.3203125,
+          "cssWidth": 163,
+          "cssHeight": 174,
+          "top": 7324.88671875,
+          "bottom": 7530.20703125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "E Quiz/current interaction"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "sizes": "(max-width: 639px) 46vw, 360px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 192.33998107910156,
+          "height": 205.3203125,
+          "cssWidth": 163,
+          "cssHeight": 174,
+          "top": 7324.88671875,
+          "bottom": 7530.20703125,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "E Quiz/current interaction"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=384&q=75",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9476.296875,
+          "bottom": 9566.296875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=384&q=75",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9600.296875,
+          "bottom": 9690.296875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        },
+        {
+          "src": "/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=3840&q=75",
+          "currentSrc": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=384&q=75",
+          "sizes": "(max-width: 639px) 90px, 180px",
+          "loading": "lazy",
+          "fetchPriority": "auto",
+          "alt": "",
+          "width": 100,
+          "height": 90,
+          "cssWidth": 100,
+          "cssHeight": 90,
+          "top": 9724.296875,
+          "bottom": 9814.296875,
+          "complete": true,
+          "visible": true,
+          "aboveFold": false,
+          "role": "F related navigation"
+        }
+      ],
+      "initialImageRequests": 8,
+      "initialNetworkImageRequests": 0,
+      "initialImageBytes": 0,
+      "aboveFoldImageBytes": 0,
+      "initialRequests": [
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 167.03900002175942,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "ffJrcPMHnnzSZpeHZJ-oGW2dHWwB15DzbKVyWXpuUdQ",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 167.11799998302013,
+          "bodyBytes": 81546,
+          "downloadedWidth": 640,
+          "downloadedHeight": 800,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fpalm-pressure.webp&w=1200&q=75",
+          "type": "Image",
+          "startMs": 170.2860000077635,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "eYDgJOSRgjPQf6c7jOFeJ_HYiktUO7wsSvPSxMrQ3U8",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 170.3420000267215,
+          "bodyBytes": 57600,
+          "downloadedWidth": 1200,
+          "downloadedHeight": 900,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Fquiz%2Fneutral.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 170.42600002605468,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "unm71-mJfre965QzgzS-xBySarzACBvbGvA_dFX1zkI",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 170.46500003198162,
+          "bodyBytes": 44074,
+          "downloadedWidth": 640,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Flocal-bruise.webp&w=640&q=75",
+          "type": "Image",
+          "startMs": 170.58700002962723,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "q1pgebpIl2qIDvxOPu66oWvA5OI_P62VHpANfveZ_0g",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 170.62500002793968,
+          "bodyBytes": 41244,
+          "downloadedWidth": 640,
+          "downloadedHeight": 640,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fkiwi%2Feducation%2Fwrinkles-v2.webp&w=1200&q=75",
+          "type": "Image",
+          "startMs": 170.72799999732524,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "KXuMMLfMo3sgI5fohxlVUi0V_qGWzLsbncLUSAwumak",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 170.76700000325218,
+          "bodyBytes": 100584,
+          "downloadedWidth": 1200,
+          "downloadedHeight": 1200,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 171.45000002346933,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "BMyiVsbeZ6ZkF6LkaiAamiSaJjxEdTU7Z9MK6AUExYM",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 171.49500001687557,
+          "bodyBytes": 35728,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 171.56400001840666,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "KAiGCRrJ0y1w1qGf_-JNTd5TPDjrE1saOBOlTztPprM",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 171.6090000118129,
+          "bodyBytes": 29268,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        },
+        {
+          "url": "http://localhost:3102/_next/image?url=%2Ffruits%2Fpersimmon%2Fvariants%2Ffuyu.webp&w=384&q=75",
+          "type": "Image",
+          "startMs": 171.675999998115,
+          "initialPriority": "Low",
+          "memoryCache": true,
+          "status": 200,
+          "mime": "image/webp",
+          "diskCache": false,
+          "headers": {
+            "Cache-Control": "public, max-age=14400, must-revalidate",
+            "ETag": "5IpUDzaP1S0e-6f2n288Bd_TsjJi54YgwKGLHyZ_GHA",
+            "X-Nextjs-Cache": "HIT",
+            "Content-Type": "image/webp"
+          },
+          "transferBytes": 0,
+          "endMs": 171.71500000404194,
+          "bodyBytes": 8480,
+          "downloadedWidth": 384,
+          "downloadedHeight": 480,
+          "format": "webp"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

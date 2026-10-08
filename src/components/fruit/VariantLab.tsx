@@ -4,8 +4,8 @@ import styles from "./VariantLab.module.css";
 
 export function VariantHero({ specimens }: { specimens: NonNullable<HeroContent["specimens"]> }) {
   return <div className={styles.heroPair} aria-label="Two types, two ripeness rules">
-    {specimens.map(specimen => <figure key={specimen.name}>
-      <FruitAsset assetKey={specimen.assetKey} alt={`Whole ${specimen.name} persimmon`} />
+    {specimens.map((specimen, index) => <figure key={specimen.name}>
+      <FruitAsset assetKey={specimen.assetKey} alt={`Whole ${specimen.name} persimmon`} sizes="(max-width: 639px) 168px, 288px" loading="eager" fetchPriority={index === 0 ? "high" : "low"} />
       <figcaption><strong>{specimen.name}</strong><span>{specimen.rule}</span></figcaption>
     </figure>)}
   </div>;
@@ -21,7 +21,7 @@ export function VariantLab({ overview }: { overview: FruitVariantOverview }) {
       <div className={styles.specimens}>
         {overview.variants.map(variant => <article key={variant.id} id={variant.id}>
           <header><h3>{variant.name}</h3><span>{variant.descriptor}</span></header>
-          {variant.assetKey ? <FruitAsset assetKey={variant.assetKey} alt={variant.assetAlt ?? ""} /> : null}
+          {variant.assetKey ? <FruitAsset assetKey={variant.assetKey} alt={variant.assetAlt ?? ""} sizes="(max-width: 639px) 136px, 232px" /> : null}
           <p className={styles.rule}>{variant.rule}</p>
           <p>{variant.summary}</p>
           <p className={styles.criteria}>{variant.readyCriteria}</p>

@@ -87,7 +87,7 @@ export function QuizEngine({ quiz, presentation }: { quiz: QuizConfig; presentat
             aria-describedby={editorial ? `${question.id}-${option.id}-text${revealed ? ` ${question.id}-${option.id}-reason` : ""}` : undefined}
             disabled={state !== "ANSWERING"} onClick={() => choose(option.id)}>
             {editorial ? sampleLabel(option.id) : <span aria-hidden="true" className="mb-3 block text-xs uppercase tracking-widest">Option {option.id.toUpperCase()}</span>}
-            {option.illustrations ? <span className="quiz-illustrations" data-count={option.illustrations.length} aria-hidden="true">{option.illustrations.map(key => <FruitAsset key={key} assetKey={key} alt="" />)}</span> : null}
+            {option.illustrations ? <span className="quiz-illustrations" data-count={option.illustrations.length} aria-hidden="true">{option.illustrations.map(key => <FruitAsset key={key} assetKey={key} alt="" sizes={option.illustrations!.length > 1 ? "(max-width: 639px) calc((100vw - 70px) / 4), 180px" : "(max-width: 639px) calc((100vw - 64px) / 2), 360px"} />)}</span> : null}
             <span id={`${question.id}-${option.id}-text`}>{option.text}</span>
             {game && editorial ? <span className="sample-decision">{decision(option.id)}</span> : null}
           </button>

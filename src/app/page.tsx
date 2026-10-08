@@ -19,7 +19,14 @@ const specimens: Record<FruitSlug, { accent: string; wash: string; topics: strin
 };
 
 function Specimen({ slug, hero = false }: { slug: FruitSlug; hero?: boolean }) {
-  return <Image src={`/fruits/${slug}/hero/hero.webp`} alt="" fill sizes={hero ? "(max-width: 639px) 50vw, (max-width: 1023px) 27vw, 310px" : "(max-width: 639px) 75vw, 440px"} preload={hero && slug === "avocado"} loading={hero ? "eager" : "lazy"} />;
+  // Contained 4:5 artwork is height-limited; the transparent canvas is wider.
+  const heroSizes = {
+    avocado: "(max-width: 639px) 170px, (max-width: 1023px) 237px, 295px",
+    kiwi: "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+    pomegranate: "(max-width: 639px) 155px, (max-width: 1023px) 217px, 269px",
+    persimmon: "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
+  };
+  return <Image src={`/fruits/${slug}/hero/hero.webp`} alt="" fill sizes={hero ? heroSizes[slug] : "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px"} loading={hero ? "eager" : "lazy"} fetchPriority={hero && slug === "avocado" ? "high" : "low"} />;
 }
 
 export default function Home() {
