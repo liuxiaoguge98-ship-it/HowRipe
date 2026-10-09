@@ -27,7 +27,7 @@ Regenerate system icons and reverse SVGs from the committed SVG masters with `no
 
 ## Integration and search foundation
 
-`BrandLink` supplies the shared decorative 32×36 SVG and live **HowRipe** text inside the existing home link. The accessible name stays “HowRipe home”; the decorative image has empty alt text and is hidden from assistive technology. The header loads the tiny SVG eagerly, without preload or high fetch priority; the footer loads it lazily. Existing 44px link targets and header/footer layout are retained; the only layout addition is a 9px gap.
+`BrandLink` supplies the shared decorative 32×36 SVG and live **HowRipe** text inside the existing home link. The accessible name stays “HowRipe home”; the decorative image has empty alt text and is hidden from assistive technology. The header loads the tiny SVG eagerly with low fetch priority; the footer loads it lazily. Explicit low priority also prevents React 19's automatic eager-image preload. The original critical hero remains the only image preload. Existing 44px link targets and header/footer layout are retained; the only layout addition is a 9px gap.
 
 Root `metadata.icons` explicitly owns all icon links to stable public URLs. The scaffold `src/app/favicon.ico` is removed so there is only one `/favicon.ico` source and no file-convention override/conflict. `/manifest.webmanifest` is the normal static Next App Router `manifest.ts` convention, automatically linked by Next. It names HowRipe in English, points to 192/512 PNGs, and keeps browser display behavior. No service worker, standalone-mode claim, install prompt or maskable-icon claim is introduced.
 
@@ -41,13 +41,13 @@ All required local gates pass:
 
 | Command | Result |
 | --- | --- |
-| `pnpm test` | PASS — 27 files, 95 tests |
+| `pnpm test` | PASS — 27 files, 96 tests |
 | `pnpm lint` | PASS |
 | `pnpm exec tsc --noEmit` | PASS |
 | `pnpm build` | PASS — Next.js 16.3.4 webpack production build |
 | `git diff --check` | PASS |
 
-New tests check real metadata-to-file resolution, removal of the conflicting default icon, PNG dimensions, decode all three ICO frames, accessible shared header/footer links and the manifest contract. The first three tests were observed failing before implementation, then passing after integration. Existing English, SEO, image-priority and Quiz regressions remain green.
+New tests check real metadata-to-file resolution, removal of the conflicting default icon, PNG dimensions, decode all three ICO frames, accessible shared header/footer links and the manifest contract. The first three tests were observed failing before implementation, then passing after integration. A final regression test caught React 19 automatically preloading the eager decorative SVG; it failed before the low-priority fix and passed afterward. Existing English, SEO, image-priority and Quiz regressions remain green.
 
 ## Browser QA
 
@@ -59,7 +59,7 @@ Local Chrome 154: **PASS** for homepage and Avocado at **1440×1000 / 390×844**
 - All visible images load, there is no horizontal overflow, and no console/page error occurs.
 - Each page retains one H1, English-only rendered copy, original canonical and HowRipe social brand.
 - Homepage → Avocado → header-home navigation works at both widths; Avocado Quiz answer → feedback → Got it and footer-home work at both widths.
-- Each route retains exactly one high-priority hero image; the logo adds no high-priority request.
+- Each route retains exactly one high-priority hero image and one image preload; the logo adds neither.
 - All 11 SVG/PNG/ICO assets respond HTTP 200 with correct image types and byte-for-byte equality to committed files; browser decoding succeeds, and ICO frames decode in unit tests.
 - Chrome parses the manifest without errors; robots and the five existing sitemap URLs remain correct.
 - Chrome's actual tab-icon database stores **16px and 32px** A1 icons whose decoded pixels exactly match the exported PNGs. This verifies browser adoption beyond inspecting link tags.

@@ -43,6 +43,7 @@ try {
     assert.equal(raw.querySelectorAll('link[rel="icon"][href^="/favicon.ico"]').length, 1);
     assert.equal(raw.querySelector('link[rel="apple-touch-icon"]').getAttribute('href'), '/apple-touch-icon.png');
     assert.equal(raw.querySelector('link[rel="manifest"]').getAttribute('href'), '/manifest.webmanifest');
+    assert.equal(raw.querySelectorAll('link[rel="preload"][as="image"]').length, 1, 'Only the critical hero should be preloaded');
     await page.evaluate(async () => {
       for (let y = 0; y < document.body.scrollHeight; y += 700) {
         window.scrollTo(0, y); await new Promise(resolve => setTimeout(resolve, 35));
@@ -94,7 +95,7 @@ try {
       await page.locator('footer').getByRole('link', { name: 'HowRipe home', exact: true }).click();
       await page.waitForURL(origin + '/');
     }
-    report.pages.push({ route, ...state, rawHtmlMetadata: 'PASS', navigation: 'PASS', quiz: route === '/avocado' ? 'answer, feedback, Got it: PASS' : 'not applicable' });
+    report.pages.push({ route, ...state, imagePreloadCount: 1, rawHtmlMetadata: 'PASS', navigation: 'PASS', quiz: route === '/avocado' ? 'answer, feedback, Got it: PASS' : 'not applicable' });
     console.log(`PASS ${route} ${width}: brand, icons, images, navigation${route === '/avocado' ? ', Quiz' : ''}`);
   }
 

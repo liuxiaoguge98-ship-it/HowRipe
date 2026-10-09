@@ -35,6 +35,7 @@
       ],
       "brokenImages": 0,
       "highPriorityImages": 1,
+      "imagePreloadCount": 1,
       "rawHtmlMetadata": "PASS",
       "navigation": "PASS",
       "quiz": "not applicable"
@@ -71,6 +72,7 @@
       ],
       "brokenImages": 0,
       "highPriorityImages": 1,
+      "imagePreloadCount": 1,
       "rawHtmlMetadata": "PASS",
       "navigation": "PASS",
       "quiz": "not applicable"
@@ -107,6 +109,7 @@
       ],
       "brokenImages": 0,
       "highPriorityImages": 1,
+      "imagePreloadCount": 1,
       "rawHtmlMetadata": "PASS",
       "navigation": "PASS",
       "quiz": "answer, feedback, Got it: PASS"
@@ -143,6 +146,7 @@
       ],
       "brokenImages": 0,
       "highPriorityImages": 1,
+      "imagePreloadCount": 1,
       "rawHtmlMetadata": "PASS",
       "navigation": "PASS",
       "quiz": "answer, feedback, Got it: PASS"

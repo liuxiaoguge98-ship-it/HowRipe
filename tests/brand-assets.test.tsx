@@ -67,3 +67,9 @@ it("exposes the English brand and real app icons without claiming maskable artwo
   ]);
   for (const icon of result.icons!) expect(fs.existsSync(path.join("public", icon.src))).toBe(true);
 });
+
+it("does not reserve a preload slot for the decorative header mark", () => {
+  const container = document.createElement("div");
+  container.innerHTML = renderToStaticMarkup(<Header />);
+  expect(container.querySelector('link[rel="preload"][as="image"]')).toBeNull();
+});

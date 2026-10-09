@@ -12,6 +12,7 @@ export function BrandLink({ eager = false }: { eager?: boolean }) {
         alt=""
         aria-hidden="true"
         loading={eager ? "eager" : "lazy"}
+        fetchPriority="low"
         unoptimized
       />
       <span>HowRipe</span>
