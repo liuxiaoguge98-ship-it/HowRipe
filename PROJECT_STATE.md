@@ -1,5 +1,11 @@
 # Project State
 
+## BRAND-LOGO-02 — Ripe Signal identity (2026-10-09)
+
+Work on `feature/brand-logo-ripe-signal` starts from the exact clean A1 engineering HEAD `29c58158f7aca5f17e75f911b24b7737de4ba24d`. A1's visual design was not approved. Replaced its public oval assets with a central ripe dot, organic open C and two staggered signal arcs, retaining rounded HowRipe lettering with a restrained green i-dot. The compact favicon uses two arcs for clarity at 16/32/48px; Apple/app icons use the full mark. Existing asset names, exporter, BrandLink, metadata/manifest and icon routing are preserved. Only brand artwork, square mark sizing and the i-dot treatment change; product, SEO, routes and image-priority configuration remain frozen.
+
+Local production QA passes Home/Avocado at 1440/390 with CLS 0, no overflow/errors, decoded images, navigation and Quiz. Actual Chrome cache pixels match 16/32 exports; 16/32/48 pixel separation and deterministic regeneration pass. All 96 tests / 27 files, lint, explicit TypeScript, production build and diff-check pass. [Brand board, refinement and QA](docs/qa/brand-logo-02/README.md). Git-triggered Preview verification follows the application push. Final visual approval is pending; no main merge or Production deployment is authorized. Released main/Production remain `60d2d8b40c9b438e9f35d5417e2097b9828d6c67`.
+
 ## BRAND-LOGO-A1 — Editorial Oval assets (2026-10-09)
 
 Bounded brand implementation on `feature/brand-logo-a1`, based on released `main` / `v1.0.0` at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67`. Original transparent oval + upper-left ripe-dot master and outlined logo, reverse artwork, all requested PNG/ICO sizes and a square SVG favicon are complete. Shared header/footer brand links preserve existing typography and add a small mark; root metadata owns the public icon URLs, replacing the Next scaffold icon. A minimal English manifest supplies 192/512 icons. No new JSON-LD, content, Quiz, canonical/crawl strategy, page structure, dependency or deployment-setting change.

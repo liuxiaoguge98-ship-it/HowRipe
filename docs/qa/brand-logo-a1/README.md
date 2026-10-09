@@ -1,5 +1,7 @@
 # HowRipe A1 — Editorial Oval
 
+**Historical engineering record. The A1 visual design was not approved.** BRAND-LOGO-02 replaces the public oval artwork with Ripe Signal while retaining the validated integration. See [current identity and QA](../brand-logo-02/README.md). Images and copied assets in this directory are archived comparison evidence.
+
 Date: 2026-10-09. Branch: `feature/brand-logo-a1`. Base: production `main` at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67` (`v1.0.0`).
 
 ## Design and assets

@@ -7,15 +7,15 @@ export function BrandLink({ eager = false }: { eager?: boolean }) {
       <Image
         className="site-brand-mark"
         src="/brand/howripe-mark.svg"
-        width={32}
-        height={36}
+        width={30}
+        height={30}
         alt=""
         aria-hidden="true"
         loading={eager ? "eager" : "lazy"}
         fetchPriority="low"
         unoptimized
       />
-      <span>HowRipe</span>
+      <span>HowR<span className="site-wordmark-i">i</span>pe</span>
     </Link>
   );
 }
