@@ -2,7 +2,7 @@
 
 Date: 2026-10-09. Branch: `feature/brand-logo-ripe-signal`. Started from the clean, exact engineering base `29c58158f7aca5f17e75f911b24b7737de4ba24d` on `feature/brand-logo-a1`. The old A1 implementation was technically validated; its visual design was **not approved**. This task replaces that visual identity while preserving its working integration.
 
-**Local and Vercel Preview engineering/visual QA: PASS. Final user visual approval: pending.** No main merge or Production deployment is authorized by this task.
+**Local and Vercel Preview engineering/visual QA: PASS. User visual approval: PASS (2026-10-09).** The user subsequently approved the Ripe Signal identity and authorized the [Production release](../brand-logo-02-production/README.md), retaining the requested related-fruit background fix.
 
 ## Design and refinement
 
@@ -20,7 +20,7 @@ Actual browser iteration was completed:
 2. [Round 2](round-2/brand-board.png): shortened/staggered the outer signal arc and trialed the compact favicon. The master inner-arc start and compact arc spacing received one further refinement.
 3. [Final](final/brand-board.png): separated upper caps, retained the organic C and used a dedicated two-arc favicon. Final header screenshots come from a production build; round-1/round-2 are archived development-render comparisons and may show the development indicator in full-page captures.
 
-These are designer QA judgments; user approval of the final identity remains a separate gate.
+These are designer QA judgments; the separate user visual-approval gate subsequently passed.
 
 ## Favicon and asset contract
 
@@ -82,7 +82,7 @@ node docs/qa/brand-logo-02/favicon-pixels.mjs
 
 For protected Preview QA, the existing temporary automation-access wrapper validates project/branch/SHA/environment, provides cookie authentication, and revokes the temporary credential in `finally`. Do not put credentials in commands or reports.
 
-## Git and Preview
+## Pre-release Git and Preview evidence
 
 Application commit: `85a724e3c902d6896291d37f4b0758cfcd68fbdd` — `feat: replace HowRipe logo with ripe signal identity`. Pushed to `origin/feature/brand-logo-ripe-signal`.
 
@@ -99,6 +99,6 @@ Evidence: [deployment identity](preview/deployment.json), [browser report](previ
 
 The evidence follow-up changes only documentation and QA artifacts. Application source/assets remain identical to the tested application commit. Its final-HEAD Preview identity and QA are checked after pushing, with the final check stored outside the Git checkout to avoid a self-referential evidence-commit loop.
 
-Main and Production remain at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67` (production deployment `dpl_HjuUpUguc1pFiyq6AjqzzWfqMU5M`). No PR, main merge or Production deployment was performed. This task stops for user visual approval.
+At this pre-release checkpoint, main and Production were `60d2d8b40c9b438e9f35d5417e2097b9828d6c67` (production deployment `dpl_HjuUpUguc1pFiyq6AjqzzWfqMU5M`). No merge or Production deployment occurred before user approval. The subsequent approved release is recorded separately above.
 
 No asset export gaps remain. Google search appearance and existing visitor/browser caches may update only after a later approved Production release and recrawl/cache refresh.

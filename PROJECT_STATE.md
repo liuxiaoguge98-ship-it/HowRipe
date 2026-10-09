@@ -1,5 +1,11 @@
 # Project State
 
+## BRAND-LOGO-02 — Approved Production release (2026-10-09)
+
+**User visual approval: PASS.** Release authorized from `feature/brand-logo-ripe-signal` at approved application HEAD `de499d570895e0167e40f2618546afed736a490a`, including the requested related-fruit white-background fix. Fresh release gates pass: 27 files / 96 tests, lint, explicit TypeScript, production build and cumulative diff-check. Scope audit confirms only the approved identity/icon integration, that minimal CSS follow-up and directly related tests/docs/QA; fruit content, Quiz behavior, routes, canonical/site-origin code, robots, sitemap, imagery, performance settings and dependencies are unchanged.
+
+A documentation/QA-only follow-up records approval and the live pre-release content/SEO/crawl baseline. Authorized flow: PR into main → exact-HEAD checks → squash → automatic Git/main Vercel Production → public QA → merged feature-branch cleanup. [Release QA and baseline](docs/qa/brand-logo-02-production/README.md). The merged PR and standalone release report record the final main SHA, Production deployment and live verification without a self-referential post-release main commit. No manual Production deploy, DNS change or new release tag is requested. Earlier pending-approval entries below describe historical checkpoints.
+
 ## Related-fruit image background fix (2026-10-09)
 
 User-reported Avocado → Persimmon white rectangle reproduced on the current `feature/brand-logo-ripe-signal` candidate. The white-canvas Fuyu asset was missing the existing blend treatment only on Avocado: its rule was limited to the other fruit themes. Moved the single declaration into shared related-image styling and removed the duplicate theme rule. No artwork, content, layout, SEO, loading or Quiz behavior change. Browser audit covers all five routes at 1440/390, 33 image sources and 40 Quiz question checks; no other same-class omission was found. Local production audit and all 96 tests / lint / TypeScript / build / diff-check pass. [Cause, before/after and verification](docs/qa/image-background-fix/README.md). The feature candidate remains pending visual approval; main and Production are unchanged.

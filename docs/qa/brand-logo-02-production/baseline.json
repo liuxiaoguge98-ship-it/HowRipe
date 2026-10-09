@@ -1,0 +1,72 @@
+{
+  "origin": "https://www.howripe.com",
+  "capturedAt": "2026-10-09T09:20:41.578Z",
+  "status": "PASS",
+  "snapshot": {
+    "routes": [
+      {
+        "route": "/",
+        "canonical": "https://www.howripe.com/",
+        "title": "HowRipe — How to Tell If Fruit Is Ripe",
+        "description": "Learn when avocados, kiwis, pomegranates, and persimmons are ripe and ready to eat. Choose fruit with practical clues and timing that fits your plans.",
+        "robots": null,
+        "h1": "Pick betterfruit.",
+        "mainTextSHA256": "6c8bb6efea2ab2af67289c59e6231f4b20b9e0a699113a0f559104c9fa5f9769",
+        "mainLinksSHA256": "be2e181ba4e4e9a30e364bfbbfab0dd1d9dcef3b465dd1a8d06a64e2aff837b0",
+        "jsonLdSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "route": "/avocado",
+        "canonical": "https://www.howripe.com/avocado",
+        "title": "How to Tell If an Avocado Is Ripe | HowRipe",
+        "description": "Learn the quick checks for choosing a ripe Hass avocado, from gentle pressure to structural damage.",
+        "robots": null,
+        "h1": "How to Tell If an Avocado Is Ripe",
+        "mainTextSHA256": "29ac3712945f2974efe472d9209e1c1eb699d05e15a8ab7954a3da49d733a6d1",
+        "mainLinksSHA256": "8e1499420ce288bce1de7a98458754a0bb9d0682bd8afd97c1dd41a5adf77daa",
+        "jsonLdSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "route": "/kiwi",
+        "canonical": "https://www.howripe.com/kiwi",
+        "title": "How to Tell If a Kiwi Is Ripe (5 Quick Checks)",
+        "description": "Check when green kiwi is ready to eat, learn how to ripen or store kiwi, and keep a whole batch from softening at once.",
+        "robots": null,
+        "h1": "How to Tell If a Kiwi Is Ripe",
+        "mainTextSHA256": "6145246aecfef08ac9b13e492cbd508892f3e6749ef0443f3c7de423f62a4e89",
+        "mainLinksSHA256": "64b8ce934d481c19033873a7ccb2079fe88ccf5efe03ac7c345210712a606143",
+        "jsonLdSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "route": "/pomegranate",
+        "canonical": "https://www.howripe.com/pomegranate",
+        "title": "How to Tell If a Pomegranate Is Ripe (5 Quick Checks)",
+        "description": "Learn how to choose a mature pomegranate using weight, shape, intact skin, and simple checks for cracks, bruises, and decay.",
+        "robots": null,
+        "h1": "How to Tell If a Pomegranate Is Ripe",
+        "mainTextSHA256": "3c3047b3aa76c76e157c8b55b18c3e316a10ca5393f8d65a99eccc0218bfdd0b",
+        "mainLinksSHA256": "cc2b495caf59a6ff9f1a4a0035eeb48dad41b43a110a4e73c19bc0b31ba23091",
+        "jsonLdSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "route": "/persimmon",
+        "canonical": "https://www.howripe.com/persimmon",
+        "title": "How to Tell If a Persimmon Is Ripe: Fuyu vs Hachiya",
+        "description": "Identify Fuyu or Hachiya first. Learn why mature Fuyu can be ready while firm, why Hachiya needs to be very soft, and how to distinguish normal ripening from damage.",
+        "robots": null,
+        "h1": "How to Tell If a Persimmon Is Ripe",
+        "mainTextSHA256": "d9757dab3144b207fcca0522811d913f6960371addbd8bf85b6ed129f68697f5",
+        "mainLinksSHA256": "e291bd5e8dd8bd9810c9244a3563e916a8732cbec114391a4948d0874fd767fc",
+        "jsonLdSHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "robots": {
+      "text": "User-Agent: *\nAllow: /\n\nSitemap: https://www.howripe.com/sitemap.xml\n",
+      "sha256": "7c51400ebdf05cf2ceb04d16c1a9edd6670679337413414284a26f28b9861539"
+    },
+    "sitemap": {
+      "text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.howripe.com/</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/avocado</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/kiwi</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/pomegranate</loc>\n</url>\n<url>\n<loc>https://www.howripe.com/persimmon</loc>\n</url>\n</urlset>\n",
+      "sha256": "42ab1860ef010a2bd75b53232c8c4a99f6197868aaea2c26f94eb0c39c0ae678"
+    }
+  }
+}
