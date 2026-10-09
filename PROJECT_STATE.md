@@ -1,5 +1,9 @@
 # Project State
 
+## Related-fruit image background fix (2026-10-09)
+
+User-reported Avocado → Persimmon white rectangle reproduced on the current `feature/brand-logo-ripe-signal` candidate. The white-canvas Fuyu asset was missing the existing blend treatment only on Avocado: its rule was limited to the other fruit themes. Moved the single declaration into shared related-image styling and removed the duplicate theme rule. No artwork, content, layout, SEO, loading or Quiz behavior change. Browser audit covers all five routes at 1440/390, 33 image sources and 40 Quiz question checks; no other same-class omission was found. Local production audit and all 96 tests / lint / TypeScript / build / diff-check pass. [Cause, before/after and verification](docs/qa/image-background-fix/README.md). The feature candidate remains pending visual approval; main and Production are unchanged.
+
 ## BRAND-LOGO-02 — Ripe Signal identity (2026-10-09)
 
 Work on `feature/brand-logo-ripe-signal` starts from the exact clean A1 engineering HEAD `29c58158f7aca5f17e75f911b24b7737de4ba24d`. A1's visual design was not approved. Replaced its public oval assets with a central ripe dot, organic open C and two staggered signal arcs, retaining rounded HowRipe lettering with a restrained green i-dot. The compact favicon uses two arcs for clarity at 16/32/48px; Apple/app icons use the full mark. Existing asset names, exporter, BrandLink, metadata/manifest and icon routing are preserved. Only brand artwork, square mark sizing and the i-dot treatment change; product, SEO, routes and image-priority configuration remain frozen.

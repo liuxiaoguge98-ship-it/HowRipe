@@ -113,7 +113,6 @@
 .rollout :global([data-game-stage]) :global(.quiz-text-option) > :global(.sample-label) { font: 800 22px/1 var(--font-display); }
 .rollout :global(.quiz-text-option) > span[id] :global(.immersive-translate-target-inner) { display: block; margin-top: 6px; font: 400 13px/1.4 Arial,sans-serif; }
 .rollout [data-editorial-section="nutrition"] dl { grid-template-columns: repeat(5,minmax(0,1fr)); gap: 14px; }
-.rollout :global(.related-visual) { mix-blend-mode: multiply; }
 /* Scenario illustrations retain the text evidence and the native choice button. */
 .rollout :global(.quiz-stage[data-evidence="illustrated"]) { --game-height: 620px; }
 .rollout :global([data-evidence="illustrated"]) :global(.motion-question) { grid-template-rows: 32px minmax(86px,auto) minmax(348px,auto) minmax(82px,1fr); }
