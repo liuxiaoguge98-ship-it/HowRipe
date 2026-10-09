@@ -107,7 +107,10 @@ button { min-height: 2.75rem; }
 /* One shared typographic identity and navigation across all five routes. */
 .site-header { border-bottom: 1px solid var(--lab-line, var(--color-border)); background: var(--lab-page, var(--color-page)); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 76px; }
-.site-wordmark { display: inline-flex; align-items: center; min-height: 44px; font: 800 30px/1 var(--font-display); letter-spacing: -.065em; color: var(--lab-ink, #283b24); white-space: nowrap; }
+.site-wordmark { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font: 800 30px/1 var(--font-display); letter-spacing: -.065em; color: #2f3b27; white-space: nowrap; }
+.site-brand-mark { flex: none; width: 30px; height: 30px; }
+.site-wordmark-i { position: relative; display: inline-block; }
+.site-wordmark-i::after { content: "i"; position: absolute; inset: 0; color: #a8c94a; clip-path: inset(0 0 69% 0); pointer-events: none; }
 .header-note { font-size: 12px; color: var(--lab-muted, #646456); }
 .editorial-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 44px; font-size: 14px; font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
 .editorial-link span { transition: transform 180ms var(--motion-ease); }
@@ -125,6 +128,7 @@ button { min-height: 2.75rem; }
 @media (max-width: 639px) {
   .header-inner { min-height: 68px; gap: 16px; }
   .site-wordmark { font-size: 28px; }
+  .site-brand-mark { width: 28px; height: 28px; }
   .header-note { display: none; }
   .editorial-link { font-size: 13px; gap: 14px; }
   .footer-inner { grid-template-columns: 1fr; gap: 24px; padding-block: 32px 18px; }

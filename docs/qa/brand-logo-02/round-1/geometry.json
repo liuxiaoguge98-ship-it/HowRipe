@@ -1,0 +1,26 @@
+{
+  "masterInk": {
+    "width": 65,
+    "height": 65
+  },
+  "header": [
+    {
+      "width": 1440,
+      "headerHeight": 77,
+      "capHeight": 23.144533157348633,
+      "markBoxHeight": 30,
+      "liveText": "HowRipe",
+      "accent": "rgb(168, 201, 74)",
+      "inkToCapRatio": 1.17
+    },
+    {
+      "width": 390,
+      "headerHeight": 69,
+      "capHeight": 21.601564407348633,
+      "markBoxHeight": 28,
+      "liveText": "HowRipe",
+      "accent": "rgb(168, 201, 74)",
+      "inkToCapRatio": 1.17
+    }
+  ]
+}

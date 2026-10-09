@@ -1,0 +1,15 @@
+{
+  "id": "dpl_2nFgZh8U2yrHfumqrTTVmXjuFusc",
+  "url": "https://fruit-picking-guide-f4msmhgpq-good-dc6d.vercel.app",
+  "state": "READY",
+  "environment": "Preview",
+  "target": null,
+  "source": "git",
+  "branch": "feature/brand-logo-ripe-signal",
+  "sha": "85a724e3c902d6896291d37f4b0758cfcd68fbdd",
+  "aliases": [
+    "fruit-picking-guide-git-feature-brand-logo-rip-b675da-good-dc6d.vercel.app"
+  ],
+  "projectId": "prj_i1FanaOS0Ay6qYcfU24X3UZHGZnn",
+  "browserQA": "PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "origin": "http://localhost:3108",
+  "isolatedChromeProfile": true,
+  "frames": [
+    {
+      "size": 16,
+      "cachedIconUrl": "http://localhost:3108/favicon.ico",
+      "decodedPixelsEqualExport": true
+    },
+    {
+      "size": 32,
+      "cachedIconUrl": "http://localhost:3108/favicon.ico",
+      "decodedPixelsEqualExport": true
+    }
+  ]
+}

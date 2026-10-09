@@ -1,0 +1,272 @@
+{
+  "origin": "http://localhost:3108",
+  "browser": "154.0.8037.99",
+  "status": "PASS",
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "english": true,
+      "h1Count": 1,
+      "brand": [
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        },
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        }
+      ],
+      "brokenImages": 0,
+      "highPriorityImages": 1,
+      "imagePreloadCount": 1,
+      "rawHtmlMetadata": "PASS",
+      "navigation": "PASS",
+      "quiz": "not applicable"
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "english": true,
+      "h1Count": 1,
+      "brand": [
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        },
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        }
+      ],
+      "brokenImages": 0,
+      "highPriorityImages": 1,
+      "imagePreloadCount": 1,
+      "rawHtmlMetadata": "PASS",
+      "navigation": "PASS",
+      "quiz": "not applicable"
+    },
+    {
+      "route": "/avocado",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "english": true,
+      "h1Count": 1,
+      "brand": [
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        },
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        }
+      ],
+      "brokenImages": 0,
+      "highPriorityImages": 1,
+      "imagePreloadCount": 1,
+      "rawHtmlMetadata": "PASS",
+      "navigation": "PASS",
+      "quiz": "answer, feedback, Got it: PASS"
+    },
+    {
+      "route": "/avocado",
+      "width": 390,
+      "scrollWidth": 390,
+      "english": true,
+      "h1Count": 1,
+      "brand": [
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        },
+        {
+          "text": "HowRipe",
+          "label": "HowRipe home",
+          "href": "/",
+          "src": "/brand/howripe-mark.svg",
+          "alt": "",
+          "hidden": "true",
+          "decoded": true,
+          "width": 32,
+          "height": 36
+        }
+      ],
+      "brokenImages": 0,
+      "highPriorityImages": 1,
+      "imagePreloadCount": 1,
+      "rawHtmlMetadata": "PASS",
+      "navigation": "PASS",
+      "quiz": "answer, feedback, Got it: PASS"
+    }
+  ],
+  "assets": [
+    {
+      "file": "/brand/howripe-mark.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 462,
+      "sha256": "73e0a7b925c3ae06773d28c7afc1aa939f8a184bebc2b45afd5bed541ab4d2ca",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/brand/howripe-logo.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 6176,
+      "sha256": "e41c6cb812d66044380c4aedfd58396b3f57ed83802869be62ab381a57117371",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/brand/howripe-mark-reverse.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 462,
+      "sha256": "65dcc106c956c20c2a5419539690981ef6ee8bb331de0da4dde35c949449fffe",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/brand/howripe-logo-reverse.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 6176,
+      "sha256": "9e2c9bb233ba91d5fd6d453f3862ba1be0eaccd84fc2d1c2a3a96653e08f718b",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/favicon.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 541,
+      "sha256": "b0824bedae688329462442abb0a1d769d6be7c209dd42b969ffb59153952fe49",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/favicon.ico",
+      "status": 200,
+      "contentType": "image/x-icon",
+      "bytes": 2020,
+      "sha256": "37a9536b7e70b139171b37739c95c9cbf10bbda6005c9f1c8f2847b92c77e4b9",
+      "browserDecode": "ICO frames verified in unit test"
+    },
+    {
+      "file": "/favicon-16x16.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 367,
+      "sha256": "796f097ce78d439a13de06e93170e005a67fb600613c281329b84ab666980c2c",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/favicon-32x32.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 656,
+      "sha256": "378fbd5244172716c314c36f89fdcd383c2c88dc3552e42a7acc5d49c7e06b04",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/apple-touch-icon.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 3608,
+      "sha256": "92207c5313a3ccc1f17e82e241fe3d0450b44afd5615ee62f9e4b6327ddd76a1",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/icon-192.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 4105,
+      "sha256": "48db0be00d8e73326495f7df102a56163d8d5fc7ed400a137e5e3854648d29e0",
+      "browserDecode": "PASS"
+    },
+    {
+      "file": "/icon-512.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 15840,
+      "sha256": "91fd4a7cc9c6597b2055de64c974a7215cc76eff405994b8ce112589b4477bd9",
+      "browserDecode": "PASS"
+    }
+  ],
+  "errors": [],
+  "manifest": {
+    "name": "HowRipe",
+    "short_name": "HowRipe",
+    "lang": "en",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#F5F2E9",
+    "theme_color": "#2F3B27",
+    "icons": [
+      {
+        "src": "/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ]
+  },
+  "chromiumManifestErrors": [],
+  "crawl": "Existing robots and five canonical sitemap URLs: PASS",
+  "tabIcon": "Isolated Chrome cache: 16/32px decoded pixels equal exported brand icons"
+}

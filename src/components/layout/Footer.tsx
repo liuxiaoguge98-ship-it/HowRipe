@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { getLiveFruitGuides } from "@/content/fruits";
+import { BrandLink } from "./BrandLink";
 
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="site-container footer-inner">
         <div>
-          <Link className="site-wordmark" href="/" aria-label="HowRipe home">HowRipe</Link>
+          <BrandLink />
           <p className="footer-description">Practical fruit-picking guidance for the market aisle.</p>
         </div>
         <nav className="footer-guides" aria-label="Fruit guides">
