@@ -1,5 +1,11 @@
 # Project State
 
+## BRAND-LOGO-A1 — Editorial Oval assets (2026-10-09)
+
+Bounded brand implementation on `feature/brand-logo-a1`, based on released `main` / `v1.0.0` at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67`. Original transparent oval + upper-left ripe-dot master and outlined logo, reverse artwork, all requested PNG/ICO sizes and a square SVG favicon are complete. Shared header/footer brand links preserve existing typography and add a small mark; root metadata owns the public icon URLs, replacing the Next scaffold icon. A minimal English manifest supplies 192/512 icons. No new JSON-LD, content, Quiz, canonical/crawl strategy, page structure, dependency or deployment-setting change.
+
+Local production checks pass: 95 tests / 27 files, lint, explicit TypeScript, build and diff-check. Home and Avocado at 1440/390 pass image, navigation, Quiz, English, metadata, no-overflow and no-console-error checks. All icon bytes/types and manifest are checked; isolated Chrome verifies the actual 16/32px cached tab artwork. Preview verification follows the first Git push. See [design, assets and QA evidence](docs/qa/brand-logo-a1/README.md). No PR merge or Production release is part of this task.
+
 ## HOWRIPE-V1-PRODUCTION — Approved release candidate (2026-10-08)
 
 **REAL PHYSICAL DEVICE QA: PASS — user-observed approval.** The user approved `feature/perf-mobile-images` at `8874eb40aab2abc6887c3cb554a923db1e4e4390` and the [final Preview](https://fruit-picking-guide-db88v57ol-good-dc6d.vercel.app/). This is the only combined release branch; it contains BRAND-HOME-01, SEO-HOME-01 and PERF-IMG-01. A documentation-only follow-up records the approval. Application source remains identical to the approved commit.

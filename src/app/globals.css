@@ -107,7 +107,8 @@ button { min-height: 2.75rem; }
 /* One shared typographic identity and navigation across all five routes. */
 .site-header { border-bottom: 1px solid var(--lab-line, var(--color-border)); background: var(--lab-page, var(--color-page)); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 76px; }
-.site-wordmark { display: inline-flex; align-items: center; min-height: 44px; font: 800 30px/1 var(--font-display); letter-spacing: -.065em; color: var(--lab-ink, #283b24); white-space: nowrap; }
+.site-wordmark { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; font: 800 30px/1 var(--font-display); letter-spacing: -.065em; color: #2f3b27; white-space: nowrap; }
+.site-brand-mark { flex: none; width: 32px; height: 36px; }
 .header-note { font-size: 12px; color: var(--lab-muted, #646456); }
 .editorial-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 44px; font-size: 14px; font-weight: 700; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 6px; }
 .editorial-link span { transition: transform 180ms var(--motion-ease); }
