@@ -66,6 +66,19 @@ Local Chrome 154: **PASS** for homepage and Avocado at **1440×1000 / 390×844**
 
 Evidence: [local browser report](local/browser.json), [actual Chrome favicon cache](local/favicon-cache.json), [desktop home](local/home-1440.png), [phone home](local/home-390.png), [desktop Avocado](local/avocado-1440.png), [phone Avocado](local/avocado-390.png), and per-page header/footer screenshots in `local/`.
 
-Vercel Preview QA will be recorded after the first Git push. The existing production deployment remains `dpl_HjuUpUguc1pFiyq6AjqzzWfqMU5M` at the base SHA. This task prepares and previews the brand assets; it does not authorize a main merge or Production deployment.
+## Vercel Preview
+
+**PASS** on the actual Git-triggered READY Preview for application commit `cca5a3fbe142529edb937dd81e4209c64b8fc064`:
+
+- [Tested immutable Preview](https://fruit-picking-guide-3ogkvi5tm-good-dc6d.vercel.app/)
+- [Current branch Preview](https://fruit-picking-guide-git-feature-brand-logo-a1-good-dc6d.vercel.app/)
+- Deployment `dpl_5TSJvrecGVgVaBQtGMExrxtke5Cd`; project `fruit-picking-guide`; environment Preview, source Git, exact branch/SHA validated before QA.
+- Same four Home/Avocado viewport combinations, header/footer screenshots, image loading, Quiz, navigation, English, canonical/crawl and icon/manifest checks pass remotely.
+- All 11 deployed brand/icon assets match repository bytes. The actual isolated Chrome cache again stores matching 16/32px tab icons. There are no console/page errors, horizontal overflow, broken visible images or extra image preloads.
+- Temporary automation QA access was created only for this run and revoked in `finally`; the existing Preview protection policy remains intact. Credentials are absent from these reports.
+
+Evidence: [deployment identity](preview/deployment.json), [Preview browser report](preview/browser.json), [actual cached tab icons](preview/favicon-cache.json), [phone home](preview/home-390.png), [desktop Avocado footer](preview/avocado-1440-footer.png) and the remaining per-page/viewport screenshots in `preview/`.
+
+The follow-up evidence commit changes only documentation and QA artifacts; application code/assets remain identical to this tested commit. The existing production deployment remains `dpl_HjuUpUguc1pFiyq6AjqzzWfqMU5M` at the base SHA. No PR, main merge or Production deployment was performed.
 
 No asset export gaps remain. Browser QA is controlled Chrome testing, not a claim of physical iPhone/Android testing.

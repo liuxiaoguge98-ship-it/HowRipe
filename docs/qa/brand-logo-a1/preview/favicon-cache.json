@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "origin": "https://fruit-picking-guide-3ogkvi5tm-good-dc6d.vercel.app",
+  "isolatedChromeProfile": true,
+  "frames": [
+    {
+      "size": 16,
+      "cachedIconUrl": "https://fruit-picking-guide-3ogkvi5tm-good-dc6d.vercel.app/favicon.ico",
+      "decodedPixelsEqualExport": true
+    },
+    {
+      "size": 32,
+      "cachedIconUrl": "https://fruit-picking-guide-3ogkvi5tm-good-dc6d.vercel.app/favicon.ico",
+      "decodedPixelsEqualExport": true
+    }
+  ]
+}
