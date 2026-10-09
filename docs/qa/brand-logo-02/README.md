@@ -2,7 +2,7 @@
 
 Date: 2026-10-09. Branch: `feature/brand-logo-ripe-signal`. Started from the clean, exact engineering base `29c58158f7aca5f17e75f911b24b7737de4ba24d` on `feature/brand-logo-a1`. The old A1 implementation was technically validated; its visual design was **not approved**. This task replaces that visual identity while preserving its working integration.
 
-**Local engineering and visual QA: PASS. Final user visual approval: pending.** No main merge or Production deployment is authorized by this task.
+**Local and Vercel Preview engineering/visual QA: PASS. Final user visual approval: pending.** No main merge or Production deployment is authorized by this task.
 
 ## Design and refinement
 
@@ -84,6 +84,21 @@ For protected Preview QA, the existing temporary automation-access wrapper valid
 
 ## Git and Preview
 
-Preview deployment and remote QA will be recorded after the application commit is pushed to the existing connected Vercel project. Main and Production remain at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67`; this task stops for user visual approval after Preview verification.
+Application commit: `85a724e3c902d6896291d37f4b0758cfcd68fbdd` — `feat: replace HowRipe logo with ripe signal identity`. Pushed to `origin/feature/brand-logo-ripe-signal`.
+
+**PASS** on the existing project's automatic Git-triggered READY Preview:
+
+- [Tested immutable Preview](https://fruit-picking-guide-f4msmhgpq-good-dc6d.vercel.app/)
+- [Current branch Preview](https://fruit-picking-guide-git-feature-brand-logo-rip-b675da-good-dc6d.vercel.app/)
+- Deployment `dpl_2nFgZh8U2yrHfumqrTTVmXjuFusc`, project `fruit-picking-guide`, source Git, exact feature branch/application SHA, environment Preview. GitHub's Vercel commit status is successful.
+- All four Home/Avocado 1440/390 combinations pass the same complete checks remotely: brand links, metadata, manifest, canonical/crawl URLs, English, images, hero priority, navigation and Quiz. Every CLS measurement is 0; no console/page errors or horizontal overflow.
+- All 11 deployed brand/icon assets match repository bytes. Actual isolated Chrome tab-cache pixels match the new 16/32px exports.
+- Remote screenshots were inspected. Existing Preview protection remains intact and the temporary automation credential was revoked after QA.
+
+Evidence: [deployment identity](preview/deployment.json), [browser report](preview/browser.json), [actual cached tab icons](preview/favicon-cache.json), [phone homepage](preview/home-390.png), [desktop Avocado header](preview/avocado-1440-header.png), [phone Avocado footer](preview/avocado-390-footer.png), and all other route/viewport captures in `preview/`.
+
+The evidence follow-up changes only documentation and QA artifacts. Application source/assets remain identical to the tested application commit. Its final-HEAD Preview identity and QA are checked after pushing, with the final check stored outside the Git checkout to avoid a self-referential evidence-commit loop.
+
+Main and Production remain at `60d2d8b40c9b438e9f35d5417e2097b9828d6c67` (production deployment `dpl_HjuUpUguc1pFiyq6AjqzzWfqMU5M`). No PR, main merge or Production deployment was performed. This task stops for user visual approval.
 
 No asset export gaps remain. Google search appearance and existing visitor/browser caches may update only after a later approved Production release and recrawl/cache refresh.

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-09",
+  "applicationCommit": "85a724e3c902d6896291d37f4b0758cfcd68fbdd",
+  "commands": [
+    {
+      "command": "pnpm test",
+      "exitCode": 0,
+      "result": "27 files / 96 tests passed"
+    },
+    {
+      "command": "pnpm lint",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm exec tsc --noEmit",
+      "exitCode": 0
+    },
+    {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "result": "Next.js 16.3.4 webpack production build"
+    },
+    {
+      "command": "git diff --check",
+      "exitCode": 0
+    }
+  ],
+  "localBrowserQA": "PASS",
+  "previewBrowserQA": "PASS",
+  "smallRasterQA": "16/32/48 PASS",
+  "visualApproval": "pending"
+}
