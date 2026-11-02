@@ -1,6 +1,8 @@
 Live site: https://www.howripe.com
 
-Production origin: **https://www.howripe.com**. `NEXT_PUBLIC_SITE_URL` is the single environment setting; `src/lib/site-url.ts` supplies its canonical production default to metadata, canonical URLs, robots and sitemap. See `.env.example` and `docs/qa/production-01/README.md` for the production audit. Localhost references below are development instructions.
+Production origin: **https://www.howripe.com**. `NEXT_PUBLIC_SITE_URL` configures the site origin; `src/lib/site-url.ts` supplies its canonical production default to metadata, canonical URLs, robots and sitemap. See `.env.example` and `docs/qa/production-01/README.md` for the production audit. Localhost references below are development instructions.
+
+GA4: set `NEXT_PUBLIC_GA_MEASUREMENT_ID` in Vercel **Production** before building. Tracking is disabled in development/Preview and when the ID is missing or invalid. See [GA4 setup and verification](docs/analytics.md).
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
