@@ -1,0 +1,43 @@
+{
+  "origin": "https://www.howripe.com",
+  "method": "Fresh Chrome context, 390px/DPR1, no throttling. Transfer sizes are indicative, not Lighthouse/field CWV.",
+  "pages": [
+    {
+      "route": "/",
+      "cls": 0,
+      "lcpMs": 3184,
+      "jsEncodedBytes": 151613,
+      "imagesEncodedBytes": 57820,
+      "imageRequests": [
+        {
+          "url": "https://www.howripe.com/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 17948
+        },
+        {
+          "url": "https://www.howripe.com/brand/howripe-mark.svg",
+          "encodedBytes": 486
+        },
+        {
+          "url": "https://www.howripe.com/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 4824
+        },
+        {
+          "url": "https://www.howripe.com/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 14924
+        },
+        {
+          "url": "https://www.howripe.com/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 3190
+        },
+        {
+          "url": "https://www.howripe.com/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 16448
+        }
+      ],
+      "highPriority": [
+        "https://www.howripe.com/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75"
+      ],
+      "pearImages": []
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "origin": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app",
+  "method": "Fresh Chrome context, 390px/DPR1, no throttling. Transfer sizes are indicative, not Lighthouse/field CWV.",
+  "pages": [
+    {
+      "route": "/",
+      "cls": 0,
+      "lcpMs": 2388,
+      "jsEncodedBytes": 150272,
+      "imagesEncodedBytes": 61378,
+      "imageRequests": [
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 17948
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/brand/howripe-mark.svg",
+          "encodedBytes": 486
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 4824
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 14924
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 3190
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 3558
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 16448
+        }
+      ],
+      "highPriority": [
+        "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75"
+      ],
+      "pearImages": [
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=128&q=75",
+          "displayWidth": 140,
+          "loading": "eager"
+        }
+      ]
+    },
+    {
+      "route": "/pear",
+      "cls": 0,
+      "lcpMs": 2248,
+      "jsEncodedBytes": 150272,
+      "imagesEncodedBytes": 23740,
+      "imageRequests": [
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 9502
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/brand/howripe-mark.svg",
+          "encodedBytes": 486
+        },
+        {
+          "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fvariants%2Fasian.webp&w=256&q=75",
+          "encodedBytes": 13752
+        }
+      ],
+      "highPriority": [
+        "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75"
+      ],
+      "pearImages": [
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 350,
+          "loading": "eager"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 316,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fvariants%2Fasian.webp&w=256&q=75",
+          "displayWidth": 316,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 150,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 150,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 163,
+          "loading": "lazy"
+        },
+        {
+          "source": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 163,
+          "loading": "lazy"
+        }
+      ]
+    }
+  ]
+}

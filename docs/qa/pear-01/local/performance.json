@@ -1,0 +1,120 @@
+{
+  "origin": "http://127.0.0.1:3001",
+  "method": "Fresh Chrome context, 390px/DPR1, no throttling. Transfer sizes are indicative, not Lighthouse/field CWV.",
+  "pages": [
+    {
+      "route": "/",
+      "cls": 0,
+      "lcpMs": 60,
+      "jsEncodedBytes": 149076,
+      "imagesEncodedBytes": 61368,
+      "imageRequests": [
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 17938
+        },
+        {
+          "url": "http://127.0.0.1:3001/brand/howripe-mark.svg",
+          "encodedBytes": 486
+        },
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 4824
+        },
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpomegranate%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 14924
+        },
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpersimmon%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 3190
+        },
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=128&q=75",
+          "encodedBytes": 3558
+        },
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fkiwi%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 16448
+        }
+      ],
+      "highPriority": [
+        "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Favocado%2Fhero%2Fhero.webp&w=256&q=75"
+      ],
+      "pearImages": [
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=128&q=75",
+          "displayWidth": 140,
+          "loading": "eager"
+        }
+      ]
+    },
+    {
+      "route": "/pear",
+      "cls": 0,
+      "lcpMs": 84,
+      "jsEncodedBytes": 149076,
+      "imagesEncodedBytes": 9988,
+      "imageRequests": [
+        {
+          "url": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "encodedBytes": 9502
+        },
+        {
+          "url": "http://127.0.0.1:3001/brand/howripe-mark.svg",
+          "encodedBytes": 486
+        }
+      ],
+      "highPriority": [
+        "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75"
+      ],
+      "pearImages": [
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 350,
+          "loading": "eager"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 316,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 180,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 150,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 150,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 163,
+          "loading": "lazy"
+        },
+        {
+          "source": "http://127.0.0.1:3001/_next/image?url=%2Ffruits%2Fpear%2Fhero%2Fhero.webp&w=256&q=75",
+          "displayWidth": 163,
+          "loading": "lazy"
+        }
+      ]
+    }
+  ]
+}
