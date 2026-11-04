@@ -73,6 +73,8 @@ describe("PEAR-01 Quiz evidence", () => {
     expect(a.illustrations).toHaveLength(1);
     expect(b.illustrations).toHaveLength(1);
     expect(source(a.illustrations![0])).not.toBe(source(b.illustrations![0]));
+    expect(source(a.illustrations![0])).not.toBe(source("pear.variety.bartlett"));
+    expect(source(a.illustrations![0])).toMatch(/quiz\/bartlett-green\.webp$/);
   });
 
   it("Q04 asks Yes A or No B about the same normal russeted Bosc", () => {

@@ -24,7 +24,7 @@ export const fruitAssets = {
   "pear.quiz.q01.b": productionComparison("pear", "pear-q01", "/fruits/pear/hero/hero.webp"),
   "pear.quiz.q02.a": productionComparison("pear", "pear-q02", "/fruits/pear/hero/hero.webp"),
   "pear.quiz.q02.b": productionComparison("pear", "pear-q02", "/fruits/pear/hero/hero.webp"),
-  "pear.quiz.q03.a": productionComparison("pear", "pear-q03", "/fruits/pear/education/bartlett-color.webp"),
+  "pear.quiz.q03.a": productionComparison("pear", "pear-q03", "/fruits/pear/quiz/bartlett-green.webp"),
   "pear.quiz.q03.b": productionComparison("pear", "pear-q03", "/fruits/pear/hero/hero.webp"),
   "pear.quiz.q04.a": productionComparison("pear", "pear-q04", "/fruits/pear/variants/bosc.webp"),
   "pear.quiz.q04.b": productionComparison("pear", "pear-q04", "/fruits/pear/variants/bosc.webp"),

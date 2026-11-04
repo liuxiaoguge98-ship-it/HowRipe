@@ -218,3 +218,7 @@
 
 .pear :global(.tactile-placed) { background:transparent; }
 .pear :global([data-game-stage]) :global(.tactile-placed), .pear :global([data-game-stage]) :global(.tactile-placed) > div { background:transparent; }
+.pear :global(.touch-description) { font:700 13px/1.45 Arial,sans-serif; text-transform:none; letter-spacing:0; }
+@media(max-width:639px) {
+  .pear :global([data-game-stage]) :global(.resistance-slot) { min-height:52px; height:auto; }
+}
