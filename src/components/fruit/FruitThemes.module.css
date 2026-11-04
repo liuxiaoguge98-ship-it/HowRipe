@@ -222,3 +222,4 @@
 @media(max-width:639px) {
   .pear :global([data-game-stage]) :global(.resistance-slot) { min-height:52px; height:auto; }
 }
+.pear :global(.motion-hero-text) > p:nth-of-type(2) { color:var(--lab-ink); }
