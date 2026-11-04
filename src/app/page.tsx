@@ -8,13 +8,14 @@ import styles from "./Home.module.css";
 export const metadata = pageMetadata(
   "/",
   "HowRipe — How to Tell If Fruit Is Ripe",
-  "Learn when avocados, kiwis, pomegranates, and persimmons are ripe and ready to eat. Choose fruit with practical clues and timing that fits your plans.",
+  "Learn when avocados, kiwis, pomegranates, persimmons, and pears are ripe and ready to eat. Choose fruit with practical clues and timing that fits your plans.",
 );
 
 const specimens: Record<FruitSlug, { accent: string; wash: string; topics: string; promise: string; guideLabel: string }> = {
   avocado: { accent: "#476f22", wash: "#e9f0d8", topics: "Firmness · Timing · Damage", promise: "Find the gentle give. Pick for when you’ll eat it.", guideLabel: "How to tell if an avocado is ripe" },
   kiwi: { accent: "#526d22", wash: "#edf0d7", topics: "Ripeness · Storage · Timing", promise: "Know when it’s ready. Keep the rest on your schedule.", guideLabel: "How to tell if a kiwi is ripe" },
   pomegranate: { accent: "#9a3048", wash: "#f5e4e5", topics: "Weight · Shape · Skin", promise: "Look beyond the red. Learn what to feel and inspect.", guideLabel: "How to choose a ripe pomegranate" },
+  pear: { accent: "#657232", wash: "#f1e7c9", topics: "Type · Neck · Timing", promise: "Check the neck. Know when crisp can be ripe.", guideLabel: "How to tell if a pear is ripe" },
   persimmon: { accent: "#a95116", wash: "#f8e6ce", topics: "Fuyu · Hachiya · Ready to eat", promise: "Start with the type. Firm means different things.", guideLabel: "How to tell if a persimmon is ripe" },
 };
 
@@ -24,6 +25,7 @@ function Specimen({ slug, hero = false }: { slug: FruitSlug; hero?: boolean }) {
     avocado: "(max-width: 639px) 170px, (max-width: 1023px) 237px, 295px",
     kiwi: "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
     pomegranate: "(max-width: 639px) 155px, (max-width: 1023px) 217px, 269px",
+    pear: "(max-width: 639px) 110px, (max-width: 1023px) 160px, 200px",
     persimmon: "(max-width: 639px) 123px, (max-width: 1023px) 172px, 214px",
   };
   return <Image src={`/fruits/${slug}/hero/hero.webp`} alt="" fill sizes={hero ? heroSizes[slug] : "(max-width: 639px) 196px, (max-width: 1023px) 208px, 248px"} loading={hero ? "eager" : "lazy"} fetchPriority={hero && slug === "avocado" ? "high" : "low"} />;

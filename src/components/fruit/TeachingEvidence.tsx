@@ -1,5 +1,6 @@
 import type { PickingSection } from "@/content/fruits/types";
 import type { FruitAssetKey } from "@/lib/fruit-assets";
+import { TeachingLab } from "./TeachingLab";
 import { FruitAsset } from "./FruitAsset";
 
 // Existing hand/photo wells bound the contained artwork, including on phones.
@@ -12,6 +13,7 @@ const photoSizes: Partial<Record<FruitAssetKey, string>> = {
 
 /** Captions explain evidence in HTML; production photographs remain unmarked. */
 export function TeachingEvidence({ section }: { section: PickingSection }) {
+  if (section.typeComparison || section.pressureLocation || section.pressureCheck || section.varietyCues) return <TeachingLab section={section} />;
   if (section.conditionGuide && section.assetKey) {
     const guide = section.conditionGuide;
     return <div className="condition-guide">

@@ -12,21 +12,22 @@ const expectedH1 = {
   kiwi: "How to Tell If a Kiwi Is Ripe",
   pomegranate: "How to Tell If a Pomegranate Is Ripe",
   persimmon: "How to Tell If a Persimmon Is Ripe",
+  pear: "How to Tell If a Pear Is Ripe",
 };
 
-describe("four-fruit production audit", () => {
-  it("has four live guides with unique metadata, core static content, sources, and linked related fruit", () => {
+describe("live-fruit production audit", () => {
+  it("has live guides with unique metadata, core static content, sources, and linked related fruit", () => {
     expect(getLiveFruitGuides()).toEqual(fruitGuides);
     const metadata = fruitGuides.map((guide) => fruitMetadata(getFruitContent(guide.slug)));
-    expect(new Set(metadata.map((item) => item.title)).size).toBe(4);
-    expect(new Set(metadata.map((item) => item.description)).size).toBe(4);
+    expect(new Set(metadata.map((item) => item.title)).size).toBe(fruitGuides.length);
+    expect(new Set(metadata.map((item) => item.description)).size).toBe(fruitGuides.length);
     fruitGuides.forEach((guide) => {
       const fruit = getFruitContent(guide.slug);
       const html = renderToStaticMarkup(<FruitPage fruit={fruit} />);
       expect(fruit.seo.h1).toBe(expectedH1[guide.slug]);
       expect(html).toContain(fruit.hero.directAnswer);
       for (const heading of ["QUICK CHECKS", "HOW TO PICK", "NUTRITION SNAPSHOT", "FAQ", "SOURCES", "PICK YOUR NEXT FRUIT"]) expect(html).toContain(heading);
-      expect(fruit.nutrition.basis).toBe("per 100g");
+      expect(fruit.nutrition.basis).toMatch(/^per 100g\b/);
       expect(fruit.nutrition.metrics.length).toBeLessThanOrEqual(5);
       expect(fruit.sources?.length).toBeGreaterThan(0);
       expect(fruit.sources?.every((source) => /^https:\/\//.test(source.url))).toBe(true);
@@ -42,6 +43,6 @@ describe("four-fruit production audit", () => {
     expect(text).toContain("No universal trick.");
     expect((homepage.match(/<h1\b/g) ?? [])).toHaveLength(1);
     fruitGuides.forEach((guide) => expect(homepage).toContain(`href=\"/${guide.slug}\"`));
-    expect(sitemapForSiteUrl("https://fruit.example").map((entry) => entry.url)).toEqual(["https://fruit.example/", "https://fruit.example/avocado", "https://fruit.example/kiwi", "https://fruit.example/pomegranate", "https://fruit.example/persimmon"]);
+    expect(sitemapForSiteUrl("https://fruit.example").map((entry) => entry.url)).toEqual(["https://fruit.example/", "https://fruit.example/avocado", "https://fruit.example/kiwi", "https://fruit.example/pomegranate", "https://fruit.example/persimmon", "https://fruit.example/pear"]);
   });
 });

@@ -5,14 +5,20 @@ import { resolve } from "node:path";
 import { getFruitContent } from "../src/content/fruits";
 import { fruitAssets, resolveFruitAsset, validateFruitAssetContracts } from "../src/lib/fruit-assets";
 
-const launchFruits = ["avocado", "kiwi", "pomegranate", "persimmon"] as const;
+const launchFruits = ["avocado", "kiwi", "pomegranate", "persimmon", "pear"] as const;
 
 function referencedKeys(slug: (typeof launchFruits)[number]) {
   const fruit = getFruitContent(slug);
   return [
     fruit.hero.assetKey, ...fruit.hero.specimens?.map(s => s.assetKey) ?? [],
     ...fruit.timingGuide?.stages.map((stage) => stage.assetKey) ?? [],
-    ...fruit.pickingSections.flatMap((section) => [section.assetKey, ...section.comparison?.samples.map(sample => sample.assetKey) ?? []]),
+    ...fruit.pickingSections.flatMap((section) => [
+      section.assetKey, section.conditionGuide?.avoidAssetKey,
+      ...section.comparison?.samples.map(sample => sample.assetKey) ?? [],
+      ...section.typeComparison?.variants.map(variant => variant.assetKey) ?? [],
+      section.pressureLocation?.assetKey, section.pressureCheck?.assetKey,
+      ...section.varietyCues?.map(variety => variety.assetKey) ?? [],
+    ]),
     ...fruit.variantOverview?.variants.map((variant) => variant.assetKey) ?? [],
     ...fruit.quiz.questions.flatMap((question) => question.options.flatMap((option) => [option.assetKey, ...option.illustrations ?? []])),
   ].filter((key): key is NonNullable<typeof key> => Boolean(key));

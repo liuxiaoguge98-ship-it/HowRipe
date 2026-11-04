@@ -190,3 +190,31 @@
   .kiwi :global([data-evidence="illustrated"]) :global(.quiz-samples) > :global(.quiz-text-option) { grid-template-rows:165px minmax(100px,auto) minmax(116px,1fr); min-height:397px; }
   .kiwi :global(.quiz-illustrations) { height:165px; }
 }
+/* Pear shares the editorial template; only its teaching evidence and palette vary. */
+.pear { composes: rollout; }
+.pear, :global(body):has(.pear) {
+  --lab-page:#fbf7ed; --lab-surface:#f4efdd; --lab-wash:#eee5c7;
+  --lab-line:#c4ba94; --lab-accent:#657232; --lab-ink:#354322; --lab-muted:#69634e;
+}
+.pear :global(.hero-memory) { display:block; margin-top:22px; font:800 clamp(23px,3vw,34px)/1.1 var(--font-display); color:var(--lab-accent); }
+.pear :global(.motion-hero-asset) img { transform:none; }
+.pear [data-layout="feature"] > div, .pear [data-layout="photo"] > div { display:block; }
+.pear [data-layout="detail"] { grid-column:1/-1; }
+.pear [data-layout="feature"] :global(.picking-lead), .pear [data-layout="photo"] :global(.picking-lead) { margin-top:16px; }
+.pear [data-layout="photo"] :global(.picking-body) { margin-top:16px; max-width:760px; }
+.pear :global(.picking-steps) { list-style:none; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; margin:28px 0; padding:0; }
+.pear :global(.picking-steps) li { padding-top:16px; border-top:1px solid var(--lab-line); }
+.pear :global(.picking-steps) h3 { font:800 18px/1.25 var(--font-display); }
+.pear :global(.picking-steps) p { font:15px/1.6 Arial,sans-serif; margin-top:10px; color:var(--lab-muted); }
+.pear :global(.quiz-illustrations) { align-items:center; }
+.pear :global(.quiz-illustrations) > div { background:transparent; }
+.pear :global(.tactile-placed) > div { background:transparent; }
+.pear :global(.tactile-placed) img { transform:none; }
+@media(max-width:639px) {
+  .pear :global(.motion-hero-text) > p:nth-of-type(2) { font-size:16px; line-height:1.6; }
+  .pear :global(.picking-steps) { grid-template-columns:1fr; gap:18px; }
+  .pear [data-layout="photo"] :global(.picking-lead) { order:initial; }
+}
+
+.pear :global(.tactile-placed) { background:transparent; }
+.pear :global([data-game-stage]) :global(.tactile-placed), .pear :global([data-game-stage]) :global(.tactile-placed) > div { background:transparent; }

@@ -14,6 +14,23 @@ const productionVariant = (fruit: FruitSlug, purpose: string, src: string) => ({
 const teachingPhoto = (fruit: FruitSlug, purpose: string, src: string) => ({ ...productionEducation(fruit, purpose, src), sourceBackground: "scene" as const });
 
 export const fruitAssets = {
+  "pear.hero": productionHero("pear", "European Anjou pear with a clear neck and stem", "/fruits/pear/hero/hero.webp"),
+  "pear.variant.asian": productionVariant("pear", "Round Hosui Asian pear, crisp when ready", "/fruits/pear/variants/asian.webp"),
+  "pear.picking.neck": teachingPhoto("pear", "Gentle thumb contact beside the stem, not the belly", "/fruits/pear/education/neck-pressure.webp"),
+  "pear.variety.bartlett": productionEducation("pear", "Same yellow Bartlett variety, green and gold color comparison", "/fruits/pear/education/bartlett-color.webp"),
+  "pear.variety.anjou": productionVariant("pear", "Green Anjou color is not a readiness verdict", "/fruits/pear/hero/hero.webp"),
+  "pear.variety.bosc": productionVariant("pear", "Natural cinnamon-brown Bosc russeting", "/fruits/pear/variants/bosc.webp"),
+  "pear.quiz.q01.a": productionComparison("pear", "pear-q01", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q01.b": productionComparison("pear", "pear-q01", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q02.a": productionComparison("pear", "pear-q02", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q02.b": productionComparison("pear", "pear-q02", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q03.a": productionComparison("pear", "pear-q03", "/fruits/pear/education/bartlett-color.webp"),
+  "pear.quiz.q03.b": productionComparison("pear", "pear-q03", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q04.a": productionComparison("pear", "pear-q04", "/fruits/pear/variants/bosc.webp"),
+  "pear.quiz.q04.b": productionComparison("pear", "pear-q04", "/fruits/pear/variants/bosc.webp"),
+  "pear.quiz.q05.a": productionComparison("pear", "pear-q05", "/fruits/pear/hero/hero.webp"),
+  "pear.quiz.q05.b": productionComparison("pear", "pear-q05", "/fruits/pear/variants/asian.webp"),
+
   "kiwi.illustration.fridge": { ...productionEducation("kiwi", "One whole kiwi in cold storage", "/fruits/kiwi/quiz/scenarios/fridge.webp"), aspectRatio: "1:1", sourceBackground: "transparent-preferred" },
   "kiwi.illustration.bag": { ...productionEducation("kiwi", "A whole kiwi and apple in an open paper bag", "/fruits/kiwi/quiz/scenarios/bag.webp"), aspectRatio: "1:1", sourceBackground: "transparent-preferred" },
   "kiwi.illustration.counter-six": { ...productionEducation("kiwi", "All six whole kiwi on the counter", "/fruits/kiwi/quiz/scenarios/counter-six.webp"), aspectRatio: "1:1", sourceBackground: "transparent-preferred" },

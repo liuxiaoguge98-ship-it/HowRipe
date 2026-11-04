@@ -19,7 +19,7 @@ describe("editorial presentation opt-in", () => {
     expect(html).not.toContain('data-presentation="editorial-lab"');
     expect(html).not.toContain('class="check-number"');
     expect(html).not.toContain('Choose A');
-    for (const slug of ["kiwi", "pomegranate", "persimmon"] as const) {
+    for (const slug of ["kiwi", "pomegranate", "persimmon", "pear"] as const) {
       expect(getFruitContent(slug).presentation).toBe("editorial-lab");
     }
   });

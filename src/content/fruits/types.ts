@@ -1,6 +1,6 @@
 import type { FruitAssetKey } from "@/lib/fruit-assets";
 
-export type FruitSlug = "avocado" | "kiwi" | "pomegranate" | "persimmon";
+export type FruitSlug = "avocado" | "kiwi" | "pomegranate" | "persimmon" | "pear";
 
 export type FruitTheme = {
   primary: string;
@@ -18,6 +18,7 @@ export type HeroContent = {
   eyebrow: string;
   title: string;
   directAnswer: string;
+  memoryLine?: string;
   primaryCta: string;
   secondaryCta?: string;
   secondaryCtaHref?: string;
@@ -51,6 +52,9 @@ export type FruitVariantOverview = {
   layout?: "variant-lab";
   title: string;
   intro?: string;
+  pathEyebrow?: string;
+  pathTitle?: string;
+  pathIntro?: string;
   variants: Array<{
     id: string;
     name: string;
@@ -61,7 +65,7 @@ export type FruitVariantOverview = {
     targetId?: string;
     rule?: string;
     readyCriteria?: string;
-    path?: Array<{ label: string; description: string; state: "wait" | "ready" }>;
+    path?: Array<{ label: string; description: string; state: "wait" | "ready" | "inspect"; status?: string }>;
   }>;
 };
 
@@ -69,6 +73,8 @@ export type TeachingComparison = {
   detail: "surface" | "outline" | "whole";
   samples: [{ assetKey: FruitAssetKey; alt: string; label: string }, { assetKey: FruitAssetKey; alt: string; label: string }];
 };
+
+export type EvidenceMarker = { x: number; y: number };
 
 export type PickingSection = {
   id: string;
@@ -84,6 +90,11 @@ export type PickingSection = {
   visualCaption?: string;
   conditionGuide?: { lookFor: string; avoid: string; note: string; avoidAssetKey: FruitAssetKey; avoidAlt: string };
   comparison?: TeachingComparison;
+  typeComparison?: FruitVariantOverview;
+  pressureLocation?: { assetKey: FruitAssetKey; alt: string; samples: Array<{ label: string; summary: string; marker: EvidenceMarker }> };
+  pressureCheck?: { assetKey: FruitAssetKey; alt: string; placement: EvidenceMarker; instruction: string; states: Array<{ label: string; description: string; result: string; level: FirmnessLevel; placement?: EvidenceMarker }> };
+  varietyCues?: Array<{ name: string; rule: string; summary: string; check: string; assetKey?: FruitAssetKey; assetAlt?: string }>;
+  steps?: Array<{ label: string; summary: string }>;
   layout?: "text" | "split" | "feature" | "comparison" | "detail" | "statement" | "photo";
 };
 
@@ -92,8 +103,8 @@ export type DontOverthinkItem = {
   summary: string;
 };
 
-export type FirmnessLevel = "very_firm" | "beginning_to_soften" | "ripe";
-export type QuizTactileCue = { kind: "firmness"; level: FirmnessLevel; description?: string };
+export type FirmnessLevel = "very_firm" | "beginning_to_soften" | "ripe" | "body_soft";
+export type QuizTactileCue = { kind: "firmness"; level: FirmnessLevel; description?: string; placement?: EvidenceMarker; actionLabel?: string };
 
 export type VisualQuizOption = {
   id: "a" | "b";
@@ -107,6 +118,7 @@ export type VisualQuizOption = {
 export type TextQuizOption = {
   id: "a" | "b";
   text: string;
+  marker?: EvidenceMarker;
   /** Illustrations accompany the scenario; tactile/weight facts stay in text. */
   illustrations?: [FruitAssetKey] | [FruitAssetKey, FruitAssetKey];
   assetKey?: never;

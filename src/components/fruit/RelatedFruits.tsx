@@ -4,7 +4,7 @@ import { resolveFruitAsset } from "@/lib/fruit-assets";
 import { getFruitContent, hasFruitContent } from "@/content/fruits";
 
 const labels: Record<FruitSlug, string> = {
-  avocado: "AVOCADO", kiwi: "KIWI", pomegranate: "POMEGRANATE", persimmon: "PERSIMMON",
+  avocado: "AVOCADO", kiwi: "KIWI", pomegranate: "POMEGRANATE", pear: "PEAR", persimmon: "PERSIMMON",
 };
 
 export function RelatedFruits({ fruits, visual = false }: { fruits: FruitSlug[]; visual?: boolean }) {

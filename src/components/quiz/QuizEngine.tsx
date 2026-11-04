@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import type { FruitContent, QuizConfig } from "@/content/fruits/types";
 import { FruitAsset } from "@/components/fruit/FruitAsset";
+import { SpecimenMarker } from "@/components/fruit/SpecimenMarker";
 import { TactileFirmnessCheck } from "./TactileFirmnessCheck";
 
 type State = "ANSWERING" | "CORRECT_FEEDBACK" | "WRONG_FEEDBACK" | "COMPLETED";
@@ -87,14 +88,14 @@ export function QuizEngine({ quiz, presentation }: { quiz: QuizConfig; presentat
             aria-describedby={editorial ? `${question.id}-${option.id}-text${revealed ? ` ${question.id}-${option.id}-reason` : ""}` : undefined}
             disabled={state !== "ANSWERING"} onClick={() => choose(option.id)}>
             {editorial ? sampleLabel(option.id) : <span aria-hidden="true" className="mb-3 block text-xs uppercase tracking-widest">Option {option.id.toUpperCase()}</span>}
-            {option.illustrations ? <span className="quiz-illustrations" data-count={option.illustrations.length} aria-hidden="true">{option.illustrations.map(key => <FruitAsset key={key} assetKey={key} alt="" sizes={option.illustrations!.length > 1 ? "(max-width: 639px) calc((100vw - 70px) / 4), 180px" : "(max-width: 639px) calc((100vw - 64px) / 2), 360px"} />)}</span> : null}
+            {option.illustrations ? <span className="quiz-illustrations" data-count={option.illustrations.length} style={option.marker ? { position: "relative" } : undefined} aria-hidden="true">{option.illustrations.map(key => <FruitAsset key={key} assetKey={key} alt="" sizes={option.illustrations!.length > 1 ? "(max-width: 639px) calc((100vw - 70px) / 4), 180px" : "(max-width: 639px) calc((100vw - 64px) / 2), 360px"} />)}{option.marker ? <SpecimenMarker point={option.marker} /> : null}</span> : null}
             <span id={`${question.id}-${option.id}-text`}>{option.text}</span>
             {game && editorial ? <span className="sample-decision">{decision(option.id)}</span> : null}
           </button>
         ) : option.tactile ? (
           <div key={option.id} role="group" aria-label={option.accessibilityLabel} className="quiz-sample min-w-0" data-result={resultFor(option.id)}>
             {editorial ? sampleLabel(option.id) : null}
-            <TactileFirmnessCheck enhanced={game && editorial} showPendingResistance={editorial} level={option.tactile.level} description={option.tactile.description} optionLabel={option.accessibilityLabel} disabled={state !== "ANSWERING"}>
+            <TactileFirmnessCheck enhanced={game && editorial} showPendingResistance={editorial} level={option.tactile.level} description={option.tactile.description} placement={option.tactile.placement} actionLabel={option.tactile.actionLabel} optionLabel={option.accessibilityLabel} disabled={state !== "ANSWERING"}>
               <FruitAsset assetKey={option.assetKey} alt="" />
             </TactileFirmnessCheck>
             <button type="button" className="quiz-option tactile-answer text-left" aria-label={editorial ? `Choose ${option.id.toUpperCase()}` : option.accessibilityLabel} disabled={state !== "ANSWERING"}

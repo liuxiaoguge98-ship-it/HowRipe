@@ -1,23 +1,28 @@
 "use client";
 
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import type { FirmnessLevel } from "@/content/fruits/types";
+import { SpecimenMarker } from "@/components/fruit/SpecimenMarker";
+import type { EvidenceMarker, FirmnessLevel } from "@/content/fruits/types";
 
 // Educational UI metaphors, never physical measurements.
 const cues = {
   very_firm: { resistance: 4, scaleY: 0.998 },
   beginning_to_soften: { resistance: 3, scaleY: 0.994 },
   ripe: { resistance: 2, scaleY: 0.988 },
+  body_soft: { resistance: 1, scaleY: 0.98 },
 } satisfies Record<FirmnessLevel, { resistance: number; scaleY: number }>;
 
 const enhancedCues = {
   very_firm: { scaleY: 0.998, scaleX: 1.001, shadow: 1.02 },
   beginning_to_soften: { scaleY: 0.988, scaleX: 1.004, shadow: 1.09 },
   ripe: { scaleY: 0.978, scaleX: 1.008, shadow: 1.16 },
+  body_soft: { scaleY: 0.965, scaleX: 1.012, shadow: 1.2 },
 } satisfies Record<FirmnessLevel, { scaleY: number; scaleX: number; shadow: number }>;
 
-export function TactileFirmnessCheck({ level, optionLabel, disabled, children, description, showPendingResistance = false, enhanced = false }: {
+export function TactileFirmnessCheck({ level, optionLabel, disabled, children, description, showPendingResistance = false, enhanced = false, placement, actionLabel = "Check firmness" }: {
   description?: string;
+  placement?: EvidenceMarker;
+  actionLabel?: string;
   showPendingResistance?: boolean;
   enhanced?: boolean;
   level: FirmnessLevel;
@@ -28,6 +33,7 @@ export function TactileFirmnessCheck({ level, optionLabel, disabled, children, d
   const [checked, setChecked] = useState(false);
   const visual = useRef<HTMLDivElement>(null);
   const animation = useRef<Animation | null>(null);
+  const contact = useRef<HTMLSpanElement>(null);
   const shadow = useRef<HTMLSpanElement>(null);
   const shadowAnimation = useRef<Animation | null>(null);
   const cue = cues[level];
@@ -50,7 +56,13 @@ export function TactileFirmnessCheck({ level, optionLabel, disabled, children, d
     setChecked(true);
     animation.current?.cancel();
     shadowAnimation.current?.cancel();
-    if (!window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+    if (placement && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      animation.current = contact.current?.animate?.([
+        { transform: "translate(-50%, -50%) scale(1)" },
+        { transform: `translate(-50%, -50%) scale(${1 + (5 - cue.resistance) * 0.06})`, offset: 0.45 },
+        { transform: "translate(-50%, -50%) scale(1)" },
+      ], { duration: 520, easing: "ease-in-out" }) ?? null;
+    } else if (!placement && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
       animation.current = visual.current?.animate?.([
         { transform: "scaleY(1)" },
         { transform: enhanced ? `scale(${motion.scaleX}, ${motion.scaleY})` : `scaleY(${cue.scaleY})`, offset: 0.45 },
@@ -65,8 +77,8 @@ export function TactileFirmnessCheck({ level, optionLabel, disabled, children, d
   }
 
   return <>
-    {enhanced ? <div className="tactile-visual tactile-enhanced"><div ref={visual} className="tactile-fruit">{children}</div><span ref={shadow} className="tactile-contact" aria-hidden="true" /></div> : <div ref={visual} className="tactile-visual">{children}</div>}
-    <button type="button" className="firmness-check" aria-label={`Check firmness ${optionLabel}`} disabled={disabled} onClick={check} data-checked={enhanced && checked ? "true" : undefined}>{enhanced ? <span className="firmness-step" aria-hidden="true">{checked ? "✓" : "1"}</span> : null}<span>Check firmness</span>{enhanced ? <span className="firmness-action" aria-hidden="true">{checked ? "↻" : "↓"}</span> : null}</button>
+    {placement ? <div className="tactile-visual tactile-placed" style={{ position: "relative" }}>{children}<SpecimenMarker point={placement} markerRef={contact} /></div> : enhanced ? <div className="tactile-visual tactile-enhanced"><div ref={visual} className="tactile-fruit">{children}</div><span ref={shadow} className="tactile-contact" aria-hidden="true" /></div> : <div ref={visual} className="tactile-visual">{children}</div>}
+    <button type="button" className="firmness-check" aria-label={`${actionLabel} ${optionLabel}`} disabled={disabled} onClick={check} data-checked={enhanced && checked ? "true" : undefined}>{enhanced ? <span className="firmness-step" aria-hidden="true">{checked ? "✓" : "1"}</span> : null}<span>{actionLabel}</span>{enhanced ? <span className="firmness-action" aria-hidden="true">{checked ? "↻" : "↓"}</span> : null}</button>
     <div className="resistance-slot" aria-live="polite" aria-atomic="true">
       {checked && description ? <span className="touch-description"><span className="sr-only">{optionLabel}: </span>{description}</span> : checked ? <span>
         <span className="sr-only">{optionLabel}: Resistance level {cue.resistance} of 4</span>
