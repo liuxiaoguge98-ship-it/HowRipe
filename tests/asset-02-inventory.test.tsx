@@ -6,8 +6,8 @@ import { FruitPage } from "../src/components/fruit/FruitPage";
 import { getFruitContent } from "../src/content/fruits";
 import { fruitAssets, validateFruitAssetContracts } from "../src/lib/fruit-assets";
 
-const fruits = ["avocado", "kiwi", "pomegranate", "persimmon"] as const;
-const expectedCount = { avocado: 18, kiwi: 13, pomegranate: 10, persimmon: 9 };
+const fruits = ["avocado", "kiwi", "pomegranate", "persimmon", "pear"] as const;
+const expectedCount = { avocado: 18, kiwi: 13, pomegranate: 10, persimmon: 9, pear: 16 };
 const textQuestions = {
   kiwi: ["q03-ripen-faster", "q04-batch", "q05-pick-and-plan"],
   pomegranate: ["q01-heavy", "q04-color", "q05-final-pick"],
@@ -20,12 +20,14 @@ describe("ASSET-02 release visual inventory", () => {
     fruits.forEach((slug) => {
       const content = getFruitContent(slug);
       [content.hero.assetKey, ...content.hero.specimens?.map(s => s.assetKey) ?? [], ...content.timingGuide?.stages.map(s => s.assetKey) ?? [],
-        ...content.pickingSections.flatMap(s => [s.assetKey, s.conditionGuide?.avoidAssetKey, ...s.comparison?.samples.map(v => v.assetKey) ?? []]),
+        ...content.pickingSections.flatMap(s => [s.assetKey, s.conditionGuide?.avoidAssetKey, ...s.comparison?.samples.map(v => v.assetKey) ?? [],
+          ...s.typeComparison?.variants.map(v => v.assetKey) ?? [], s.pressureLocation?.assetKey, s.pressureCheck?.assetKey,
+          ...s.varietyCues?.map(v => v.assetKey) ?? []]),
         ...content.variantOverview?.variants.map(v => v.assetKey) ?? [],
         ...content.quiz.questions.flatMap(q => q.options.flatMap(o => [o.assetKey, ...o.illustrations ?? []]))]
         .filter(Boolean).forEach(key => referenced.add(key!));
     });
-    expect(Object.keys(fruitAssets)).toHaveLength(50);
+    expect(Object.keys(fruitAssets)).toHaveLength(66);
     expect(validateFruitAssetContracts()).toEqual([]);
     expect(Object.values(fruitAssets).every(a => a.status === "production" && Boolean(a.src))).toBe(true);
     expect(new Set(Object.keys(fruitAssets))).toEqual(referenced);
@@ -35,7 +37,7 @@ describe("ASSET-02 release visual inventory", () => {
   it("uses local WebP files with matching roles and one critical hero per fruit", () => {
     for (const [key, record] of Object.entries(fruitAssets)) {
       if (record.status !== "production" || !record.src) throw new Error(`${key} is unfinished`);
-      expect(record.src).toMatch(/^\/fruits\/(avocado|kiwi|pomegranate|persimmon)\//);
+      expect(record.src).toMatch(/^\/fruits\/(avocado|kiwi|pomegranate|persimmon|pear)\//);
       const file = resolve(process.cwd(), "public", record.src.slice(1));
       expect(existsSync(file)).toBe(true);
       expect(readFileSync(file).toString("ascii", 8, 12)).toBe("WEBP");
@@ -65,7 +67,7 @@ describe("ASSET-02 release visual inventory", () => {
     expect(kiwi.quiz.questions.filter(q => q.options.some(o => o.tactile)).map(q => q.id)).toEqual(["q01-eat-today"]);
     expect(kiwi.quiz.questions[0].options.map(o => o.tactile?.level)).toEqual(["ripe", "very_firm"]);
     expect(kiwi.quiz.questions[3].options.every(o => o.text && o.illustrations?.length)).toBe(true);
-    for (const slug of ["avocado", "kiwi"] as const) {
+    for (const slug of ["avocado", "kiwi", "pear"] as const) {
       for (const question of getFruitContent(slug).quiz.questions.filter(q => q.options.some(o => o.tactile))) {
         const [a, b] = question.options;
         if (!a.assetKey || !b.assetKey) throw new Error(`${slug} tactile pair is missing a visual substrate`);

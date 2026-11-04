@@ -6,7 +6,7 @@ export function PickingGuide({ sections }: { sections: PickingSection[] }) {
   return <section data-editorial-section="picking" data-section-reveal id="guide-foundation" className="border-t border-[var(--color-border)] py-14 sm:py-20">
     <p className="eyebrow">HOW TO PICK</p>
     <div className="mt-8 divide-y divide-[var(--color-border)]">{sections.map((section, index) => {
-      const teaching = Boolean(section.visualTreatment || section.comparison);
+      const teaching = Boolean(section.visualTreatment || section.comparison || section.typeComparison || section.pressureLocation || section.pressureCheck || section.varietyCues);
       return <article data-layout={section.layout} data-teaching={teaching || undefined} id={section.id} className="grid gap-5 py-8 md:grid-cols-[8rem_1fr]" key={section.id}>
         <p className="text-xs font-bold tracking-[0.14em] text-[var(--fruit-dark)]">{String(index + 1).padStart(2, "0")}</p>
         <div>
@@ -16,6 +16,7 @@ export function PickingGuide({ sections }: { sections: PickingSection[] }) {
           <p className="picking-body mt-4 max-w-2xl leading-7 text-[var(--color-ink-soft)]">{section.body}</p>
           {section.principle ? <p className="picking-principle mt-5 border-l-2 border-[var(--fruit-primary)] pl-4 font-serif text-xl">{section.principle}</p> : null}
           {section.checks ? <dl className="picking-checks"><div><dt>Look for</dt><dd>{section.checks.lookFor}</dd></div><div><dt>Watch out for</dt><dd>{section.checks.avoid}</dd></div></dl> : null}
+          {section.steps ? <ol className="picking-steps">{section.steps.map(step => <li key={step.label}><h3>{step.label}</h3><p>{step.summary}</p></li>)}</ol> : null}
           {teaching ? <TeachingEvidence section={section} /> : null}
 
         </div>

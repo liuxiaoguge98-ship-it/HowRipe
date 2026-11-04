@@ -1,0 +1,64 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "mode": "generate",
+  "created": "2026-11-04",
+  "promptNote": "Normalized prompt specifications. All requested premium editorial produce photography, clean soft daylight, no text, labels, arrows, watermark, leaves or baked instructional marks; transparent background except the hand photograph. Only mechanical resize/WebP export followed generation.",
+  "assets": [
+    {
+      "output": "public/fruits/pear/hero/hero.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-b4854d53-8485-49db-aaf9-95e0cff3d9c8.png",
+      "width": 960,
+      "height": 1200,
+      "alpha": true,
+      "promptSpecification": "European green Anjou pear. Upright isolated whole fruit, distinct narrowing neck, intact stem, soft upper-left daylight; no leaf or labels.",
+      "bytes": 127980
+    },
+    {
+      "output": "public/fruits/pear/variants/asian.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-d812ebca-53e7-4cdb-a136-0eafa8208f93.png",
+      "width": 960,
+      "height": 1200,
+      "alpha": true,
+      "promptSpecification": "Round golden-russet Hosui Asian pear. Whole intact fruit, apple-like shape, same editorial lighting; no labels.",
+      "bytes": 197030
+    },
+    {
+      "output": "public/fruits/pear/education/bartlett-color.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-554da628-e844-4d5f-bb73-8f240bac2b45.png",
+      "width": 1200,
+      "height": 900,
+      "alpha": true,
+      "promptSpecification": "Controlled pair of the same yellow Bartlett variety, green left and golden yellow right, matching shape/scale/light, whole fruit; no ripeness verdict baked into art.",
+      "bytes": 171292
+    },
+    {
+      "output": "public/fruits/pear/variants/bosc.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-15d3e7ed-be0c-45fc-94a2-9825eaad1500.png",
+      "width": 960,
+      "height": 1200,
+      "alpha": true,
+      "promptSpecification": "Whole long-necked Bosc pear, natural cinnamon-brown russet skin, intact stem, same editorial light; no damage or labels.",
+      "bytes": 123498
+    },
+    {
+      "output": "public/fruits/pear/education/neck-pressure.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-c36748a2-6638-4c9b-957b-41b3cf87e0a5.png",
+      "width": 1200,
+      "height": 900,
+      "alpha": false,
+      "promptSpecification": "Close view of adult hands supporting a green European pear; thumb lightly contacts the neck just below the stem. Warm ivory setting, no fingernail poking, no obvious indentation, no labels/arrows.",
+      "bytes": 78198
+    },
+    {
+      "output": "public/fruits/pear/quiz/bartlett-green.webp",
+      "original": "/Users/liuxiao/.codex/generated_images/01a1170a-b973-7383-b112-fae51efcaeda/exec-63106a8e-caba-4137-8fb1-628ca38724cc.png",
+      "width": 960,
+      "height": 1200,
+      "alpha": true,
+      "bytes": 110670,
+      "mode": "edit",
+      "reference": "Bartlett green/gold teaching pair",
+      "promptSpecification": "Keep only the original left green Bartlett pear. Preserve its variety shape, stem, texture and upper-left light. Remove golden pear, center on 4:5 true transparent canvas; no transition, markings, text, symbols or labels. Neutral quiz specimen."
+    }
+  ]
+}

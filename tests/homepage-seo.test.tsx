@@ -20,12 +20,13 @@ describe("homepage search and navigation structure", () => {
   it("gives every fruit one descriptive, crawlable index link with its name inside", () => {
     const document = homepage();
     const links = [...document.querySelectorAll("#fruit-guides article a")];
-    expect(links).toHaveLength(4);
+    expect(links).toHaveLength(5);
     for (const [href, name] of [
       ["/avocado", "How to tell if an avocado is ripe"],
       ["/kiwi", "How to tell if a kiwi is ripe"],
       ["/pomegranate", "How to choose a ripe pomegranate"],
       ["/persimmon", "How to tell if a persimmon is ripe"],
+      ["/pear", "How to tell if a pear is ripe"],
     ]) {
       const link = links.find(anchor => anchor.getAttribute("href") === href)!;
       expect(link, href).toBeDefined();

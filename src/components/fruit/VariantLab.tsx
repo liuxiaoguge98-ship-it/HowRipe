@@ -12,15 +12,17 @@ export function VariantHero({ specimens }: { specimens: NonNullable<HeroContent[
 }
 
 /** Both types and both paths stay visible in server-rendered HTML. */
-export function VariantLab({ overview }: { overview: FruitVariantOverview }) {
-  return <div className={styles.lab}>
+export function VariantLab({ overview, embedded = false }: { overview: FruitVariantOverview; embedded?: boolean }) {
+  const Title = embedded ? "h3" : "h2";
+  const Name = embedded ? "h4" : "h3";
+  return <div className={`${styles.lab} ${embedded ? styles.embedded : ""}`}>
     <section id="variant-lab" data-editorial-section="variant-lab" aria-labelledby="variant-overview-title">
       <p className="eyebrow">VARIANT LAB · TYPE FIRST</p>
-      <h2 id="variant-overview-title">{overview.title}</h2>
+      <Title id="variant-overview-title">{overview.title}</Title>
       <p className={styles.intro}>{overview.intro}</p>
       <div className={styles.specimens}>
         {overview.variants.map(variant => <article key={variant.id} id={variant.id}>
-          <header><h3>{variant.name}</h3><span>{variant.descriptor}</span></header>
+          <header><Name>{variant.name}</Name><span>{variant.descriptor}</span></header>
           {variant.assetKey ? <FruitAsset assetKey={variant.assetKey} alt={variant.assetAlt ?? ""} sizes="(max-width: 639px) 136px, 232px" /> : null}
           <p className={styles.rule}>{variant.rule}</p>
           <p>{variant.summary}</p>
@@ -30,14 +32,14 @@ export function VariantLab({ overview }: { overview: FruitVariantOverview }) {
       </div>
     </section>
     <section id="ready-paths" className={styles.paths} aria-labelledby="ready-paths-title">
-      <p className="eyebrow">MATURE ≠ READY TO EAT</p>
-      <h2 id="ready-paths-title">Two types. Two paths to ready.</h2>
-      <p className={styles.intro}>Mature color is a milestone. The variety decides what firmness means.</p>
+      <p className="eyebrow">{overview.pathEyebrow ?? "MATURE ≠ READY TO EAT"}</p>
+      <Title id="ready-paths-title">{overview.pathTitle ?? "Two types. Two paths to ready."}</Title>
+      <p className={styles.intro}>{overview.pathIntro ?? "Mature color is a milestone. The variety decides what firmness means."}</p>
       <div className={styles.pathPair}>{overview.variants.map(variant => <article key={variant.id} aria-label={`${variant.name} ready-to-eat path`}>
-        <h3>{variant.name}</h3>
+        <Name>{variant.name}</Name>
         <ol>{variant.path?.map((step, index) => <li key={step.label} data-state={step.state}>
           <span className={styles.stepNumber} aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
-          <div><strong>{step.label}</strong><p>{step.description}</p><span className={styles.status}>{step.state === "ready" ? "READY TO EAT" : "WAIT"}</span></div>
+          <div><strong>{step.label}</strong><p>{step.description}</p><span className={styles.status}>{step.status ?? (step.state === "ready" ? "READY TO EAT" : step.state === "inspect" ? "INSPECT" : "WAIT")}</span></div>
         </li>)}</ol>
       </article>)}</div>
     </section>

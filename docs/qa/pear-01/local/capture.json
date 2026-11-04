@@ -1,0 +1,47 @@
+{
+  "origin": "http://127.0.0.1:3001",
+  "pages": [
+    {
+      "route": "/",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": "Pick betterfruit.",
+      "english": true,
+      "broken": 0,
+      "canonical": "https://www.howripe.com/",
+      "highPriority": 1
+    },
+    {
+      "route": "/pear",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "h1": "How to Tell If a Pear Is Ripe",
+      "english": true,
+      "broken": 0,
+      "canonical": "https://www.howripe.com/pear",
+      "highPriority": 1
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": "Pick betterfruit.",
+      "english": true,
+      "broken": 0,
+      "canonical": "https://www.howripe.com/",
+      "highPriority": 1
+    },
+    {
+      "route": "/pear",
+      "width": 390,
+      "scrollWidth": 390,
+      "h1": "How to Tell If a Pear Is Ripe",
+      "english": true,
+      "broken": 0,
+      "canonical": "https://www.howripe.com/pear",
+      "highPriority": 1
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

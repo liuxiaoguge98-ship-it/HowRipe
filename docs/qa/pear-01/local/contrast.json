@@ -1,0 +1,19 @@
+{
+  "tokens": {
+    "page": "rgb(251, 247, 237)",
+    "surface": "rgb(244, 239, 221)",
+    "wash": "rgb(238, 229, 199)",
+    "accent": "rgb(101, 114, 50)",
+    "ink": "rgb(53, 67, 34)",
+    "muted": "rgb(105, 99, 78)",
+    "heroColor": "rgb(53, 67, 34)",
+    "heroBackground": "linear-gradient(135deg, rgb(244, 239, 221), rgb(238, 229, 199))"
+  },
+  "ratios": {
+    "inkOnPage": 9.927004357607954,
+    "mutedOnPage": 5.615677924124237,
+    "accentOnSurface": 4.552131379979128,
+    "whiteOnAccent": 5.241713282486091,
+    "heroOnDarkGradient": 8.42944543986166
+  }
+}

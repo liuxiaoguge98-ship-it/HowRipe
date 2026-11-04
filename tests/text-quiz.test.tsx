@@ -20,7 +20,7 @@ describe("structured text Quiz choices", () => {
     expect(container.querySelector(".tactile-visual")).toBeNull();
     for (const text of ["Correct", "Not quite", persimmon.quiz.questions[4].learningPoint]) expect(screen.queryByText(text)).toBeNull();
     expect(persimmon.quiz.questions[4].correctOption).toBe("a");
-    expect(Object.keys(fruitAssets)).toHaveLength(50);
+    expect(Object.keys(fruitAssets)).toHaveLength(66);
     expect(Object.keys(fruitAssets)).not.toContain("persimmon.quiz.q05.a");
     expect(Object.keys(fruitAssets)).not.toContain("persimmon.quiz.q05.b");
     expect(persimmon.quiz.questions[4].options.every((option) => !("assetKey" in option))).toBe(true);

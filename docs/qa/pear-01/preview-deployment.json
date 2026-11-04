@@ -1,0 +1,11 @@
+{
+  "id": "dpl_6y4yRP4m3YCbRmeoDRg7pywKGaNr",
+  "url": "https://fruit-picking-guide-o0xvk83sq-good-dc6d.vercel.app",
+  "state": "READY",
+  "target": null,
+  "source": "git",
+  "branch": "feature/pear-01",
+  "sha": "2bfc8c4c3e4520c675468162a40f9a262efd8e63",
+  "productionUnchanged": "dpl_GEiBVu8xxKd6oYUuRUn847p1mxkS",
+  "productionSha": "078bc12d2755d7114ec3d075f5943de7bce1083f"
+}

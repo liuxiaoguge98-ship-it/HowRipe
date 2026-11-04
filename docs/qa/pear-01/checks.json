@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-04",
+  "commands": {
+    "pnpm test": {
+      "exitCode": 0,
+      "files": 30,
+      "tests": 132
+    },
+    "pnpm lint": {
+      "exitCode": 0
+    },
+    "pnpm exec tsc --noEmit": {
+      "exitCode": 0,
+      "note": "Sequentially after build to avoid generated-type race"
+    },
+    "pnpm build": {
+      "exitCode": 0,
+      "pear": "static prerender"
+    },
+    "git diff --check": {
+      "exitCode": 0
+    }
+  },
+  "sourceCommit": "e04191f0a263fe452be130cf6c2f305781453bd5"
+}

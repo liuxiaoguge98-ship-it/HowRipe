@@ -1,3 +1,4 @@
+import { pear } from "./pear";
 import { avocado } from "./avocado";
 import { kiwi } from "./kiwi";
 import { pomegranate } from "./pomegranate";
@@ -11,6 +12,7 @@ export const fruitGuides: Array<{ slug: FruitSlug; name: string }> = [
   { slug: "kiwi", name: "Kiwi" },
   { slug: "pomegranate", name: "Pomegranate" },
   { slug: "persimmon", name: "Persimmon" },
+  { slug: "pear", name: "Pear" },
 ];
 
 const fruitContent: Record<FruitSlug, FruitContent | undefined> = {
@@ -18,6 +20,7 @@ const fruitContent: Record<FruitSlug, FruitContent | undefined> = {
   kiwi,
   pomegranate,
   persimmon,
+  pear,
 };
 
 export function hasFruitContent(slug: FruitSlug): boolean {

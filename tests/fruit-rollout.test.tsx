@@ -5,7 +5,7 @@ import { QuizEngine } from "../src/components/quiz/QuizEngine";
 import { getFruitContent } from "../src/content/fruits";
 
 afterEach(() => { cleanup(); vi.useRealTimers(); });
-it.each(["kiwi", "pomegranate", "persimmon"] as const)("%s uses intentional evidence and makes avoidance feedback explicit", slug => {
+it.each(["kiwi", "pomegranate", "persimmon", "pear"] as const)("%s uses intentional evidence and makes avoidance feedback explicit", slug => {
   const fruit = getFruitContent(slug);
   expect(JSON.stringify(fruit.quiz)).not.toMatch(/leave behind|leave this|leave it/i);
   for (const question of fruit.quiz.questions) {
@@ -21,7 +21,7 @@ it.each(["kiwi", "pomegranate", "persimmon"] as const)("%s uses intentional evid
     unmount();
   }
 });
-it.each(["kiwi", "pomegranate", "persimmon"] as const)("%s explains both text choices and waits for acknowledgement", slug => {
+it.each(["kiwi", "pomegranate", "persimmon", "pear"] as const)("%s explains both text choices and waits for acknowledgement", slug => {
   vi.useFakeTimers();
   const fruit = getFruitContent(slug);
   const question = fruit.quiz.questions.find(q => q.options.every(o => o.text))!;

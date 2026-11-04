@@ -50,3 +50,19 @@
   .pathPair strong { font-size:16px; }
   .pathPair li p { font-size:13px; }
 }
+.embedded section:first-child { border-top:0; padding-top:0; }
+.embedded h3 { font:800 clamp(25px,3vw,36px)/1.12 var(--font-display); margin:12px 0; }
+.embedded h4 { font:800 27px/1.15 var(--font-display); }
+.embedded .specimens header { flex-direction:column; gap:12px; }
+.embedded .specimens header span { font-size:10px; line-height:1.5; }
+.embedded .pathPair [data-state="inspect"] .status { color:#8b542c; }
+@media(max-width:639px) {
+  .embedded .specimens, .embedded .pathPair { grid-template-columns:1fr; gap:28px; }
+  .embedded .specimens article { padding:0; }
+  .embedded .specimens article + article { border-left:0; border-top:1px solid var(--lab-line); padding-top:24px; }
+  .embedded .specimens article > div { height:240px; }
+  .embedded .specimens article > p:not(.rule) { font-size:15px; }
+  .embedded .specimens article .rule { min-height:0; }
+  .embedded .pathPair li { min-height:0; padding-bottom:22px; }
+  .embedded .pathPair li p { font-size:14px; }
+}

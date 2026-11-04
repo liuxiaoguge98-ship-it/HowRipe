@@ -106,3 +106,14 @@
   .conceptHeading h3 { font-size: 26px; }
   .concept > p { margin-top: 14px; }
 }
+/* The fifth guide completes the index with one quiet horizontal entry. */
+.pear { width:40%; height:62%; left:31%; top:-7%; z-index:0; transform:rotate(4deg); }
+.pearWell img { padding:0 30px; }
+@media(min-width:640px) {
+  .entry:last-child:nth-child(odd) { grid-column:1/-1; }
+  .entry:last-child:nth-child(odd) .entryLink { display:grid; grid-template-columns:1fr 1fr; column-gap:72px; }
+  .entry:last-child:nth-child(odd) .entryTop { grid-column:1/-1; }
+  .entry:last-child:nth-child(odd) .entryTitle { grid-column:1; grid-row:2; align-self:end; }
+  .entry:last-child:nth-child(odd) .mediaWell { grid-column:2; grid-row:2/4; }
+  .entry:last-child:nth-child(odd) .entryCopy { grid-column:1; grid-row:3; align-self:start; }
+}
